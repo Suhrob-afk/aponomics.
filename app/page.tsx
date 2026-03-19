@@ -1,68 +1,182 @@
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-white text-black">
+import { createClient } from "@/lib/supabase"
+import Link from "next/link"
 
-      {/* NAVIGATION */}
-      <nav className="flex justify-between items-center px-12 py-6 border-b">
-      <h1 className="text-2xl font-semibold tracking-tight font-serif">
-          APONOMICS
-        </h1>
-        <div className="space-x-8 text-sm uppercase tracking-wide">
-          <a href="#">Economy</a>
-          <a href="#">Policy</a>
-          <a href="#">Research</a>
-          <a href="#">About</a>
-        </div>
-      </nav>
 
-      {/* HERO SECTION */}
-      <section className="px-12 py-28 max-w-5xl">
-      <h2 className="text-7xl leading-tight font-light font-serif">
-          Economic thought for a changing world.
-        </h2>
+export default async function HomePage() {
 
-        <p className="mt-8 text-lg text-gray-600 max-w-2xl">
-          aponomics is an editorial platform exploring macroeconomics,
-          public policy, governance, and financial systems shaping
-          the global future.
-        </p>
-      </section>
 
-      {/* FEATURED ARTICLES */}
-      <section className="px-12 pb-24 grid md:grid-cols-3 gap-16 max-w-6xl">
+ const supabase = createClient()
 
-        <article className="group cursor-pointer">
-          <div className="h-64 bg-gray-200 mb-4"></div>
-          <h3 className="text-xl font-semibold group-hover:underline">
-            The Housing Affordability Crisis
-          </h3>
-          <p className="text-sm text-gray-500 mt-2">
-            Supply constraints, monetary policy, and urban growth.
-          </p>
-        </article>
 
-        <article className="group cursor-pointer">
-          <div className="h-64 bg-gray-200 mb-4"></div>
-          <h3 className="text-xl font-semibold group-hover:underline">
-            Rethinking Minimum Wage Economics
-          </h3>
-          <p className="text-sm text-gray-500 mt-2">
-            Productivity, labor markets, and political signaling.
-          </p>
-        </article>
+ const { data: articles } = await supabase
+   .from("articles")
+   .select("*")
+   .order("created_at", { ascending: false })
+   .limit(7)
 
-        <article className="group cursor-pointer">
-          <div className="h-64 bg-gray-200 mb-4"></div>
-          <h3 className="text-xl font-semibold group-hover:underline">
-            Cryptocurrency in Developing Economies
-          </h3>
-          <p className="text-sm text-gray-500 mt-2">
-            Can decentralized finance stabilize volatile currencies?
-          </p>
-        </article>
 
-      </section>
+ const featured = articles?.[0]
+ const secondary = articles?.slice(1,4)
+ const latest = articles?.slice(4,7)
 
-    </main>
-  );
+
+ return (
+   <main className="max-w-6xl mx-auto px-6 py-16">
+
+
+     {/* FEATURED */}
+     <section className="mb-20">
+       <Link href={`/article/${featured.slug}`}
+       className="block hover:opacity-70 transition cursor-pointer"
+       >
+       {featured.cover_image && (
+ <img
+   src={featured.cover_image}
+   className="w-full h-[420px] object-cover rounded-lg mb-6"
+ />
+)}
+
+
+         <h1 className="text-4xl font-serif mb-2">
+           {featured.title}
+         </h1>
+
+
+         <p className="text-sm text-gray-600">
+           By {featured.author}
+         </p>
+       </Link>
+     </section>
+
+
+
+
+     {/* SECONDARY */}
+     <section className="grid md:grid-cols-3 gap-10 mb-20">
+       {secondary?.map((article) => (
+
+
+         <Link key={article.id} href={`/article/${article.slug}`}
+          className="block hover:opacity-70 transition cursor-pointer"
+          >
+{article.cover_image && (
+ <img
+   src={article.cover_image}
+   className="w-full h-[200px] object-cover rounded-md mb-3 transition duration-200"
+ />
+)}
+           <h3 className="font-serif text-xl">
+             {article.title}
+           </h3>
+
+
+           <p className="text-sm text-gray-600">
+             {article.author}
+           </p>
+         </Link>
+       ))}
+     </section>
+
+     {/* THEMES */}
+     <section className="mb-24 text-center">
+
+
+       <p className="uppercase tracking-widest text-sm mb-6">
+         Themes
+       </p>
+
+
+       <div className="flex justify-center gap-10 text-lg font-serif flex-wrap">
+
+
+     <Link
+       href="/theme/markets"
+       className="text-[#2f5d50] hover:underline hover:opacity-70 cursor-pointer"
+     >
+      Markets
+     </Link>
+        
+     <Link
+      href="/theme/growth"
+      className="text-[#b48a3c] hover:underline hover:opacity-70 cursor-pointer"
+     >
+     Growth
+     </Link>
+        
+    <Link
+     href="/theme/policy"
+     className="text-[#2c3e5a] hover:underline hover:opacity-70 cursor-pointer"
+   >
+     Policy
+     </Link>  
+
+
+   <Link
+    href="/theme/society"
+    className="text-[#a45a3a] hover:underline hover:opacity-70 cursor-pointer"
+   >
+    Society
+    </Link>  
+
+
+   <Link
+    href="/theme/future"
+    className="text-[#6b5aa6] hover:underline hover:opacity-70 cursor-pointer"
+   >
+    Future 
+    </Link>  
+      </div>
+
+
+     </section>
+
+
+
+
+     {/* LATEST */}
+     <section>
+
+
+       <h2 className="text-2xl font-serif mb-8">
+         Latest Articles
+       </h2>
+
+
+       <div className="space-y-10 max-w-3xl">
+        
+         {latest?.map((article) => (
+
+
+           <Link
+             key={article.id}
+             href={`/article/${article.slug}`}
+             className="block border-b pb-6 hover:opacity-70 transition cursor-pointer"
+           >
+
+
+             <h3 className="font-serif text-xl">
+               {article.title}
+             </h3>
+
+
+             <p className="text-sm text-gray-600">
+               {article.author}
+             </p>
+
+
+           </Link>
+
+
+         ))}
+
+
+       </div>
+
+
+     </section>
+
+
+   </main>
+ )
 }
+

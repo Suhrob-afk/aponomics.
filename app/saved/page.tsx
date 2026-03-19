@@ -4,9 +4,11 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 import { getCurrentUser } from "@/lib/user";
+import { BookmarkCheck, Share2 } from "lucide-react";
 
 type SavedArticle = {
   id: string;
+  slug: string;
   title: string;
   author: string;
 };
@@ -17,6 +19,7 @@ type SavedRow = {
 
 type ArticleRow = {
   id: string;
+  slug: string;
   title: string;
   author: string;
 };
@@ -62,14 +65,17 @@ export default function SavedArticlesPage() {
 
         const { data: articles, error: articlesError } = await supabase
           .from("articles")
-          .select("id, title, author")
+          .select("id, slug, title, author")
           .in("id", articleIds);
 
         if (articlesError) throw articlesError;
 
         const articleRows = (articles ?? []) as ArticleRow[];
         const articleMap = new Map(
-          articleRows.map((a) => [a.id, { id: a.id, title: a.title, author: a.author }]),
+          articleRows.map((a) => [
+            a.id,
+            { id: a.id, slug: a.slug, title: a.title, author: a.author },
+          ]),
         );
 
         const ordered = rows
@@ -123,6 +129,21 @@ export default function SavedArticlesPage() {
     }
   }
 
+  async function handleShare(slug: string) {
+    const url = `${window.location.origin}/article/${slug}`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ url });
+        return;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError") return;
+      }
+    }
+
+    await navigator.clipboard.writeText(url);
+  }
+
   return (
     <main className="max-w-3xl mx-auto px-6 py-20">
       <div className="mb-8">
@@ -161,14 +182,28 @@ export default function SavedArticlesPage() {
                     </p>
                   </div>
 
-                  <button
-                    type="button"
-                    disabled={removingId === article.id}
-                    onClick={() => handleRemove(article.id)}
-                    className="border border-[#D6D0C4] px-4 py-2 text-sm hover:opacity-70 transition rounded-md bg-transparent disabled:opacity-50 disabled:hover:opacity-50"
-                  >
-                    {removingId === article.id ? "Removing..." : "Remove"}
-                  </button>
+                  <div className="flex items-center justify-end gap-3 shrink-0">
+                    <button
+                      type="button"
+                      disabled={removingId === article.id}
+                      onClick={() => handleRemove(article.id)}
+                      className="text-[#1F1F1F] disabled:opacity-50 transition-colors cursor-pointer"
+                      aria-label={removingId === article.id ? "Removing saved article" : "Unsave article"}
+                      title="Unsave"
+                    >
+                      <BookmarkCheck className="w-5 h-5" strokeWidth={1.8} />
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleShare(article.slug)}
+                      className="text-[#6B6B6B] hover:text-[#1F1F1F] transition-colors cursor-pointer"
+                      aria-label="Share article"
+                      title="Share"
+                    >
+                      <Share2 className="w-5 h-5" strokeWidth={1.8} />
+                    </button>
+                  </div>
                 </div>
               </li>
             ))}

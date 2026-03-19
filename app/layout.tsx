@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
+import { Header } from "./Header";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -12,7 +13,7 @@ const inter = Inter({
   variable: "--font-sans",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "aponomics",
   description: "Economic thought for a changing world.",
 };
@@ -24,8 +25,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
-      <body className="font-sans bg-white text-black">
-        {children}
+      <body suppressHydrationWarning className="font-sans bg-[#F4F1EA] text-[#1A1A1A]">
+        <div className="min-h-screen flex flex-col">
+          <Header />
+
+          <div className="flex-1">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
