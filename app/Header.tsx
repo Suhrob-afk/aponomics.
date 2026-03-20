@@ -57,7 +57,7 @@ export function Header() {
 
   return (
     <header className="bg-[#F4F1EA] relative z-30">
-      <div className="relative flex items-center justify-between py-4 md:py-6 px-6 md:px-8 text-sm">
+      <div className="flex items-center justify-between px-6 md:px-8 py-4 md:py-6 relative">
         {/* Left: menu icon + home */}
         <div className="flex items-center gap-6 z-10">
           
@@ -188,27 +188,34 @@ export function Header() {
                 )}
               </>
             ) : (
+              
               <Link
-                href="/signin"
-                className="flex items-center gap-2 hover:opacity-70 transition"
-              >
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.2" />
-                  <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="1.4" />
-                  <path
-                    d="M7 17c1.5-2 8.5-2 10 0"
-                    stroke="currentColor"
-                    strokeWidth="1.4"
-                    strokeLinecap="round"
-                  />
-                </svg>
-                Sign In
-              </Link>
+  href="/signin"
+  className="flex items-center gap-2 hover:opacity-70 transition"
+>
+  {/* Icon */}
+  <svg
+    className="w-8 h-8"
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.2" />
+    <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="1.4" />
+    <path
+      d="M7 17c1.5-2 8.5-2 10 0"
+      stroke="currentColor"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+    />
+  </svg>
+
+  {/* Responsive text */}
+  <span className="hidden md:inline text-sm text-[#1A1A1A]/80">
+  Sign In
+</span>
+</Link>
+
+
             )}
           </div>
         </div>
