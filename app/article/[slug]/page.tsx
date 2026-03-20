@@ -32,11 +32,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </p>
       
       {article.cover_image && (
-  <div className="max-w-xl mx-auto mb-8">
+  <div className="max-w-2xl mx-auto mb-10">
   <img
     src={article.cover_image}
     alt={article.title}
-    className="w-full h-[100px] object-cover rounded-2xl"
+    className="w-full h-[240px] object-cover rounded-2xl"
   />
 </div>
 )}
