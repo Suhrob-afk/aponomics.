@@ -59,48 +59,50 @@ export function Header() {
     <header className="bg-[#F4F1EA] relative z-30">
       <div className="flex items-center justify-between px-6 md:px-8 py-4 md:py-6 relative">
         {/* Left: menu icon + home */}
-        <div className="flex items-center gap-6 z-10">
-        </div> 
-{/* Hamburger */}
-{!menuOpen && (
-  <button
-    aria-label="Open navigation"
-    className="group inline-flex flex-col justify-center gap-1.5 text-[#1A1A1A] hover:opacity-70 transition-opacity duration-200 cursor-pointer"
-    onClick={() => {
-      setMenuOpen(true)
-      setProfileOpen(false)
-    }}
-  >
-    <span className="block w-8 h-[2px] bg-current transition-all duration-200 group-hover:w-9"></span>
-    <span className="block w-8 h-[2px] bg-current transition-all duration-200 group-hover:w-9"></span>
-    <span className="block w-8 h-[2px] bg-current transition-all duration-200 group-hover:w-9"></span>
-  </button>
-)}
+        <div className="flex items-center gap-4 z-10">
+
+  {/* Hamburger */}
+  {!menuOpen && (
+    <button
+      aria-label="Open navigation"
+      className="group inline-flex flex-col justify-center gap-1.5 text-[#1A1A1A] hover:opacity-70 transition-opacity duration-200 cursor-pointer"
+      onClick={() => {
+        setMenuOpen(true)
+        setProfileOpen(false)
+      }}
+    >
+      <span className="block w-8 h-[2px] bg-current"></span>
+      <span className="block w-8 h-[2px] bg-current"></span>
+      <span className="block w-8 h-[2px] bg-current"></span>
+    </button>
+  )}
+
 
 {/* HOME ICON */}
 {pathname !== "/" && !menuOpen && (
-  <div className="hidden md:block">
-    <Link
-      href="/"
-      className="hover:opacity-70 transition cursor-pointer"
+  <Link
+    href="/"
+    aria-label="Home"
+    className="hover:opacity-70 transition cursor-pointer"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-6 h-6 text-[#1A1A1A]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.8}
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-6 h-6 text-[#1A1A1A]"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={1.8}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M3 11.5L12 7.5M12 7.5L21 11.5M12 7.5V20M5 10.5V18.5C5 19.6 5.9 20.5 7 20.5H17C18.1 20.5 19 19.6 19 18.5V10.5"
-        />
-      </svg>
-    </Link>
-  </div>
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 11.5L12 4l9 7.5M5 10.5V20h14v-9.5"
+      />
+    </svg>
+  </Link>
 )}
+
+</div>
         {/* Center: logo + tagline */}
         <div className="pointer-events-none absolute inset-x-0 flex justify-center">
 
