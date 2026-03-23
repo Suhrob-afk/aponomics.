@@ -60,7 +60,7 @@ export function Header() {
       <div className="flex items-center justify-between px-6 md:px-8 py-4 md:py-6 relative">
         {/* Left: menu icon + home */}
         <div className="flex items-center gap-6 z-10">
-          
+        </div> 
 {/* Hamburger */}
 {!menuOpen && (
   <button
@@ -79,29 +79,28 @@ export function Header() {
 
 {/* HOME ICON */}
 {pathname !== "/" && !menuOpen && (
-  <Link
-    href="/"
-    aria-label="Home"
-    className="hover:opacity-70 transition cursor-pointer"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-6 h-6 text-[#1A1A1A]"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={1.8}
+  <div className="hidden md:block">
+    <Link
+      href="/"
+      className="hover:opacity-70 transition cursor-pointer"
     >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M3 11.5L12 4l9 7.5M5 10.5V20h14v-9.5"
-      />
-    </svg>
-  </Link>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-6 h-6 text-[#1A1A1A]"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={1.8}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 11.5L12 7.5M12 7.5L21 11.5M12 7.5V20M5 10.5V18.5C5 19.6 5.9 20.5 7 20.5H17C18.1 20.5 19 19.6 19 18.5V10.5"
+        />
+      </svg>
+    </Link>
+  </div>
 )}
-
-</div>
         {/* Center: logo + tagline */}
         <div className="pointer-events-none absolute inset-x-0 flex justify-center">
 
