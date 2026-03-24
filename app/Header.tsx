@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A] pr-3 md:pr-0">
+        <div className="z-10 flex items-center gap-4 md:gap-5 pr-3 md:pr-0 text-[#1A1A1A]">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -211,10 +211,10 @@ export function Header() {
           {/* Search */}
           <button
             aria-label="Search"
-            className="p-2 text-[#1A1A1A] cursor-pointer hover:opacity-70 transition"
+            className="p-2.5 md:p-2 text-[#1A1A1A] cursor-pointer hover:opacity-70 transition"
           >
             <svg
-              className="w-7 h-7 md:w-8 md:h-8 text-[#1A1A1A]"
+              className="w-6 h-6 md:w-8 md:h-8 text-[#1A1A1A]"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
