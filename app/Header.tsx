@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center justify-end gap-4 md:gap-5 pr-3 md:pr-0 text-[#1A1A1A] flex-shrink-0">
+        <div className="z-10 flex items-center gap-4 pr-3 md:pr-0 text-[#1A1A1A]">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -182,12 +182,12 @@ export function Header() {
             ) : (
               <Link
                 href="/signin"
-                className="p-2.5 md:p-2 rounded-full flex items-center gap-2 hover:opacity-70 transition"
+                className="p-2.5 md:p-2 rounded-full flex items-center justify-center"
                 aria-label="Sign In"
               >
                 {/* Icon */}
                 <svg
-                  className="w-6 h-6 md:w-8 md:h-8"
+                  className="w-7 h-7 md:w-8 md:h-8"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
