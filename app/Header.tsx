@@ -99,12 +99,12 @@ export function Header() {
         </div>
 
         {/* Center: logo */}
-        <div className="pointer-events-none absolute left-1/2 -translate-x-1/2">
+        <div className="pointer-events-none absolute left-1/2 -translate-x-1/2 max-w-[60%]">
           <Link
             href="/"
             className="pointer-events-auto text-center leading-tight hover:opacity-70 transition-opacity duration-200"
           >
-            <div className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-[#0F5C4A]">
+            <div className="font-serif text-4xl md:text-6xl lg:text-7xl tracking-tight text-[#0F5C4A]">
               aponomics
             </div>
             <div className="mt-2 font-serif text-xs md:text-sm tracking-[0.25em] text-[#3D7A68]">
@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-4 pr-3 md:pr-0 text-[#1A1A1A]">
+        <div className="z-10 flex items-center gap-2 md:gap-4 pr-2 md:pr-0 text-[#1A1A1A] shrink-0">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
