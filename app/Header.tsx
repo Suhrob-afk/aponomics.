@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-2 md:gap-4 pr-2 md:pr-0 text-[#1A1A1A] shrink-0">
+        <div className={`${menuOpen ? "hidden" : "flex"} z-10 items-center gap-5 pr-4 md:pr-0 text-[#1A1A1A] shrink-0`}>
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -124,7 +124,7 @@ export function Header() {
                     e.stopPropagation();
                     setProfileOpen((prev) => !prev);
                   }}
-                  className="p-2.5 md:p-2 rounded-full hover:opacity-70 transition flex items-center justify-center"
+                  className="p-3 md:p-2 rounded-full hover:opacity-70 transition flex items-center justify-center"
                   aria-label="Profile menu"
                 >
                   {user.user_metadata?.avatar_url ? (
@@ -187,7 +187,7 @@ export function Header() {
               >
                 {/* Icon */}
                 <svg
-                  className="w-7 h-7 md:w-8 md:h-8"
+                  className="w-8 h-8 md:w-8 md:h-8"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
@@ -212,7 +212,7 @@ export function Header() {
             className="p-2.5 md:p-2 rounded-full cursor-pointer hover:opacity-70 transition"
           >
             <svg
-              className="w-6 h-6 md:w-8 md:h-8"
+              className="w-8 h-8 md:w-8 md:h-8"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
