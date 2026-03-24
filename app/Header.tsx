@@ -81,19 +81,19 @@ export function Header() {
               className="hidden md:inline-flex hover:opacity-70 transition cursor-pointer"
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 text-[#1A1A1A]"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={1.8}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 11.5L12 7.5M12 7.5L21 11.5M12 7.5V20M5 10.5V18.5C5 19.6 5.9 20.5 7 20.5H17C18.1 20.5 19 19.6 19 18.5V10.5"
-                />
-              </svg>
+  xmlns="http://www.w3.org/2000/svg"
+  className="w-6 h-6 text-[#1A1A1A]"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  strokeWidth={2}
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M3 10.5L12 3l9 7.5M5 10.5V20h14v-9.5"
+  />
+</svg>
             </Link>
           )}
         </div>
