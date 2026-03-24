@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-4 md:gap-5 pr-3 md:pr-0 text-[#1A1A1A]">
+        <div className="z-10 flex items-center justify-end gap-4 md:gap-5 pr-3 md:pr-0 text-[#1A1A1A] flex-shrink-0">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -124,17 +124,19 @@ export function Header() {
                     e.stopPropagation();
                     setProfileOpen((prev) => !prev);
                   }}
-                className="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center text-sm font-medium bg-[#D6D0C4] text-[#1A1A1A]"
+                  className="p-2.5 md:p-2 rounded-full hover:opacity-70 transition flex items-center justify-center"
                   aria-label="Profile menu"
                 >
                   {user.user_metadata?.avatar_url ? (
                     <img
                       src={user.user_metadata.avatar_url}
                       alt=""
-                      className="w-full h-full object-cover rounded-full"
+                      className="w-6 h-6 md:w-8 md:h-8 object-cover rounded-full"
                     />
                   ) : (
-                    (user.email ?? "?").charAt(0).toUpperCase()
+                    <span className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-[#D6D0C4] text-[#1A1A1A] flex items-center justify-center text-xs md:text-sm font-medium">
+                      {(user.email ?? "?").charAt(0).toUpperCase()}
+                    </span>
                   )}
                 </button>
                 {profileOpen && (
@@ -178,43 +180,39 @@ export function Header() {
                 )}
               </>
             ) : (
-              
               <Link
-  href="/signin"
-  className="flex items-center gap-2 hover:opacity-70 transition"
->
-  {/* Icon */}
-  <svg
-    className="w-6 h-6 md:w-8 md:h-8"
-    viewBox="0 0 24 24"
-    fill="none"
-  >
-    <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.2" />
-    <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="1.4" />
-    <path
-      d="M7 17c1.5-2 8.5-2 10 0"
-      stroke="currentColor"
-      strokeWidth="1.4"
-      strokeLinecap="round"
-    />
-  </svg>
+                href="/signin"
+                className="p-2.5 md:p-2 rounded-full flex items-center gap-2 hover:opacity-70 transition"
+                aria-label="Sign In"
+              >
+                {/* Icon */}
+                <svg
+                  className="w-6 h-6 md:w-8 md:h-8"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.2" />
+                  <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="1.4" />
+                  <path
+                    d="M7 17c1.5-2 8.5-2 10 0"
+                    stroke="currentColor"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                  />
+                </svg>
 
-  {/* Responsive text */}
-  <span className="hidden md:inline text-sm text-[#1A1A1A]/80">
-  Sign In
-</span>
-</Link>
-
-
+                {/* Responsive text */}
+                <span className="hidden md:inline text-sm text-[#1A1A1A]/80">Sign In</span>
+              </Link>
             )}
           </div>
           {/* Search */}
           <button
             aria-label="Search"
-            className="p-2.5 md:p-2 text-[#1A1A1A] cursor-pointer hover:opacity-70 transition"
+            className="p-2.5 md:p-2 rounded-full cursor-pointer hover:opacity-70 transition"
           >
             <svg
-              className="w-6 h-6 md:w-8 md:h-8 text-[#1A1A1A]"
+              className="w-6 h-6 md:w-8 md:h-8"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
