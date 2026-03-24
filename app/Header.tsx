@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A] ml-auto">
+        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A] pr-3 md:pr-0">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -185,7 +185,7 @@ export function Header() {
 >
   {/* Icon */}
   <svg
-    className="w-8 h-8"
+    className="w-6 h-6 md:w-8 md:h-8"
     viewBox="0 0 24 24"
     fill="none"
   >
