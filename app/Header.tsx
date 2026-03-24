@@ -57,75 +57,64 @@ export function Header() {
 
   return (
     <header className="bg-[#F4F1EA] relative z-30">
-      <div className="flex items-center justify-between px-6 md:px-8 py-4 md:py-6 relative">
-        {/* Left: menu icon + home */}
-        <div className="flex items-center gap-4 z-10">
+      <div className="relative flex items-center justify-between px-6 md:px-8 py-4 md:py-6">
+        {/* Left: hamburger + desktop home icon */}
+        <div className="z-10 flex items-center gap-3 md:gap-4">
+          {!menuOpen && (
+            <button
+              aria-label="Open navigation"
+              className="group inline-flex flex-col justify-center gap-1.5 text-[#1A1A1A] transition-opacity duration-200 hover:opacity-70 cursor-pointer"
+              onClick={() => {
+                setMenuOpen(true);
+                setProfileOpen(false);
+              }}
+            >
+              <span className="block w-8 h-[2px] bg-current"></span>
+              <span className="block w-8 h-[2px] bg-current"></span>
+              <span className="block w-8 h-[2px] bg-current"></span>
+            </button>
+          )}
 
-  {/* Hamburger */}
-  {!menuOpen && (
-    <button
-      aria-label="Open navigation"
-      className="group inline-flex flex-col justify-center gap-1.5 text-[#1A1A1A] hover:opacity-70 transition-opacity duration-200 cursor-pointer"
-      onClick={() => {
-        setMenuOpen(true)
-        setProfileOpen(false)
-      }}
-    >
-      <span className="block w-8 h-[2px] bg-current"></span>
-      <span className="block w-8 h-[2px] bg-current"></span>
-      <span className="block w-8 h-[2px] bg-current"></span>
-    </button>
-  )}
+          {pathname !== "/" && !menuOpen && (
+            <Link
+              href="/"
+              className="hidden md:inline-flex hover:opacity-70 transition cursor-pointer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6 text-[#1A1A1A]"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.8}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 11.5L12 7.5M12 7.5L21 11.5M12 7.5V20M5 10.5V18.5C5 19.6 5.9 20.5 7 20.5H17C18.1 20.5 19 19.6 19 18.5V10.5"
+                />
+              </svg>
+            </Link>
+          )}
+        </div>
 
+        {/* Center: logo */}
+        <div className="pointer-events-none absolute left-1/2 -translate-x-1/2">
+          <Link
+            href="/"
+            className="pointer-events-auto text-center leading-tight hover:opacity-70 transition-opacity duration-200"
+          >
+            <div className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-[#0F5C4A]">
+              aponomics
+            </div>
+            <div className="mt-2 font-serif text-xs md:text-sm tracking-[0.25em] text-[#3D7A68]">
+              economics for the curious
+            </div>
+          </Link>
+        </div>
 
-{/* HOME ICON */}
-{pathname !== "/" && !menuOpen && (
-  <Link
-    href="/"
-    aria-label="Home"
-    className="hover:opacity-70 transition cursor-pointer"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-6 h-6 text-[#1A1A1A]"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={1.8}
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M3 11.5L12 4l9 7.5M5 10.5V20h14v-9.5"
-      />
-    </svg>
-  </Link>
-)}
-
-</div>
-        {/* Center: logo + tagline */}
-        <div className="pointer-events-none absolute inset-x-0 flex justify-center">
-
-  <Link
-    href="/"
-    className="pointer-events-auto text-center leading-tight hover:opacity-70 transition-opacity duration-200"
-  >
-
-    <div className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-[#0F5C4A]">
-      aponomics
-    </div>
-
-    <div className="mt-2 font-serif text-xs md:text-sm tracking-[0.25em] text-[#3D7A68]">
-      economics for the curious
-    </div>
-
-  </Link>
-
-</div>
-
-        {/* Right: sign in + search */}
-        <div className="flex items-center gap-3 md:gap-4">
-        <div className="flex items-center gap-3 text-[19px] text-[#1A1A1A]">
+        {/* Right: profile/sign in + search */}
+        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A]">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
@@ -219,9 +208,7 @@ export function Header() {
 
             )}
           </div>
-        </div>
-
-                    {/* Search */}
+          {/* Search */}
           <button
             aria-label="Search"
             className="p-2 text-[#1A1A1A] cursor-pointer hover:opacity-70 transition"
