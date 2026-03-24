@@ -114,7 +114,7 @@ export function Header() {
         </div>
 
         {/* Right: profile/sign in + search */}
-        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A]">
+        <div className="z-10 flex items-center gap-3 md:gap-4 text-[19px] text-[#1A1A1A] ml-auto">
           <div className="relative" ref={authContainerRef}>
             {user ? (
               <>
