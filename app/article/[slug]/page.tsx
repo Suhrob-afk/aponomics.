@@ -59,12 +59,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 </div>
 
 <article
-  className="mt-12 text-lg leading-relaxed whitespace-pre-line
-  [&_img]:my-10
-  [&_img]:rounded-lg
-  [&_img]:max-w-3xl
-  [&_img]:mx-auto
-  [&_img]:h-auto"
+  className="article-content mt-12"
   dangerouslySetInnerHTML={{ __html: article.content }}
 />
 
