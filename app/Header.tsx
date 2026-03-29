@@ -363,6 +363,14 @@ export function Header() {
     <Link href="/events/model-government" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
       Model Government
       </Link>
+      <Link
+  href="/research"
+  onClick={() => setMenuOpen(false)}
+  className="block hover:opacity-70"
+>
+  Research Lab
+</Link>
+
 </div>
 
 </div> {/* END explore + organization grid */}
