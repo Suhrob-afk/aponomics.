@@ -319,20 +319,26 @@ export function Header() {
   <div className="text-[11px] tracking-[0.22em] uppercase text-[#7A7462]">
     Explore
   </div>
+  <Link
+  href="/research"
+  onClick={() => setMenuOpen(false)}
+  className="block hover:opacity-70"
+>
+  Research
+</Link>
 
-  <Link href="/articles" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
-    Articles
-  </Link>
+<Link href="/articles" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
+  Articles
+</Link>
 
-  <Link href="/authors" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
-    Authors
-  </Link>
+<Link href="/authors" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
+  Authors
+</Link>
 
-  <Link href="/popular" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
-    Popular
-  </Link>
+<Link href="/popular" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
+  Popular
+</Link>
 </div>
-
 
 {/* ORGANIZATION */}
 <div className="space-y-8 text-[25px]">
@@ -363,13 +369,7 @@ export function Header() {
     <Link href="/events/model-government" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
       Model Government
       </Link>
-      <Link
-  href="/research"
-  onClick={() => setMenuOpen(false)}
-  className="block hover:opacity-70"
->
-  Research Lab
-</Link>
+      
 
 </div>
 
