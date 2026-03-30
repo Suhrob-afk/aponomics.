@@ -56,3 +56,14 @@ a {
   color: #2563eb;
   text-decoration: underline;
 }
+ol {
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  list-style-type: decimal;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
