@@ -7,10 +7,12 @@ export default async function ThemePage({ params }: { params: Promise<{ theme: s
   const supabase = createClient()
 
   const { data: articles } = await supabase
-    .from("articles")
-    .select("*")
-    .eq("theme", theme)
-    .order("created_at", { ascending: false })
+  .from("articles")
+  .select("*")
+  .eq("theme", theme)
+  .eq("published", true)
+  .order("created_at", { ascending: false })
+  .limit(20)
     
     const themeColors: Record<string, string> = {
       markets: "#2F5E4E",
