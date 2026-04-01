@@ -3,7 +3,7 @@
 import type { User } from "@supabase/supabase-js";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { createClient } from "@/lib/supabase"
+import { supabase } from "@/lib/supabase";
 import { usePathname } from "next/navigation";
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
 
-  const supabase = createClient();
+  
   const [user, setUser] = useState<User | null>(null);
   const authContainerRef = useRef<HTMLDivElement>(null);
 

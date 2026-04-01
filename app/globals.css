@@ -67,3 +67,9 @@ ol li {
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
 }
+/* Fix image sizing inside prose (Tailwind Typography) */
+.prose img {
+  max-width: none;
+  width: auto;
+  height: auto;
+}
