@@ -72,4 +72,20 @@ ol li {
   max-width: none;
   width: auto;
   height: auto;
+} 
+.article-content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 0.75rem;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.article-content div[class*="flex"] {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
