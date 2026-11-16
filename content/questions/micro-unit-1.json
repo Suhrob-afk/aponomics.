@@ -85,7 +85,7 @@
       "graph": {
         "xAxis": {
           "label": "Solar panels",
-          "max": 50,
+          "max": 56,
           "ticks": [
             { "value": 10, "label": "10" },
             { "value": 20, "label": "20" },

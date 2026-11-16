@@ -85,7 +85,7 @@
       "unit": 3,
       "topic": "Types of profit",
       "difficulty": 2,
-      "stem": "Dara left a job paying $48,000 per year to run her own food truck. In its first year, the truck earned $150,000 in revenue and paid $90,000 in explicit costs. Dara also used $20,000 of her own savings, which had been earning 5 percent interest per year. What was Dara's economic profit for the year?",
+      "stem": "Dara quit a job paying $48,000 per year to run her own food truck. In its first year, the truck earned $150,000 in revenue and paid $90,000 in explicit costs. Dara also used $20,000 of her own savings, which had been earning 5 percent interest per year. What was Dara's economic profit for the year?",
       "options": ["$11,000", "$12,000", "$59,000", "$60,000"],
       "correct": "A",
       "explanation": "Accounting profit is revenue minus explicit costs: $150,000 − $90,000 = $60,000. Economic profit also subtracts implicit costs: the $48,000 salary Dara gave up and the $1,000 in interest (5% of $20,000) her savings no longer earn. Economic profit is $60,000 − $49,000 = $11,000.",
