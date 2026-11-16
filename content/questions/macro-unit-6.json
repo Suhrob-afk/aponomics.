@@ -1,0 +1,282 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-6-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Balance of payments accounts",
+      "difficulty": 1,
+      "stem": "Corvel Motors, a car company based in Country Velor, pays to build a new assembly plant in Country Arland. How is this transaction recorded in Velor's balance of payments?",
+      "options": [
+        "As an import in the current account",
+        "As an export in the current account",
+        "As an outflow in the capital and financial account",
+        "As an inflow in the capital and financial account"
+      ],
+      "correct": "C",
+      "explanation": "Building a factory abroad is foreign direct investment: a Velor firm is acquiring a real asset in another country. Purchases of foreign assets by a country's residents are recorded in its capital and financial account as an outflow, because funds leave Velor to pay for the asset. The current account records trade in goods and services, income, and transfers, not purchases of assets.",
+      "option_explanations": [
+        "Imports in the current account are purchases of foreign goods and services, not the acquisition of an asset such as a factory.",
+        "Exports are sales of Velor's goods and services to foreigners. Here a Velor firm is buying an asset abroad, not selling output.",
+        "Correct. Acquiring a foreign asset sends funds out of Velor, so it is recorded as an outflow in Velor's capital and financial account.",
+        "An inflow would occur if foreigners bought assets in Velor. Here a Velor resident is buying an asset abroad, so funds flow out of Velor."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Exchange rates",
+      "difficulty": 1,
+      "stem": "The exchange rate between the vel, Velor's currency, and the dollar, the currency of Country Arland, changes from 4 vels per dollar to 5 vels per dollar. Which of the following is true?",
+      "options": [
+        "The vel depreciated, so Arland goods became more expensive for Velor buyers",
+        "The vel appreciated, so Arland goods became cheaper for Velor buyers",
+        "The vel appreciated, so Arland goods became more expensive for Velor buyers",
+        "The vel depreciated, so Arland goods became cheaper for Velor buyers"
+      ],
+      "correct": "A",
+      "explanation": "It now takes 5 vels instead of 4 to buy one dollar, so each vel buys fewer dollars: the vel has depreciated and the dollar has appreciated. An Arland good priced at 10 dollars used to cost a Velor buyer 40 vels but now costs 50 vels, so Arland goods are more expensive for Velor buyers.",
+      "option_explanations": [
+        "Correct. More vels are needed to buy each dollar, so the vel lost value and Arland goods now cost Velor buyers more vels.",
+        "A rise in the number of vels per dollar means each vel buys fewer dollars, which is a depreciation of the vel, not an appreciation.",
+        "Arland goods did become more expensive for Velor buyers, but that is because the vel depreciated; it now takes more vels to buy each dollar.",
+        "The vel did depreciate, but that makes Arland goods more expensive for Velor buyers, because each dollar of an Arland price now costs more vels."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Exchange rates and net exports",
+      "difficulty": 1,
+      "stem": "Over the past year, the vel has appreciated sharply against the currencies of all of Velor's trading partners, with other factors unchanged. What is the most likely effect on Velor's exports, imports, and net exports?",
+      "options": [
+        "Exports increase, imports decrease, and net exports increase",
+        "Exports increase, imports increase, and net exports are unchanged",
+        "Exports decrease, imports increase, and net exports decrease",
+        "Exports decrease, imports decrease, and net exports are unchanged"
+      ],
+      "correct": "C",
+      "explanation": "When the vel appreciates, foreign buyers need more of their own currency to buy each vel, so Velor's goods become more expensive abroad and exports fall. At the same time, each vel buys more foreign currency, so foreign goods become cheaper for Velor residents and imports rise. With exports down and imports up, net exports decrease.",
+      "option_explanations": [
+        "This describes the effects of a depreciation. An appreciation makes Velor's goods more expensive to foreigners, reducing exports rather than increasing them.",
+        "An appreciation does make imports cheaper, so imports rise, but it also makes Velor's exports more expensive abroad, so exports fall rather than rise.",
+        "Correct. A stronger vel makes Velor's exports more expensive abroad and imports cheaper at home, so net exports fall.",
+        "Exports do fall, but imports become cheaper for Velor residents, so imports rise. Both changes reduce net exports."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Balance of payments accounts",
+      "difficulty": 2,
+      "stem": "The following data, in billions of vels, describe Country Velor's international transactions for one year: exports of goods, 300; imports of goods, 380; exports of services, 90; imports of services, 60; net investment income received from abroad, 10; net transfers paid to foreigners, 5; purchases of Velor assets by foreign residents, 120; purchases of foreign assets by Velor residents, 75. What is Velor's current account balance?",
+      "options": [
+        "A deficit of 50 billion vels",
+        "A deficit of 45 billion vels",
+        "A deficit of 40 billion vels",
+        "A surplus of 45 billion vels"
+      ],
+      "correct": "B",
+      "explanation": "The current account includes trade in goods and services, net investment income, and net transfers. Its balance is (300 − 380) + (90 − 60) + 10 − 5 = −80 + 30 + 10 − 5 = −45, a deficit of 45 billion vels. The asset purchases belong in the capital and financial account, which shows a matching surplus of 120 − 75 = 45 billion vels.",
+      "option_explanations": [
+        "A deficit of 50 billion vels is the balance on goods and services only. It leaves out net investment income (+10) and net transfers (−5), which also belong in the current account.",
+        "Correct. Goods (−80), services (+30), investment income (+10), and transfers (−5) sum to a current account deficit of 45 billion vels.",
+        "A deficit of 40 billion vels leaves out the 5 billion vels of net transfers paid to foreigners, which are part of the current account.",
+        "A surplus of 45 billion vels is the capital and financial account balance (120 − 75). Purchases of assets are not part of the current account."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "The foreign exchange market",
+      "difficulty": 2,
+      "stem": "Based on the graph, the market for vels moves from equilibrium E1 to equilibrium E2. Which of the following events, by itself, would cause this change?",
+      "options": [
+        "Tourists from Country Arland take more vacations in Velor",
+        "Velor households buy more goods imported from Arland",
+        "Incomes rise in Arland, so its residents buy more Velor goods",
+        "The real interest rate in Velor rises relative to that in Arland"
+      ],
+      "correct": "B",
+      "explanation": "The graph shows the supply of vels shifting right from S1 to S2 while demand is unchanged, so the price of the vel falls from $1.00 to $0.80 and the vel depreciates. Velor residents supply vels when they exchange them for dollars to buy foreign goods, services, or assets. When Velor households buy more goods from Arland, they supply more vels at every exchange rate.",
+      "option_explanations": [
+        "Arland tourists must buy vels to spend in Velor, so this increases the demand for vels, which would raise the price of the vel rather than lower it.",
+        "Correct. Buying more Arland goods requires Velor households to exchange vels for dollars, increasing the supply of vels and lowering the vel's price.",
+        "When Arland residents buy more Velor goods, they need more vels, so this increases the demand for vels rather than the supply.",
+        "A higher real interest rate in Velor attracts foreign financial capital, increasing the demand for vels and causing the vel to appreciate, not depreciate."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity of vels (billions)",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "Q1" },
+            { "value": 6, "label": "Q2" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price of vel (in dollars)",
+          "max": 2,
+          "ticks": [
+            { "value": 0.8, "label": "$0.80" },
+            { "value": 1, "label": "$1.00" }
+          ]
+        },
+        "curves": [
+          { "label": "D", "points": [[1, 1.8], [9, 0.2]], "tone": "secondary" },
+          { "label": "S1", "points": [[1, 0.2], [9, 1.8]] },
+          { "label": "S2", "points": [[3, 0.2], [9.5, 1.5]], "dashed": true }
+        ],
+        "points": [
+          { "x": 5, "y": 1, "label": "E1", "guides": true },
+          { "x": 6, "y": 0.8, "label": "E2", "guides": true }
+        ]
+      },
+      "image_alt": "Foreign exchange market for vels. The horizontal axis is the quantity of vels in billions and the vertical axis is the price of the vel in dollars. A downward-sloping demand curve, D, crosses an upward-sloping supply curve, S1, at point E1, where the price of the vel is $1.00 and the quantity is Q1. A second supply curve, S2, lies to the right of S1 and crosses D at point E2, where the price of the vel is $0.80 and the quantity is Q2, which is greater than Q1. The demand curve does not shift.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Real interest rates and international capital flows",
+      "difficulty": 2,
+      "stem": "The real interest rate in Country Arland rises sharply, while the real interest rate in Velor stays the same. Assuming financial capital can move freely between the two countries, which of the following is most likely?",
+      "options": [
+        "Financial capital flows into Velor, and the vel appreciates",
+        "Financial capital flows into Velor, and the vel depreciates",
+        "Financial capital flows out of Velor, and the vel appreciates",
+        "Financial capital flows out of Velor, and the vel depreciates"
+      ],
+      "correct": "D",
+      "explanation": "Financial capital moves toward the country offering the higher real return. Investors in Velor shift funds into Arland's assets, so they supply more vels to buy dollars, and Arland investors demand fewer vels. Both changes lower the price of the vel, so financial capital flows out of Velor and the vel depreciates.",
+      "option_explanations": [
+        "Capital flows toward the higher real interest rate, which is now in Arland, so funds leave Velor rather than entering it.",
+        "The depreciation is right, but capital does not flow into Velor, because Arland now offers the higher return. The depreciation results from capital flowing out.",
+        "Capital does flow out of Velor, but exchanging vels for dollars increases the supply of vels, which lowers the vel's value rather than raising it.",
+        "Correct. Investors move funds to Arland's higher returns, increasing the supply of vels and decreasing the demand for them, so the vel depreciates."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Policy effects on the foreign exchange market",
+      "difficulty": 3,
+      "stem": "Velor's government increases its spending without raising taxes and finances the resulting deficit by borrowing, while the central bank keeps the money supply unchanged. Consider the following possible short-run effects.\nI. The real interest rate in Velor rises.\nII. The vel appreciates relative to other currencies.\nIII. Velor's net exports increase.\nWhich of the effects are likely to occur?",
+      "options": [
+        "I only",
+        "III only",
+        "I and II only",
+        "I, II, and III"
+      ],
+      "correct": "C",
+      "explanation": "Government borrowing increases the demand for loanable funds, raising Velor's real interest rate (I). Higher real returns attract foreign financial capital, increasing the demand for vels, so the vel appreciates (II). A stronger vel makes Velor's exports more expensive and its imports cheaper, so net exports decrease rather than increase, and statement III is false.",
+      "option_explanations": [
+        "Statement I is correct, but the higher real interest rate also draws foreign capital into Velor, increasing the demand for vels and appreciating the currency, so II is also correct.",
+        "Statement III is false. The appreciation of the vel makes Velor's exports more expensive abroad and imports cheaper, so net exports fall.",
+        "Correct. The deficit raises the real interest rate, attracting capital inflows that appreciate the vel; the stronger vel then reduces net exports.",
+        "Statements I and II are correct, but III is not: an appreciating vel reduces net exports, which partly offsets the fiscal expansion."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "The foreign exchange market",
+      "difficulty": 3,
+      "stem": "Based on the graph, the market for vels is initially in equilibrium at E1, and then the demand for vels shifts from D1 to D2. A bicycle made in Velor sells for 600 vels, and its vel price does not change. After the shift, how much does the bicycle cost a buyer in Country Arland who pays in dollars?",
+      "options": [
+        "$120",
+        "$150",
+        "$2,400",
+        "$3,000"
+      ],
+      "correct": "B",
+      "explanation": "At the new equilibrium, E2, where D2 crosses S, one vel costs $0.25. A bicycle priced at 600 vels therefore costs 600 × $0.25 = $150 for an Arland buyer. Because the vel appreciated from $0.20 to $0.25, the bicycle is now more expensive in dollars than its earlier price of 600 × $0.20 = $120.",
+      "option_explanations": [
+        "$120 uses the original exchange rate at E1, $0.20 per vel. After demand shifts to D2, one vel is worth $0.25.",
+        "Correct. Multiplying 600 vels by the new price of $0.25 per vel gives $150.",
+        "$2,400 divides 600 by $0.25 instead of multiplying. The graph gives dollars per vel, so a price in vels is converted to dollars by multiplying.",
+        "$3,000 divides 600 by $0.20, which both inverts the conversion and uses the exchange rate from before the shift."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity of vels (billions)",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "Q1" },
+            { "value": 6.25, "label": "Q2" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price of vel (in dollars)",
+          "max": 0.4,
+          "ticks": [
+            { "value": 0.2, "label": "$0.20" },
+            { "value": 0.25, "label": "$0.25" }
+          ]
+        },
+        "curves": [
+          { "label": "D1", "points": [[1, 0.36], [9, 0.04]], "tone": "secondary" },
+          { "label": "D2", "points": [[3, 0.38], [9.5, 0.12]], "tone": "secondary", "dashed": true },
+          { "label": "S", "points": [[1, 0.04], [9, 0.36]] }
+        ],
+        "points": [
+          { "x": 5, "y": 0.2, "label": "E1", "guides": true },
+          { "x": 6.25, "y": 0.25, "label": "E2", "guides": true }
+        ]
+      },
+      "image_alt": "Foreign exchange market for vels. The horizontal axis is the quantity of vels in billions and the vertical axis is the price of the vel in dollars. An upward-sloping supply curve, S, crosses the original downward-sloping demand curve, D1, at point E1, where one vel costs $0.20 and the quantity is Q1. A new demand curve, D2, lies to the right of D1 and crosses S at point E2, where one vel costs $0.25 and the quantity is Q2, which is greater than Q1.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Policy effects on the foreign exchange market",
+      "difficulty": 3,
+      "stem": "Velor is in a recession, and its central bank, which operates with limited reserves, buys a large quantity of government bonds on the open market. Assuming financial capital moves freely across borders, what is the most likely short-run effect on interest rates in Velor, the international value of the vel, and Velor's net exports?",
+      "options": [
+        "Interest rates fall, the vel depreciates, and net exports increase",
+        "Interest rates fall, the vel appreciates, and net exports decrease",
+        "Interest rates rise, the vel depreciates, and net exports increase",
+        "Interest rates rise, the vel appreciates, and net exports decrease"
+      ],
+      "correct": "A",
+      "explanation": "Buying bonds adds reserves to banks and increases Velor's money supply, which lowers interest rates. Lower returns on Velor's assets reduce foreign demand for vels and lead Velor investors to buy more foreign assets, increasing the supply of vels, so the vel depreciates. A weaker vel makes Velor's exports cheaper abroad and imports more expensive, so net exports increase, reinforcing the expansionary policy.",
+      "option_explanations": [
+        "Correct. Lower interest rates cause financial capital to flow out of Velor, the vel depreciates, and net exports rise.",
+        "Interest rates do fall, but lower returns make Velor's assets less attractive, which reduces the demand for vels and causes depreciation, not appreciation.",
+        "A bond purchase increases the money supply, which lowers interest rates rather than raising them. Selling bonds is what would raise interest rates.",
+        "This describes contractionary monetary policy, such as a bond sale, which would raise interest rates, strengthen the vel, and deepen the recession."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 6,
+      "topic": "Balance of payments accounts",
+      "difficulty": 2,
+      "stem": "Velor has a flexible exchange rate, and its central bank never buys or sells foreign currencies. This year, Velor's current account shows a deficit of 30 billion vels. Which of the following must also be true for this year?",
+      "options": [
+        "Velor's capital and financial account has a deficit of 30 billion vels",
+        "Velor's exports of goods are greater than its imports of goods",
+        "Velor's official reserves of foreign currency rise by 30 billion vels",
+        "Velor's capital and financial account has a surplus of 30 billion vels"
+      ],
+      "correct": "D",
+      "explanation": "Under a flexible exchange rate with no official reserve transactions, the balance of payments must balance: the current account balance and the capital and financial account balance sum to zero. A current account deficit of 30 billion vels must therefore be matched by a capital and financial account surplus of 30 billion vels. In effect, Velor pays for its excess purchases from abroad by selling assets to foreigners or borrowing from them.",
+      "option_explanations": [
+        "The two accounts offset each other rather than moving together. A current account deficit is matched by a capital and financial account surplus.",
+        "A current account deficit does not require a surplus in goods trade; a deficit in goods trade is in fact a common source of a current account deficit.",
+        "The central bank does not buy or sell foreign currencies, so official reserves do not change. The deficit is financed entirely through private asset flows.",
+        "Correct. With no official reserve changes, the capital and financial account must show a surplus that exactly offsets the 30 billion vel current account deficit."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

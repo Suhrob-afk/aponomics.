@@ -1,0 +1,226 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-2-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "The circular flow and GDP",
+      "difficulty": 1,
+      "stem": "Which of the following would be counted in Country Velor's gross domestic product for this year?",
+      "options": [
+        "A Velor family's purchase of a used car that was built three years ago",
+        "Unemployment benefits that the Velor government pays to laid-off workers",
+        "A Velor resident's purchase of newly issued shares of stock in a local firm",
+        "Bicycles produced this year at a foreign-owned factory located in Velor"
+      ],
+      "correct": "D",
+      "explanation": "GDP measures the market value of all final goods and services produced within a country's borders during a given year, regardless of who owns the factory. Bicycles made in Velor this year count in Velor's GDP even though the factory is foreign-owned.",
+      "option_explanations": [
+        "The car was counted in GDP in the year it was produced; counting its resale would double count past production.",
+        "Unemployment benefits are transfer payments: they redistribute income without paying for any newly produced good or service.",
+        "Buying stock is a financial transaction that transfers ownership of a firm; it is not a purchase of a newly produced good or service.",
+        "Correct. GDP counts production within a country's borders regardless of who owns the factory, so the bicycles count in Velor's GDP."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "The circular flow and GDP",
+      "difficulty": 2,
+      "stem": "The following data are for Country Velor in a given year, in billions of dollars.\nConsumption spending: 600\nGross private domestic investment: 150\nGovernment purchases of goods and services: 200\nGovernment transfer payments: 90\nExports: 80\nImports: 110\nWhat is Velor's GDP for the year?",
+      "options": [
+        "$920 billion",
+        "$1,010 billion",
+        "$1,030 billion",
+        "$1,140 billion"
+      ],
+      "correct": "A",
+      "explanation": "Using the expenditure approach, GDP = C + I + G + (X − M) = 600 + 150 + 200 + (80 − 110) = $920 billion. Transfer payments are left out because they do not pay for newly produced goods or services.",
+      "option_explanations": [
+        "Correct. C + I + G + net exports = 600 + 150 + 200 − 30 = $920 billion.",
+        "This adds the $90 billion of transfer payments, which redistribute income but are not purchases of final goods or services.",
+        "This adds exports but forgets to subtract imports; imports are produced abroad and must be subtracted from total spending.",
+        "This adds imports instead of subtracting them; spending on foreign-made goods is not part of domestic production."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Limitations of GDP",
+      "difficulty": 1,
+      "stem": "Which of the following activities adds to a country's well-being but is NOT counted in its GDP?",
+      "options": [
+        "A homeowner hires a contractor to repaint the outside of her house.",
+        "A retired nurse volunteers each week at a free community health clinic.",
+        "A city government buys new streetlights for a downtown shopping street.",
+        "A factory sells newly made washing machines to households in the country."
+      ],
+      "correct": "B",
+      "explanation": "GDP counts only goods and services exchanged in markets. Volunteer work at a free clinic provides valuable services that raise well-being, but no market transaction takes place, so it is left out of GDP. Omitting nonmarket activity is one reason GDP is an imperfect measure of well-being.",
+      "option_explanations": [
+        "Hiring a contractor is a market purchase of a service, so its value is counted in GDP.",
+        "Correct. Volunteer services are nonmarket activity: they add to well-being, but no payment occurs, so GDP does not count them.",
+        "Government purchases of goods such as streetlights are counted in the government-purchases component of GDP.",
+        "Newly made washing machines sold to households are final goods counted in consumption spending."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Unemployment",
+      "difficulty": 1,
+      "stem": "Tomas worked as a welder at a shipyard until the shipyard replaced its welders with automated robots. He is now looking for work, but the available job openings require computer programming skills that he lacks. Tomas is best described as",
+      "options": [
+        "cyclically unemployed",
+        "frictionally unemployed",
+        "seasonally unemployed",
+        "structurally unemployed"
+      ],
+      "correct": "D",
+      "explanation": "Structural unemployment occurs when workers' skills do not match the jobs that are available, often because technology or the structure of the economy has changed. Tomas lost his job to automation and lacks the skills that the open positions require.",
+      "option_explanations": [
+        "Cyclical unemployment results from a decline in overall economic activity during a recession; nothing indicates a downturn, and jobs are available.",
+        "Frictional unemployment involves workers with employable skills who are searching for or between jobs; Tomas's problem is a skills mismatch, not the time needed to search.",
+        "Seasonal unemployment follows predictable yearly patterns, as in farming or tourism, which does not describe a permanent loss of welding jobs.",
+        "Correct. Automation eliminated Tomas's job, and his skills do not match the openings, which is structural unemployment."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Unemployment",
+      "difficulty": 3,
+      "stem": "Country Velor has an adult population of 300 million. Of these, 180 million are employed and 20 million are unemployed. Suppose 8 million of the unemployed become discouraged and stop looking for work, while the number employed does not change. What is Velor's new unemployment rate?",
+      "options": [
+        "6.00%",
+        "6.25%",
+        "6.67%",
+        "10.00%"
+      ],
+      "correct": "B",
+      "explanation": "Discouraged workers are no longer counted as unemployed or as part of the labor force. The number unemployed falls to 20 − 8 = 12 million, and the labor force falls to 200 − 8 = 192 million. The unemployment rate is 12 ÷ 192 = 6.25 percent.",
+      "option_explanations": [
+        "This removes the discouraged workers from the unemployed but not from the labor force (12 ÷ 200); discouraged workers leave the labor force entirely.",
+        "Correct. 12 million unemployed divided by a labor force of 192 million is 6.25 percent.",
+        "This divides by the number employed (12 ÷ 180) instead of by the labor force, which includes both the employed and the unemployed.",
+        "This still counts the discouraged workers as unemployed; people who stop looking for work are not in the labor force, so the measured rate falls."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Unemployment",
+      "difficulty": 3,
+      "stem": "Country Velor's economy is operating at full employment. Which of the following must be true?\nI. Cyclical unemployment is zero.\nII. Frictional unemployment is zero.\nIII. Actual real GDP equals potential real GDP.",
+      "options": [
+        "I only",
+        "I and II only",
+        "I and III only",
+        "I, II, and III"
+      ],
+      "correct": "C",
+      "explanation": "Full employment means the unemployment rate equals the natural rate, so the only unemployment is frictional and structural. Cyclical unemployment is therefore zero, and the economy is producing its potential (full-employment) real GDP. Frictional unemployment is always present because people are entering the labor force and moving between jobs.",
+      "option_explanations": [
+        "Statement I is true, but so is III: at full employment the economy produces its potential real GDP.",
+        "Frictional unemployment is never zero, because some people are always searching for or between jobs; full employment includes frictional unemployment.",
+        "Correct. At the natural rate of unemployment, cyclical unemployment is zero and real GDP equals potential real GDP.",
+        "Statement II is false. Full employment means unemployment equals the natural rate, which includes frictional and structural unemployment."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Price indices and inflation",
+      "difficulty": 2,
+      "stem": "Consumers in Country Velor buy a market basket of 10 loaves of bread, 5 movie tickets, and 2 haircuts. In the base year, bread cost $2 per loaf, movie tickets cost $8 each, and haircuts cost $10 each. In the current year, bread costs $2.50 per loaf, movie tickets cost $9 each, and haircuts cost $15 each. What is the consumer price index for the current year?",
+      "options": [
+        "25.0",
+        "80.0",
+        "125.0",
+        "132.5"
+      ],
+      "correct": "C",
+      "explanation": "The basket cost (10 × $2) + (5 × $8) + (2 × $10) = $80 in the base year and (10 × $2.50) + (5 × $9) + (2 × $15) = $100 in the current year. The CPI is the current-year cost divided by the base-year cost, times 100: ($100 ÷ $80) × 100 = 125.",
+      "option_explanations": [
+        "This is the percentage increase in the cost of the basket since the base year, not the index value; the CPI is the cost ratio multiplied by 100.",
+        "This divides the base-year cost by the current-year cost; the current-year cost belongs in the numerator.",
+        "Correct. The basket cost $80 in the base year and $100 now, so the CPI is (100 ÷ 80) × 100 = 125.",
+        "This adds the prices of single units ($26.50 versus $20) and ignores the quantities in the basket, so the goods are not weighted correctly."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Real vs. nominal GDP",
+      "difficulty": 3,
+      "stem": "In Country Velor, nominal GDP was $800 billion in Year 1 and $924 billion in Year 2. The GDP deflator was 100 in Year 1 and 105 in Year 2. What was the growth rate of real GDP from Year 1 to Year 2?",
+      "options": [
+        "5.0%",
+        "10.0%",
+        "15.5%",
+        "20.5%"
+      ],
+      "correct": "B",
+      "explanation": "Real GDP equals nominal GDP divided by the deflator, times 100. Real GDP is $800 billion in Year 1 and $924 billion ÷ 1.05 = $880 billion in Year 2, so real GDP grew by $80 billion, or 80 ÷ 800 = 10 percent.",
+      "option_explanations": [
+        "This is the inflation rate measured by the GDP deflator, not the growth of real output.",
+        "Correct. Real GDP rose from $800 billion to $880 billion, a 10 percent increase.",
+        "This is the growth rate of nominal GDP (124 ÷ 800), which still includes the rise in the price level.",
+        "This adds the inflation rate to nominal growth; inflation must be removed from nominal GDP, not added to it."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Costs of inflation",
+      "difficulty": 2,
+      "stem": "Marlowe Credit Union makes a one-year loan at a nominal interest rate of 8 percent. When the loan is made, both the credit union and the borrower expect inflation of 3 percent, but actual inflation over the year turns out to be 6 percent. Which of the following is true?",
+      "options": [
+        "The borrower gains, because the realized real interest rate is 2 percent instead of the expected 5 percent.",
+        "The credit union gains, because the realized real interest rate is 5 percent instead of the expected 2 percent.",
+        "Neither party gains, because the nominal interest rate stayed at 8 percent for the entire loan.",
+        "The credit union gains, because higher inflation increases the dollar value of its interest payments."
+      ],
+      "correct": "A",
+      "explanation": "The real interest rate is approximately the nominal rate minus inflation. Both parties expected a real rate of 8 − 3 = 5 percent, but the realized real rate was 8 − 6 = 2 percent. Unanticipated inflation means the borrower repays with dollars that buy less than expected, shifting purchasing power from the lender to the borrower.",
+      "option_explanations": [
+        "Correct. The realized real rate (8 − 6 = 2 percent) is below the expected real rate (8 − 3 = 5 percent), so the borrower repays less purchasing power than both sides planned.",
+        "This reverses the expected and realized real rates; higher-than-expected inflation lowers the realized real rate, which hurts the lender.",
+        "This reflects money illusion: a fixed nominal rate does not protect the lender, because unexpected inflation reduces the purchasing power of the repayments.",
+        "The dollar amount of interest is fixed by the 8 percent nominal rate; higher inflation reduces what those dollars can buy, so the lender loses."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 2,
+      "topic": "Business cycles",
+      "difficulty": 2,
+      "stem": "In Country Velor, real GDP has declined for three consecutive quarters, and the unemployment rate has risen from 4.5 percent to 7 percent. Economists estimate Velor's natural rate of unemployment to be 5 percent. Which of the following best describes Velor's economy?",
+      "options": [
+        "It is in a contraction, and real GDP is above its full-employment level.",
+        "It is in an expansion, and real GDP is below its full-employment level.",
+        "It is in a contraction, and real GDP is below its full-employment level.",
+        "It is at a peak, and real GDP is equal to its full-employment level."
+      ],
+      "correct": "C",
+      "explanation": "Falling real GDP and rising unemployment indicate a contraction (recession). Because the 7 percent unemployment rate exceeds the 5 percent natural rate, cyclical unemployment is positive, which means actual real GDP is below its full-employment level.",
+      "option_explanations": [
+        "Unemployment above the natural rate means output is below, not above, its full-employment level.",
+        "Real GDP has fallen for three straight quarters, which describes a contraction, not an expansion.",
+        "Correct. Output is falling, and unemployment above the natural rate shows that real GDP is below its full-employment level.",
+        "A peak is the high point just before output starts to fall, when unemployment is typically low; Velor's output has been falling and unemployment exceeds the natural rate."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

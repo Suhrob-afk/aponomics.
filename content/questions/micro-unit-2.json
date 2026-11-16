@@ -1,0 +1,297 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-2-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Demand",
+      "difficulty": 1,
+      "stem": "Which of the following would change the quantity of bike rentals demanded in the city of Halvern without shifting the demand curve for bike rentals?",
+      "options": [
+        "An increase in residents' incomes, if bike rentals are a normal good",
+        "A decrease in the price of bus tickets, a substitute for bike rentals",
+        "A decrease in the price that rental shops charge for bikes",
+        "A city campaign that makes cycling more popular with residents"
+      ],
+      "correct": "C",
+      "explanation": "A change in a good's own price causes a movement along its demand curve, which is a change in quantity demanded. Changes in income, the prices of related goods, and tastes are determinants of demand that shift the entire curve.",
+      "option_explanations": [
+        "Income is a determinant of demand; higher incomes shift the demand curve for a normal good to the right rather than moving along it.",
+        "Cheaper bus tickets lead some riders to switch away from bikes, shifting the demand for bike rentals to the left; the price of a related good is a demand shifter.",
+        "Correct. A change in the rental price itself moves consumers along the existing demand curve, increasing the quantity demanded.",
+        "A change in tastes and preferences shifts the whole demand curve to the right; it does not change only the quantity demanded."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Supply",
+      "difficulty": 1,
+      "stem": "Which of the following would decrease the supply of strawberries grown on farms in Fairmont Valley?",
+      "options": [
+        "A fall in the market price of strawberries",
+        "A drop in the wages paid to strawberry pickers",
+        "A rise in consumers' preference for strawberries",
+        "A late frost that damages much of the strawberry crop"
+      ],
+      "correct": "D",
+      "explanation": "A decrease in supply is a leftward shift of the supply curve, caused by a change in a non-price determinant such as input costs, technology, or natural conditions. A frost destroys part of the crop, so farms can offer fewer strawberries at every price.",
+      "option_explanations": [
+        "A lower price of strawberries decreases the quantity supplied, which is a movement along the supply curve, not a shift of supply.",
+        "Lower wages reduce the cost of production, which increases supply and shifts the curve to the right.",
+        "Consumer preferences are a determinant of demand, not supply; this change shifts the demand curve to the right.",
+        "Correct. The frost reduces how many strawberries farms can bring to market at every price, shifting supply to the left."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Price elasticity of supply",
+      "difficulty": 1,
+      "stem": "The supply of handcrafted violins is highly price inelastic in the short run. Which of the following best explains why?",
+      "options": [
+        "Buyers of violins have few close substitutes available.",
+        "Violins take up a large share of a typical buyer's budget.",
+        "Making more violins requires skilled workers and time that cannot be added quickly.",
+        "The price of violins rises whenever the demand for violins increases."
+      ],
+      "correct": "C",
+      "explanation": "Price elasticity of supply measures how much quantity supplied responds to a change in price. When production depends on specialized inputs, such as skilled violin makers, and on long production times, producers cannot expand output quickly, so supply is inelastic in the short run.",
+      "option_explanations": [
+        "The availability of substitutes is a determinant of price elasticity of demand, not of how quickly producers can increase output.",
+        "The share of a budget spent on a good is a determinant of demand elasticity, not supply elasticity.",
+        "Correct. Because skilled labor and production time cannot be expanded quickly, quantity supplied responds little to a higher price in the short run.",
+        "A higher price after an increase in demand occurs with any upward-sloping supply curve; it describes a result rather than explaining why quantity supplied responds so little."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Price elasticity of demand",
+      "difficulty": 2,
+      "stem": "When Corvo Ferry Company raised its one-way fare from $8 to $12, daily ridership fell from 110 to 90 passengers. Using the midpoint method, what is the absolute value of the price elasticity of demand, and what happened to the company's total revenue?",
+      "options": [
+        "0.5, and total revenue increased",
+        "0.5, and total revenue decreased",
+        "2.0, and total revenue increased",
+        "2.0, and total revenue decreased"
+      ],
+      "correct": "A",
+      "explanation": "Using midpoints, the percentage change in quantity is −20/100 = −20%, and the percentage change in price is 4/10 = 40%, so the elasticity is 20% ÷ 40% = 0.5. Because demand is inelastic, raising the price raises total revenue, from $8 × 110 = $880 to $12 × 90 = $1,080.",
+      "option_explanations": [
+        "Correct. The elasticity is 0.5, so demand is inelastic, and total revenue rose from $880 to $1,080.",
+        "The elasticity is right, but when demand is inelastic a price increase raises total revenue; revenue went from $880 up to $1,080.",
+        "This divides the percentage change in price by the percentage change in quantity, inverting the formula; the correct value is 0.5.",
+        "This inverts the elasticity formula (40% ÷ 20%); the correct value of 0.5 shows inelastic demand, and revenue rose from $880 to $1,080."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Other elasticities",
+      "difficulty": 2,
+      "stem": "Researchers find that when the price of fresh deli soup rises by 10 percent, the quantity of Valley Basics canned soup demanded rises by 4 percent. They also find that when household income rises by 5 percent, the quantity of Valley Basics canned soup demanded falls by 3 percent. Based on these findings, Valley Basics canned soup is",
+      "options": [
+        "a complement to deli soup and a normal good",
+        "a complement to deli soup and an inferior good",
+        "a substitute for deli soup and a normal good",
+        "a substitute for deli soup and an inferior good"
+      ],
+      "correct": "D",
+      "explanation": "The cross-price elasticity of demand is +4% ÷ +10% = +0.4; a positive value means the two goods are substitutes. The income elasticity of demand is −3% ÷ +5% = −0.6; a negative value means Valley Basics soup is an inferior good.",
+      "option_explanations": [
+        "Complements have a negative cross-price elasticity and normal goods a positive income elasticity, but here the cross-price elasticity is positive (+0.4) and the income elasticity is negative (−0.6).",
+        "The good is inferior, but a higher deli-soup price increased the quantity of canned soup demanded, so the cross-price elasticity is positive and the goods are substitutes, not complements.",
+        "The goods are substitutes, but quantity demanded fell when income rose, so the income elasticity is negative (−0.6) and the good is inferior, not normal.",
+        "Correct. A positive cross-price elasticity (+0.4) indicates substitutes, and a negative income elasticity (−0.6) indicates an inferior good."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Market equilibrium and surplus",
+      "difficulty": 2,
+      "stem": "The graph shows the market for canoe rentals at Lake Orrin. Based on the graph, what is the consumer surplus at the market equilibrium?",
+      "options": ["$18", "$27", "$45", "$54"],
+      "correct": "B",
+      "explanation": "Consumer surplus is the triangle below the demand curve and above the equilibrium price, out to the equilibrium quantity. The demand curve starts at $18, the equilibrium price is $9, and the equilibrium quantity is 6, so consumer surplus is ½ × 6 × ($18 − $9) = $27.",
+      "option_explanations": [
+        "$18 is producer surplus, ½ × 6 × ($9 − $3), the area above the supply curve and below the price, not consumer surplus.",
+        "Correct. Consumer surplus is ½ × 6 × ($18 − $9) = $27, the triangle between the demand curve and the $9 equilibrium price.",
+        "$45 is total surplus, which adds consumer surplus ($27) and producer surplus ($18).",
+        "$54 is 6 × $9, the area of a rectangle; it leaves out the ½ needed for the triangular consumer surplus area."
+      ],
+      "graph": {
+        "xAxis": { "label": "Quantity (rentals per day)", "max": 14, "ticks": [{ "value": 6, "label": "6" }] },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 20,
+          "ticks": [
+            { "value": 3, "label": "3" },
+            { "value": 9, "label": "9" },
+            { "value": 18, "label": "18" }
+          ]
+        },
+        "curves": [
+          { "label": "S", "points": [[0, 3], [12, 15]] },
+          { "label": "D", "points": [[0, 18], [11, 1.5]], "tone": "secondary" }
+        ],
+        "points": [{ "x": 6, "y": 9, "label": "E", "guides": true }]
+      },
+      "image_alt": "A supply and demand graph with price in dollars on the vertical axis and quantity of rentals per day on the horizontal axis. The downward-sloping demand curve D is a straight line from a price of $18 at zero quantity to $1.50 at 11 rentals. The upward-sloping supply curve S is a straight line from $3 at zero quantity to $15 at 12 rentals. The curves intersect at point E, at a price of $9 and a quantity of 6 rentals, with dashed guide lines to both axes.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Changes in equilibrium",
+      "difficulty": 3,
+      "stem": "In the market for tennis rackets, the price of tennis balls, a complement, falls at the same time that the price of graphite, an input used to make rackets, rises. What is the effect on the equilibrium in the tennis racket market?",
+      "options": [
+        "Price rises, and the change in quantity is indeterminate.",
+        "Price falls, and the change in quantity is indeterminate.",
+        "Quantity rises, and the change in price is indeterminate.",
+        "Quantity falls, and the change in price is indeterminate."
+      ],
+      "correct": "A",
+      "explanation": "Cheaper tennis balls make playing tennis less costly, so the demand for rackets increases (shifts right). The higher price of graphite raises production costs, so the supply of rackets decreases (shifts left). Both shifts push the equilibrium price up, but they push quantity in opposite directions, so the change in quantity depends on the relative sizes of the shifts.",
+      "option_explanations": [
+        "Correct. An increase in demand and a decrease in supply both raise the price, while their effects on quantity offset, leaving the change in quantity indeterminate.",
+        "Price falls with quantity uncertain only if demand decreases and supply increases; here the cheaper complement raises demand and the costlier input lowers supply, the opposite of both.",
+        "This pattern follows from demand and supply both increasing, which treats the higher graphite price as if it raised supply; a costlier input decreases supply, so price must rise.",
+        "This pattern follows from demand and supply both decreasing, which treats the cheaper complement as if it lowered racket demand; demand actually rises, so price must rise."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Government intervention in markets",
+      "difficulty": 3,
+      "stem": "The graph shows the market for bottled iced tea before and after the government imposes a per-unit tax on sellers, which shifts supply from S1 to S2. Based on the graph, how much of the total tax revenue is effectively paid by consumers?",
+      "options": ["$8", "$16", "$20", "$24"],
+      "correct": "B",
+      "explanation": "The tax per unit is the vertical distance between S2 and S1, $8 − $5 = $3, and 8 units are sold after the tax, so total tax revenue is $3 × 8 = $24. The price buyers pay rises from $6 to $8, so consumers bear $2 of each $3 tax, which is $2 × 8 = $16. Producers bear the remaining $1 per unit, or $8.",
+      "option_explanations": [
+        "$8 is the producers' share: the price sellers keep falls from $6 to $5, a $1 burden on each of the 8 units sold.",
+        "Correct. Buyers pay $2 more per unit ($8 instead of $6) on the 8 units sold after the tax, so they bear $16 of the tax revenue.",
+        "This multiplies the $2 price increase by the original quantity of 10; tax is collected only on the 8 units sold after the tax.",
+        "$24 is the total tax revenue ($3 × 8); part of it is borne by producers, who now keep $5 per unit instead of $6."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity (cases)",
+          "max": 16,
+          "ticks": [
+            { "value": 8, "label": "8" },
+            { "value": 10, "label": "10" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 18,
+          "ticks": [
+            { "value": 5, "label": "5" },
+            { "value": 6, "label": "6" },
+            { "value": 8, "label": "8" }
+          ]
+        },
+        "curves": [
+          { "label": "D", "points": [[0, 16], [14, 2]], "tone": "secondary" },
+          { "label": "S1", "points": [[0, 1], [14, 8]] },
+          { "label": "S2", "points": [[0, 4], [14, 11]], "dashed": true }
+        ],
+        "points": [
+          { "x": 10, "y": 6, "label": "E1", "guides": true },
+          { "x": 8, "y": 8, "label": "E2", "guides": true },
+          { "x": 8, "y": 5, "guides": true }
+        ]
+      },
+      "image_alt": "A supply and demand graph with price in dollars on the vertical axis and quantity in cases on the horizontal axis. Demand D is a straight line from $16 at zero quantity to $2 at 14 cases. The original supply curve S1 is a straight line from $1 at zero quantity to $8 at 14 cases. The after-tax supply curve S2 is a parallel dashed line $3 higher, from $4 at zero quantity to $11 at 14 cases. Before the tax, D and S1 intersect at point E1, at a price of $6 and a quantity of 10. After the tax, D and S2 intersect at point E2, at a price of $8 and a quantity of 8. At a quantity of 8, the original supply curve S1 is at a price of $5. Dashed guide lines connect these points to both axes.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "Government intervention in markets",
+      "difficulty": 3,
+      "stem": "The graph shows a market in which the government imposes a binding price ceiling of $4. Assume the units that are sold go to the buyers who value them most. Based on the graph, which areas represent consumer surplus after the price ceiling takes effect?",
+      "options": ["F + G", "F + G + H", "F + G + J", "F + G + H + J"],
+      "correct": "C",
+      "explanation": "At the $4 ceiling, sellers supply only 2 units. Buyers of those units value them along the demand curve, from $20 down to $16, but pay only $4, so consumer surplus is the whole area below demand and above $4 out to 2 units: F + G + J. Area J is surplus transferred from producers, and areas H and K become deadweight loss.",
+      "option_explanations": [
+        "F + G is the surplus buyers would get on 2 units at the original $8 price; it leaves out area J, which consumers gain because they now pay only $4.",
+        "F + G + H is consumer surplus before the ceiling; area H is lost because only 2 units are now sold, so it becomes deadweight loss.",
+        "Correct. Consumers buy 2 units, valued along the demand curve, at a price of $4, so their surplus is F + G + J.",
+        "This includes area H, but the units between 2 and 6 are no longer produced, so H is deadweight loss rather than consumer surplus."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity",
+          "max": 14,
+          "ticks": [
+            { "value": 2, "label": "2" },
+            { "value": 6, "label": "6" },
+            { "value": 8, "label": "8" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 22,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 8, "label": "8" },
+            { "value": 16, "label": "16" },
+            { "value": 20, "label": "20" }
+          ]
+        },
+        "curves": [
+          { "label": "S", "points": [[0, 2], [12, 14]] },
+          { "label": "D", "points": [[0, 20], [9.5, 1]], "tone": "secondary" },
+          { "label": "Price ceiling", "points": [[0, 4], [11, 4]], "tone": "neutral", "dashed": true }
+        ],
+        "points": [
+          { "x": 6, "y": 8, "label": "E", "guides": true },
+          { "x": 2, "y": 16, "guides": true }
+        ],
+        "regions": [
+          { "label": "F", "points": [[0, 16], [2, 16], [0, 20]] },
+          { "label": "G", "points": [[0, 8], [2, 8], [2, 16], [0, 16]] },
+          { "label": "H", "points": [[2, 8], [6, 8], [2, 16]] },
+          { "label": "J", "points": [[0, 4], [2, 4], [2, 8], [0, 8]] },
+          { "label": "K", "points": [[2, 4], [6, 8], [2, 8]] }
+        ]
+      },
+      "image_alt": "A supply and demand graph with price in dollars on the vertical axis and quantity on the horizontal axis. Demand D is a straight line from $20 at zero quantity to $1 at 9.5 units. Supply S is a straight line from $2 at zero quantity to $14 at 12 units. They intersect at point E, at a price of $8 and a quantity of 6. A horizontal dashed line labeled Price ceiling is drawn at $4; it meets supply at 2 units and demand at 8 units. At 2 units, the demand curve is at $16. Five areas are labeled: F is the triangle between $16 and the demand curve from 0 to 2 units; G is the rectangle from $8 to $16 between 0 and 2 units; H is the triangle between $8 and the demand curve from 2 to 6 units; J is the rectangle from $4 to $8 between 0 and 2 units; and K is the triangle between the supply curve and $8 from 2 to 6 units.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 2,
+      "topic": "International trade and public policy",
+      "difficulty": 2,
+      "stem": "Bremora is a small country that initially does not trade rice. Its domestic equilibrium price of rice is higher than the world price. If Bremora opens its rice market to free trade, which of the following will occur in Bremora's rice market?",
+      "options": [
+        "Consumer surplus decreases, and producer surplus increases.",
+        "Consumer surplus increases, and producer surplus decreases.",
+        "Both consumer surplus and producer surplus increase.",
+        "Both consumer surplus and producer surplus decrease."
+      ],
+      "correct": "B",
+      "explanation": "Opening to trade lowers Bremora's price of rice to the world price. Consumers buy more at a lower price, so consumer surplus rises; domestic producers sell less at a lower price, so producer surplus falls. The gain to consumers exceeds the loss to producers, so total surplus in Bremora increases, and imports fill the gap between domestic consumption and production.",
+      "option_explanations": [
+        "This is what happens when the world price is above the domestic price and the country exports; here the price in Bremora falls to the world price.",
+        "Correct. The lower world price benefits buyers and hurts domestic sellers, so consumer surplus rises and producer surplus falls.",
+        "Total surplus rises, but not because both groups gain; domestic producers receive a lower price and sell less, so producer surplus falls.",
+        "Free trade at a lower world price increases total surplus because consumers gain more than producers lose, so both surpluses cannot fall."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

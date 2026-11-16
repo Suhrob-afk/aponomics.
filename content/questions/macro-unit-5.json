@@ -1,0 +1,290 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-5-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "The Phillips curve",
+      "difficulty": 1,
+      "stem": "Based on the graph, the economy of Velor is initially at point Y. If the central bank of Velor unexpectedly increases the money supply, which point best shows where the economy will be in the short run?",
+      "options": [
+        "Point W",
+        "Point X",
+        "Point Y",
+        "Point Z"
+      ],
+      "correct": "B",
+      "explanation": "An unexpected increase in the money supply raises aggregate demand, which lowers unemployment and raises inflation in the short run. On the Phillips curve this is a movement up and to the left along the existing short-run Phillips curve, SRPC1, from point Y to point X. The short-run Phillips curve shifts only later, as inflation expectations adjust.",
+      "option_explanations": [
+        "Point W is on the long-run Phillips curve at a higher inflation rate. It shows where the economy could end up after inflation expectations rise and the SRPC shifts, not the short-run outcome.",
+        "Correct. Higher aggregate demand moves the economy up along SRPC1 to point X, with lower unemployment (3 percent) and higher inflation (5 percent).",
+        "Point Y is the starting point. A surprise increase in the money supply changes unemployment and inflation in the short run, even though it cannot change the natural rate of unemployment.",
+        "Point Z shows higher unemployment and lower inflation, which is the short-run result of contractionary policy, not expansionary policy."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Unemployment rate (%)",
+          "max": 10,
+          "ticks": [
+            { "value": 3, "label": "3" },
+            { "value": 5, "label": "5" },
+            { "value": 7, "label": "7" }
+          ]
+        },
+        "yAxis": {
+          "label": "Inflation rate (%)",
+          "max": 10,
+          "ticks": [
+            { "value": 1, "label": "1" },
+            { "value": 3, "label": "3" },
+            { "value": 5, "label": "5" },
+            { "value": 6, "label": "6" }
+          ]
+        },
+        "curves": [
+          { "label": "LRPC", "points": [[5, 0], [5, 10]], "tone": "neutral" },
+          { "label": "SRPC1", "points": [[1, 7], [7.5, 0.5]] },
+          { "label": "SRPC2", "points": [[2, 9], [9.5, 1.5]], "dashed": true, "tone": "secondary" }
+        ],
+        "points": [
+          { "x": 5, "y": 6, "label": "W", "guides": true },
+          { "x": 3, "y": 5, "label": "X", "guides": true },
+          { "x": 5, "y": 3, "label": "Y", "guides": true },
+          { "x": 7, "y": 1, "label": "Z", "guides": true }
+        ]
+      },
+      "image_alt": "Phillips curve graph. The horizontal axis is the unemployment rate in percent and the vertical axis is the inflation rate in percent. A vertical long-run Phillips curve, LRPC, is at 5 percent unemployment. A downward-sloping short-run Phillips curve, SRPC1, passes through point X (3 percent unemployment, 5 percent inflation), point Y (5 percent unemployment, 3 percent inflation, on the LRPC), and point Z (7 percent unemployment, 1 percent inflation). A second, higher short-run Phillips curve, SRPC2, crosses the LRPC at point W (5 percent unemployment, 6 percent inflation).",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Government deficits and the national debt",
+      "difficulty": 1,
+      "stem": "Velor's government ran a budget deficit of 40 billion vels last year. This year it raised taxes and ran a budget deficit of 25 billion vels. Assuming no other changes, what happened to Velor's national debt this year?",
+      "options": [
+        "It decreased by 15 billion vels",
+        "It did not change",
+        "It increased by 25 billion vels",
+        "It increased by 65 billion vels"
+      ],
+      "correct": "C",
+      "explanation": "The national debt is the accumulated total of past budget deficits minus past surpluses, so each year's deficit is added to it. Because Velor still ran a deficit this year, its debt grew by the amount of this year's deficit, 25 billion vels. A smaller deficit slows the growth of the debt but does not reduce it.",
+      "option_explanations": [
+        "15 billion vels is the reduction in the deficit, not a change in the debt. The debt falls only when the government runs a budget surplus.",
+        "The debt would stay the same only if the budget were balanced. Velor still borrowed 25 billion vels this year, which adds to the debt.",
+        "Correct. This year's 25 billion vel deficit is added to the existing national debt.",
+        "65 billion vels also counts last year's deficit, but that 40 billion vel deficit was already added to the debt last year."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Economic growth",
+      "difficulty": 1,
+      "stem": "Which of the following events would most likely increase Velor's full-employment level of real output and shift its long-run aggregate supply curve to the right?",
+      "options": [
+        "A new technology that raises the output of each worker",
+        "A rise in consumer confidence that increases household spending",
+        "A decrease in the price level that increases household real wealth",
+        "An increase in transfer payments to retired households"
+      ],
+      "correct": "A",
+      "explanation": "Potential (full-employment) output depends on the quantity and quality of resources and on technology. A technology that raises output per worker increases productivity, so the economy can produce more at full employment and the long-run aggregate supply curve shifts right. The other events affect aggregate demand or cause movements along a curve, which change output only in the short run.",
+      "option_explanations": [
+        "Correct. Higher labor productivity lets the economy produce more at full employment, shifting LRAS to the right.",
+        "Higher consumer confidence shifts aggregate demand to the right. It can raise output in the short run but does not change the economy's productive capacity.",
+        "A lower price level causes a movement along the aggregate demand curve through the wealth effect. It does not change potential output.",
+        "Transfer payments raise household spending and shift aggregate demand, but they do not add to the economy's resources or improve its technology."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Money growth and inflation",
+      "difficulty": 2,
+      "stem": "Velor's central bank permanently raises the annual growth rate of the money supply from 3 percent to 9 percent. The velocity of money is constant, and real GDP grows at its long-run rate of 2 percent per year. According to the quantity theory of money, which outcome is most likely in the long run?",
+      "options": [
+        "Inflation of about 1 percent and real GDP growth of about 8 percent",
+        "Inflation of about 4 percent and real GDP growth of about 5 percent",
+        "Inflation of about 7 percent and real GDP growth of about 2 percent",
+        "Inflation of about 9 percent and real GDP growth of about 2 percent"
+      ],
+      "correct": "C",
+      "explanation": "In growth-rate form, the quantity theory says money growth plus velocity growth equals inflation plus real GDP growth. With constant velocity and real GDP growing at its long-run rate of 2 percent, inflation equals 9% − 2% = 7%. Money is neutral in the long run, so faster money growth raises inflation but leaves real GDP growth at 2 percent.",
+      "option_explanations": [
+        "This keeps inflation at its old rate (3% − 2% = 1%) and assumes the extra money raises real output. In the long run, real growth is set by resources and technology, not by money growth.",
+        "This splits the extra money growth between inflation and real growth. Because money is neutral in the long run, all of the extra money growth shows up as inflation.",
+        "Correct. Inflation equals money growth minus real GDP growth, 9% − 2% = 7%, while real GDP growth stays at its long-run rate.",
+        "This sets inflation equal to money growth and ignores the 2 percent growth in real GDP, which absorbs part of the new money."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Crowding out",
+      "difficulty": 2,
+      "stem": "Velor's government begins borrowing heavily to finance a large new budget deficit for infrastructure projects. In Velor's loanable funds market, what is the most likely result?",
+      "options": [
+        "The supply of loanable funds increases, the real interest rate falls, and private investment rises",
+        "The demand for loanable funds increases, the real interest rate rises, and private investment falls",
+        "The demand for loanable funds increases, the real interest rate rises, and private investment rises",
+        "The demand for loanable funds decreases, the real interest rate falls, and private investment rises"
+      ],
+      "correct": "B",
+      "explanation": "When the government borrows to finance a deficit, it competes with private borrowers for loanable funds, increasing the demand for loanable funds. The real interest rate rises, making borrowing more expensive for firms and reducing private investment. This reduction in private investment is the crowding-out effect.",
+      "option_explanations": [
+        "Government borrowing does not add to the supply of saving; it adds to the demand for loanable funds. Higher demand raises the real interest rate rather than lowering it.",
+        "Correct. Higher government borrowing increases the demand for loanable funds, raising the real interest rate and crowding out private investment.",
+        "The demand and interest-rate effects are right, but a higher real interest rate raises the cost of borrowing, so private investment falls rather than rises.",
+        "A larger deficit means the government must borrow more, not less, so the demand for loanable funds increases rather than decreases."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "The Phillips curve",
+      "difficulty": 2,
+      "stem": "A sudden, sharp rise in the world price of oil raises production costs for most firms in Velor. In the short run, how does this most likely affect Velor's Phillips curves?",
+      "options": [
+        "The short-run Phillips curve shifts to the left, and the long-run Phillips curve does not shift",
+        "The economy moves up along the existing short-run Phillips curve, and the long-run Phillips curve does not shift",
+        "The short-run Phillips curve shifts to the right, and the long-run Phillips curve also shifts to the right",
+        "The short-run Phillips curve shifts to the right, and the long-run Phillips curve does not shift"
+      ],
+      "correct": "D",
+      "explanation": "A rise in input costs is a negative supply shock that shifts short-run aggregate supply to the left, raising both inflation and unemployment. Because inflation is now higher at every unemployment rate, the short-run Phillips curve shifts to the right (upward). A temporary cost shock does not change the natural rate of unemployment, so the long-run Phillips curve stays in place.",
+      "option_explanations": [
+        "A leftward shift of the SRPC means lower inflation at each unemployment rate, which would follow a favorable supply shock, not a rise in oil prices.",
+        "A movement up along the SRPC, with higher inflation and lower unemployment, is caused by an increase in aggregate demand. A cost shock raises inflation and unemployment together, which shifts the curve.",
+        "The SRPC does shift right, but a temporary rise in input prices does not change the natural rate of unemployment, so the LRPC does not move.",
+        "Correct. The supply shock causes stagflation, shifting the SRPC to the right while the natural rate of unemployment, and therefore the LRPC, stays the same."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Public policy and economic growth",
+      "difficulty": 2,
+      "stem": "Velor's government wants to raise the long-run growth rate of real GDP per capita. Which of the following policies is most likely to achieve this goal?",
+      "options": [
+        "Increasing transfer payments to households during recessions",
+        "Raising the tax rate on interest that households earn on savings",
+        "Increasing the growth rate of the money supply each year",
+        "Giving tax credits to firms that invest in new capital equipment"
+      ],
+      "correct": "D",
+      "explanation": "Long-run growth depends on increases in productive capacity, such as more physical capital, more human capital, and better technology. A tax credit for investment lowers the cost of new equipment, which increases the capital stock and raises labor productivity over time. This shifts the long-run aggregate supply curve to the right and raises potential output per person.",
+      "option_explanations": [
+        "Transfer payments during recessions are a demand-side stabilization tool. They support spending in the short run but do not add to the economy's capital or productivity.",
+        "Taxing interest income discourages saving, which reduces the supply of loanable funds available for investment and slows growth rather than raising it.",
+        "In the long run, faster money growth raises the inflation rate but does not increase real output, because money is neutral.",
+        "Correct. Encouraging investment in physical capital raises worker productivity and increases potential output over time."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "The Phillips curve",
+      "difficulty": 3,
+      "stem": "Based on the graph, Velor's economy was at point J until the central bank unexpectedly increased the growth rate of the money supply, moving the economy to point K. The central bank keeps money growth at this new, higher rate. Once workers and firms fully adjust their inflation expectations, what will the unemployment rate and the inflation rate be?",
+      "options": [
+        "4 percent unemployment and 5 percent inflation",
+        "4 percent unemployment and 7 percent inflation",
+        "6 percent unemployment and 3 percent inflation",
+        "6 percent unemployment and 5 percent inflation"
+      ],
+      "correct": "D",
+      "explanation": "At point K, actual inflation of 5 percent is above the 3 percent people expected, which is why unemployment fell below the natural rate. Because the central bank keeps inflation at 5 percent, people eventually expect 5 percent inflation and build it into wages and prices, shifting the short-run Phillips curve from SRPC1 to SRPC2. Unemployment then returns to the natural rate of 6 percent on the LRPC, at point M, with inflation remaining at 5 percent.",
+      "option_explanations": [
+        "Point K is not a long-run equilibrium. Unemployment stays below the natural rate only while actual inflation exceeds expected inflation, and that gap closes as expectations adjust.",
+        "Point N keeps unemployment at 4 percent on SRPC2, which would require pushing inflation even higher, to 7 percent. With inflation held at 5 percent, unemployment returns to the natural rate.",
+        "Point J has 3 percent inflation, but the central bank keeps money growth, and so inflation, at the new higher rate. Unemployment returns to 6 percent, but inflation stays at 5 percent.",
+        "Correct. Expected inflation rises to 5 percent, shifting SRPC1 to SRPC2, and the economy settles on the LRPC at 6 percent unemployment and 5 percent inflation."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Unemployment rate (%)",
+          "max": 12,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 6, "label": "6" }
+          ]
+        },
+        "yAxis": {
+          "label": "Inflation rate (%)",
+          "max": 10,
+          "ticks": [
+            { "value": 3, "label": "3" },
+            { "value": 5, "label": "5" },
+            { "value": 7, "label": "7" }
+          ]
+        },
+        "curves": [
+          { "label": "LRPC", "points": [[6, 0], [6, 10]], "tone": "neutral" },
+          { "label": "SRPC1", "points": [[1, 8], [8.5, 0.5]] },
+          { "label": "SRPC2", "points": [[2, 9], [10.5, 0.5]], "dashed": true, "tone": "secondary" }
+        ],
+        "points": [
+          { "x": 6, "y": 3, "label": "J", "guides": true },
+          { "x": 4, "y": 5, "label": "K", "guides": true },
+          { "x": 6, "y": 5, "label": "M", "guides": true },
+          { "x": 4, "y": 7, "label": "N", "guides": true }
+        ]
+      },
+      "image_alt": "Phillips curve graph. The horizontal axis is the unemployment rate in percent and the vertical axis is the inflation rate in percent. A vertical long-run Phillips curve, LRPC, is at 6 percent unemployment. A downward-sloping short-run Phillips curve, SRPC1, passes through point K (4 percent unemployment, 5 percent inflation) and point J (6 percent unemployment, 3 percent inflation, on the LRPC). A parallel, higher short-run Phillips curve, SRPC2, passes through point N (4 percent unemployment, 7 percent inflation) and point M (6 percent unemployment, 5 percent inflation, on the LRPC).",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Fiscal and monetary policy in the short run",
+      "difficulty": 3,
+      "stem": "To reduce a large budget deficit, Velor's government raises personal income taxes. At the same time, Velor's central bank, which operates with limited reserves, buys government bonds on the open market. What is the combined short-run effect of these two policies on interest rates and real GDP?",
+      "options": [
+        "Interest rates increase, and real GDP decreases",
+        "Interest rates decrease, and the effect on real GDP is indeterminate",
+        "The effect on interest rates is indeterminate, and real GDP increases",
+        "Interest rates decrease, and real GDP increases"
+      ],
+      "correct": "B",
+      "explanation": "Both policies push interest rates down: the bond purchase increases the money supply, while the tax increase lowers income and reduces government borrowing, which lowers money demand and the demand for loanable funds. Their effects on aggregate demand work in opposite directions, though, because the tax increase reduces consumption while lower interest rates raise investment. Without knowing the sizes of the two policies, the change in real GDP cannot be determined.",
+      "option_explanations": [
+        "Neither policy raises interest rates. A tax increase reduces government borrowing, and a bond purchase increases the money supply, so both lower interest rates.",
+        "Correct. Both policies lower interest rates, but contractionary fiscal policy and expansionary monetary policy shift aggregate demand in opposite directions, so the effect on real GDP is indeterminate.",
+        "Because both policies lower interest rates, the interest-rate effect is determinate. It is the effect on real GDP that cannot be signed, since the policies push aggregate demand in opposite directions.",
+        "Lower interest rates do raise investment, but the tax increase reduces consumption. Without knowing which effect is larger, real GDP may rise or fall."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 5,
+      "topic": "Money growth and inflation",
+      "difficulty": 3,
+      "stem": "This year in Velor, the money supply grows by 6 percent, the velocity of money falls by 1 percent, and real GDP grows by 2 percent. Using the quantity theory of money, what is the approximate inflation rate?",
+      "options": [
+        "3 percent",
+        "4 percent",
+        "5 percent",
+        "7 percent"
+      ],
+      "correct": "A",
+      "explanation": "The equation of exchange, MV = PY, implies that the growth rate of money plus the growth rate of velocity approximately equals the inflation rate plus the growth rate of real GDP. Here 6% + (−1%) = inflation + 2%, so inflation is about 5% − 2% = 3%. Falling velocity and rising real output each absorb part of the money growth.",
+      "option_explanations": [
+        "Correct. Nominal spending (MV) grows by about 6% − 1% = 5%, and subtracting 2% real growth leaves about 3% inflation.",
+        "4 percent subtracts real GDP growth from money growth but ignores the 1 percent fall in velocity, which further slows the growth of nominal spending.",
+        "5 percent is the growth rate of nominal GDP (MV). Part of that growth is real output growth of 2 percent, which must be subtracted to find inflation.",
+        "7 percent adds real GDP growth instead of subtracting it. Faster real growth means more of the extra spending buys additional output, leaving less to raise prices."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

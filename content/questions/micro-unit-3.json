@@ -1,0 +1,283 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-3-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "The production function",
+      "difficulty": 1,
+      "stem": "At Juniper Pottery, total daily output is 10 mugs with 1 worker, 24 mugs with 2 workers, 34 mugs with 3 workers, 40 mugs with 4 workers, and 42 mugs with 5 workers. Holding capital fixed, diminishing marginal returns begin with the addition of which worker?",
+      "options": ["The second worker", "The third worker", "The fourth worker", "The fifth worker"],
+      "correct": "B",
+      "explanation": "Marginal product is the change in total output from adding one worker: 10, 14, 10, 6, and 2 mugs. Marginal product rises through the second worker and then falls starting with the third, so diminishing marginal returns begin with the third worker.",
+      "option_explanations": [
+        "The second worker has the highest marginal product (14 mugs), so marginal returns are still increasing at that point.",
+        "Correct. The third worker adds 10 mugs, fewer than the 14 added by the second, so marginal product begins to decline with the third worker.",
+        "The fourth worker continues the decline in marginal product but does not start it; marginal product had already fallen with the third worker.",
+        "Diminishing returns do not require total output to level off or marginal product to approach zero; they begin as soon as marginal product starts to fall."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Short-run production costs",
+      "difficulty": 1,
+      "stem": "Which of the following is a fixed cost for Saltmarsh Bakery in the short run?",
+      "options": [
+        "The cost of flour used in each batch of bread",
+        "Wages paid to workers who are hired by the hour",
+        "The monthly lease payment on the storefront",
+        "The electricity used to run the ovens"
+      ],
+      "correct": "C",
+      "explanation": "A fixed cost does not change with the quantity of output in the short run and must be paid even if output is zero. The lease payment is the same whether the bakery bakes 10 loaves or 1,000, so it is a fixed cost.",
+      "option_explanations": [
+        "Baking more bread uses more flour, so the cost of flour rises with output and is a variable cost.",
+        "Hiring more hourly workers to produce more raises the wage bill, so these wages are a variable cost.",
+        "Correct. The lease payment is owed regardless of how much the bakery produces, so it is a fixed cost.",
+        "Running the ovens longer to bake more bread uses more electricity, so this cost varies with output."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Short-run production costs",
+      "difficulty": 2,
+      "stem": "For Pinecrest Candle Company, total cost is $50 at 0 units of output, $80 at 1 unit, $100 at 2 units, $130 at 3 units, and $180 at 4 units. What is the average variable cost of producing 4 units?",
+      "options": ["$12.50", "$32.50", "$45.00", "$50.00"],
+      "correct": "B",
+      "explanation": "Fixed cost is the total cost at zero output, $50. Variable cost at 4 units is $180 − $50 = $130, so average variable cost is $130 ÷ 4 = $32.50.",
+      "option_explanations": [
+        "$12.50 is average fixed cost, $50 ÷ 4, not average variable cost.",
+        "Correct. Variable cost at 4 units is $180 − $50 = $130, and $130 ÷ 4 = $32.50.",
+        "$45.00 is average total cost, $180 ÷ 4; it includes the fixed cost that average variable cost leaves out.",
+        "$50.00 is the marginal cost of the 4th unit ($180 − $130), not the average variable cost."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Long-run production costs",
+      "difficulty": 2,
+      "stem": "Harbor Glassworks can build plants of different sizes. Its long-run average total cost is $12 per unit at 1,000 units of output, $9 at 2,000 units, $9 at 3,000 units, and $11 at 4,000 units. Which of the following is true?",
+      "options": [
+        "The firm experiences economies of scale between 3,000 and 4,000 units.",
+        "The firm experiences diseconomies of scale between 1,000 and 2,000 units.",
+        "The firm experiences diminishing marginal returns between 1,000 and 2,000 units.",
+        "The firm experiences constant returns to scale between 2,000 and 3,000 units."
+      ],
+      "correct": "D",
+      "explanation": "Changes in long-run average total cost (LRATC) as output grows show returns to scale: falling LRATC means economies of scale, constant LRATC means constant returns to scale, and rising LRATC means diseconomies of scale. LRATC stays at $9 from 2,000 to 3,000 units, so the firm has constant returns to scale over that range.",
+      "option_explanations": [
+        "LRATC rises from $9 to $11 between 3,000 and 4,000 units, which indicates diseconomies of scale, not economies of scale.",
+        "LRATC falls from $12 to $9 between 1,000 and 2,000 units, which indicates economies of scale, not diseconomies of scale.",
+        "Diminishing marginal returns is a short-run concept that requires a fixed input; long-run cost data, with all inputs variable, describe returns to scale instead.",
+        "Correct. Because LRATC is unchanged at $9 as output grows from 2,000 to 3,000 units, the firm has constant returns to scale in that range."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Types of profit",
+      "difficulty": 2,
+      "stem": "Dara left a job paying $48,000 per year to run her own food truck. In its first year, the truck earned $150,000 in revenue and paid $90,000 in explicit costs. Dara also used $20,000 of her own savings, which had been earning 5 percent interest per year. What was Dara's economic profit for the year?",
+      "options": ["$11,000", "$12,000", "$59,000", "$60,000"],
+      "correct": "A",
+      "explanation": "Accounting profit is revenue minus explicit costs: $150,000 − $90,000 = $60,000. Economic profit also subtracts implicit costs: the $48,000 salary Dara gave up and the $1,000 in interest (5% of $20,000) her savings no longer earn. Economic profit is $60,000 − $49,000 = $11,000.",
+      "option_explanations": [
+        "Correct. Subtracting explicit costs ($90,000) and implicit costs ($48,000 + $1,000) from $150,000 in revenue leaves $11,000.",
+        "This subtracts the forgone salary but ignores the $1,000 in interest Dara's savings could have earned, which is also an implicit cost.",
+        "This subtracts the forgone interest but ignores the $48,000 salary Dara gave up, her largest implicit cost.",
+        "$60,000 is accounting profit, which subtracts only explicit costs; economic profit also subtracts implicit costs."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Profit maximization",
+      "difficulty": 3,
+      "stem": "The graph shows the cost curves of a perfectly competitive firm that sells its output at a market price of $19. Based on the graph, what is the firm's economic profit when it produces the profit-maximizing quantity?",
+      "options": ["$8", "$48", "$72", "$114"],
+      "correct": "B",
+      "explanation": "The firm maximizes profit where P = MR = MC, which occurs at 6 units. At that quantity, average total cost is $11, so profit per unit is $19 − $11 = $8. Total economic profit is $8 × 6 = $48.",
+      "option_explanations": [
+        "$8 is the profit per unit (price minus average total cost); total profit multiplies it by the 6 units produced.",
+        "Correct. Economic profit equals (P − ATC) × Q = ($19 − $11) × 6 = $48.",
+        "$72 uses average variable cost, ($19 − $7) × 6, which ignores fixed costs; it is the amount by which revenue exceeds variable cost, not economic profit.",
+        "$114 is total revenue, $19 × 6; economic profit subtracts total cost of $11 × 6 = $66."
+      ],
+      "graph": {
+        "xAxis": { "label": "Quantity", "max": 11, "ticks": [{ "value": 6, "label": "6" }] },
+        "yAxis": {
+          "label": "Price and cost ($)",
+          "max": 26,
+          "ticks": [
+            { "value": 7, "label": "7" },
+            { "value": 11, "label": "11" },
+            { "value": 19, "label": "19" }
+          ]
+        },
+        "curves": [
+          { "label": "P = MR", "points": [[0, 19], [10, 19]], "tone": "neutral" },
+          {
+            "label": "AVC",
+            "points": [[0.5, 6.08], [1, 5.33], [1.5, 4.75], [2, 4.33], [2.5, 4.08], [3, 4], [3.5, 4.08], [4, 4.33], [4.5, 4.75], [5, 5.33], [5.5, 6.08], [6, 7], [6.5, 8.08], [7, 9.33], [7.5, 10.75], [8, 12.33], [8.5, 14.08]],
+            "smooth": true,
+            "tone": "secondary"
+          },
+          {
+            "label": "ATC",
+            "points": [[1.5, 20.75], [2, 16.33], [2.5, 13.68], [3, 12], [3.5, 10.94], [4, 10.33], [4.5, 10.08], [5, 10.13], [5.5, 10.45], [6, 11], [6.5, 11.78], [7, 12.76], [7.5, 13.95], [8, 15.33], [8.5, 16.91]],
+            "smooth": true
+          },
+          {
+            "label": "MC",
+            "points": [[0.5, 5.25], [1, 4], [1.5, 3.25], [2, 3], [2.5, 3.25], [3, 4], [3.5, 5.25], [4, 7], [4.5, 9.25], [5, 12], [5.5, 15.25], [6, 19], [6.5, 23.25], [6.6, 24.16]],
+            "smooth": true
+          }
+        ],
+        "points": [
+          { "x": 6, "y": 19, "guides": true },
+          { "x": 6, "y": 11, "guides": true },
+          { "x": 6, "y": 7, "guides": true }
+        ]
+      },
+      "image_alt": "Cost curves for a perfectly competitive firm, with price and cost in dollars on the vertical axis and quantity on the horizontal axis. A horizontal line labeled P = MR is at $19. The U-shaped average variable cost curve AVC reaches its minimum of $4 at 3 units. The U-shaped average total cost curve ATC lies above AVC and reaches its minimum of about $10 at between 4 and 5 units. The marginal cost curve MC dips to $3 at 2 units, then rises steeply, passing through the minimum points of AVC and ATC and crossing the P = MR line at a quantity of 6. At 6 units, ATC is $11 and AVC is $7. Dashed guide lines mark a quantity of 6 and costs of $7, $11, and $19 on the axes.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Short-run shutdown and long-run entry and exit",
+      "difficulty": 3,
+      "stem": "The graph shows the cost curves of a perfectly competitive firm, and the market price is $8. Based on the graph, how many units should the firm produce in the short run to maximize profit or minimize losses?",
+      "options": ["0 units", "6 units", "8 units", "9 units"],
+      "correct": "C",
+      "explanation": "The $8 price is below the minimum ATC of $11 but above the minimum AVC of $4, so the firm incurs a loss but covers its variable costs and should keep operating. It produces where P = MR = MC, at 8 units, where its loss is smaller than the fixed cost it would lose by shutting down.",
+      "option_explanations": [
+        "Shutting down is best only when price is below minimum AVC ($4); at $8 the firm covers its variable costs, so producing loses less than shutting down.",
+        "Six units is where AVC is minimized, but a firm chooses output where P = MC, not where average variable cost is lowest.",
+        "Correct. Price ($8) is between minimum AVC and minimum ATC, so the firm operates at a loss where MC equals the $8 price, at 8 units.",
+        "Nine units is where ATC is minimized; producing the 9th unit would mean making a unit whose marginal cost exceeds the $8 price."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity",
+          "max": 14,
+          "ticks": [
+            { "value": 6, "label": "6" },
+            { "value": 8, "label": "8" },
+            { "value": 9, "label": "9" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price and cost ($)",
+          "max": 20,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 8, "label": "8" },
+            { "value": 11, "label": "11" }
+          ]
+        },
+        "curves": [
+          { "label": "P = MR", "points": [[0, 8], [13.5, 8]], "tone": "neutral" },
+          {
+            "label": "AVC",
+            "points": [[1, 6.78], [1.5, 6.25], [2, 5.78], [2.5, 5.36], [3, 5], [3.5, 4.69], [4, 4.44], [4.5, 4.25], [5, 4.11], [5.5, 4.03], [6, 4], [6.5, 4.03], [7, 4.11], [7.5, 4.25], [8, 4.44], [8.5, 4.69], [9, 5], [9.5, 5.36], [10, 5.78], [10.5, 6.25], [11, 6.78]],
+            "smooth": true,
+            "tone": "secondary"
+          },
+          {
+            "label": "ATC",
+            "points": [[4, 17.94], [4.5, 16.25], [5, 14.91], [5.5, 13.85], [6, 13], [6.5, 12.34], [7, 11.83], [7.5, 11.45], [8, 11.19], [8.5, 11.05], [9, 11], [9.5, 11.05], [10, 11.18], [10.5, 11.39], [11, 11.69], [11.5, 12.06], [12, 12.5], [12.5, 13.01]],
+            "smooth": true
+          },
+          {
+            "label": "MC",
+            "points": [[1, 5.67], [1.5, 4.75], [2, 4], [2.5, 3.42], [3, 3], [3.5, 2.75], [4, 2.67], [4.5, 2.75], [5, 3], [5.5, 3.42], [6, 4], [6.5, 4.75], [7, 5.67], [7.5, 6.75], [8, 8], [8.5, 9.42], [9, 11], [9.5, 12.75], [10, 14.67], [10.5, 16.75]],
+            "smooth": true
+          }
+        ],
+        "points": [
+          { "x": 6, "y": 4, "guides": true },
+          { "x": 8, "y": 8, "guides": true },
+          { "x": 9, "y": 11, "guides": true }
+        ]
+      },
+      "image_alt": "Cost curves for a perfectly competitive firm, with price and cost in dollars on the vertical axis and quantity on the horizontal axis. A horizontal line labeled P = MR is at $8. The U-shaped average variable cost curve AVC reaches its minimum of $4 at 6 units. The U-shaped average total cost curve ATC lies above AVC and reaches its minimum of $11 at 9 units. The marginal cost curve MC dips to a low point at 4 units and then rises, passing through the minimum of AVC at 6 units and $4, crossing the P = MR line at 8 units and $8, and passing through the minimum of ATC at 9 units and $11. Dashed guide lines mark these three points on both axes.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Perfect competition",
+      "difficulty": 3,
+      "stem": "The market for organic eggs is perfectly competitive, is a constant-cost industry, and is in long-run equilibrium. Consumer demand for organic eggs then increases permanently. After all long-run adjustments are complete, which of the following is true compared with the original long-run equilibrium?",
+      "options": [
+        "The market price is the same, and there are more firms in the industry.",
+        "The market price is the same, and each firm produces a larger quantity.",
+        "The market price is higher, and each firm earns a positive economic profit.",
+        "The market price is higher, and the number of firms is unchanged."
+      ],
+      "correct": "A",
+      "explanation": "In the short run, higher demand raises the price above minimum ATC, so existing firms earn economic profits. Those profits attract new firms, and entry shifts market supply to the right until price returns to minimum ATC. In a constant-cost industry, minimum ATC does not change, so the long-run price is the same, each firm produces its original quantity, and the larger market output comes from a greater number of firms.",
+      "option_explanations": [
+        "Correct. Entry continues until price falls back to the unchanged minimum ATC, so price is the same and the extra output comes from additional firms.",
+        "At the original price, each firm's P = MC output is the same as before; industry output grows because there are more firms, not because each firm produces more.",
+        "This describes the short run; positive economic profits attract entry, which drives economic profit back to zero in the long run.",
+        "Price would stay higher only if firms could not enter, but entry is free in perfect competition, and in a constant-cost industry it returns price to its original level."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Short-run shutdown and long-run entry and exit",
+      "difficulty": 2,
+      "stem": "Ridgeview Farms sells hay in a perfectly competitive market at a price of $8 per bale. At the output where marginal revenue equals marginal cost, Ridgeview's average total cost is $10 and its average variable cost is $7. If these conditions persist, what should Ridgeview do in the short run and in the long run?",
+      "options": [
+        "Continue producing in the short run, and stay in the industry in the long run",
+        "Shut down in the short run, and exit the industry in the long run",
+        "Shut down in the short run, and stay in the industry in the long run",
+        "Continue producing in the short run, and exit the industry in the long run"
+      ],
+      "correct": "D",
+      "explanation": "In the short run, a firm should keep producing as long as price covers average variable cost; at $8 versus $7, revenue covers all variable costs and part of fixed costs, so the loss is smaller than if it shut down. In the long run, all costs are variable, and a firm that cannot cover average total cost ($10) will exit the industry.",
+      "option_explanations": [
+        "Continuing to produce is right for the short run, but a firm that keeps earning economic losses (price below ATC) exits in the long run.",
+        "Exiting in the long run is right, but shutting down now would mean losing all fixed costs; because price exceeds AVC, operating loses less in the short run.",
+        "Price exceeds AVC, so the firm should not shut down in the short run, and with price below ATC it cannot stay in the industry indefinitely.",
+        "Correct. Price covers AVC, so the firm operates in the short run, but because price is below ATC, persistent losses lead it to exit in the long run."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 3,
+      "topic": "Perfect competition",
+      "difficulty": 1,
+      "stem": "Why is the demand curve facing an individual firm in a perfectly competitive market perfectly elastic (horizontal)?",
+      "options": [
+        "The firm sells an identical product and is too small to affect the market price.",
+        "The market demand curve for the product is perfectly elastic.",
+        "Consumers buy the same quantity no matter what price the firm charges.",
+        "The firm's marginal cost is constant at every level of output."
+      ],
+      "correct": "A",
+      "explanation": "In perfect competition, each firm sells a standardized product and supplies a tiny share of the market, so it is a price taker. It can sell as much as it wants at the market price, but if it charged even slightly more, buyers would switch to identical products from other sellers. That makes the firm's demand curve horizontal at the market price, so P = MR.",
+      "option_explanations": [
+        "Correct. Because the product is identical and the firm is tiny relative to the market, it takes the market price as given and faces a horizontal demand curve.",
+        "The market demand curve slopes downward; only the individual firm's demand curve is horizontal, because the firm cannot influence the market price.",
+        "A quantity that does not respond to price describes perfectly inelastic (vertical) demand, the opposite of a horizontal demand curve.",
+        "The shape of a firm's demand curve depends on buyers and market structure, not on the firm's costs; in any case, marginal cost typically rises with output."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

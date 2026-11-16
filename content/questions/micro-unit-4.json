@@ -1,0 +1,309 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-4-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Introduction to imperfect competition",
+      "difficulty": 1,
+      "stem": "A firm sells its product at a single price and faces a downward-sloping demand curve. Why is the firm's marginal revenue less than the price for every unit after the first?",
+      "options": [
+        "Its marginal cost rises as it produces additional units.",
+        "Barriers to entry prevent rival firms from matching its price.",
+        "It must lower the price on all units to sell one more unit.",
+        "Its total revenue falls whenever it sells an additional unit."
+      ],
+      "correct": "C",
+      "explanation": "To sell an additional unit along a downward-sloping demand curve, a single-price firm must cut its price, and that lower price applies to every unit it sells, not just the extra one. Marginal revenue therefore equals the price of the extra unit minus the revenue lost on all the earlier units, so MR is below price.",
+      "option_explanations": [
+        "Marginal cost is a cost concept; it does not determine the revenue from selling one more unit, so it cannot explain why MR is below price.",
+        "Barriers to entry explain how a firm keeps its market power, but MR is below price because of the downward-sloping demand curve the firm faces, not because rivals are kept out.",
+        "Correct. The price cut needed to sell the extra unit applies to all earlier units too, so the revenue gained from the extra unit is partly offset and MR is less than price.",
+        "This confuses MR being below price with MR being negative. Total revenue keeps rising as long as MR is positive, which is true along the elastic portion of demand."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Monopoly",
+      "difficulty": 2,
+      "stem": "The graph shows the demand (D), marginal revenue (MR), marginal cost (MC), and average total cost (ATC) curves for Larchmont Water, an unregulated single-price monopolist. Based on the graph, what is the firm's economic profit at its profit-maximizing output?",
+      "options": ["$9", "$54", "$72", "$120"],
+      "correct": "B",
+      "explanation": "The firm maximizes profit where MR = MC, at a quantity of 6, and charges the price on the demand curve at that quantity, $20. Average total cost at a quantity of 6 is $11, so profit per unit is $20 − $11 = $9 and total economic profit is $9 × 6 = $54.",
+      "option_explanations": [
+        "$9 is the profit per unit (price minus ATC), not total profit; it must be multiplied by the 6 units sold.",
+        "Correct. Profit = (P − ATC) × Q = ($20 − $11) × 6 = $54.",
+        "$72 subtracts the $8 value of MR and MC instead of ATC: ($20 − $8) × 6. Profit is price minus average total cost, times quantity.",
+        "$120 is total revenue ($20 × 6); it ignores the firm's total cost of $11 × 6 = $66."
+      ],
+      "graph": {
+        "xAxis": { "label": "Quantity", "max": 16, "ticks": [{ "value": 6, "label": "6" }] },
+        "yAxis": {
+          "label": "Price and cost ($)",
+          "max": 32,
+          "ticks": [
+            { "value": 8, "label": "8" },
+            { "value": 11, "label": "11" },
+            { "value": 20, "label": "20" }
+          ]
+        },
+        "curves": [
+          { "label": "D", "points": [[0, 32], [15, 2]], "tone": "secondary" },
+          { "label": "MR", "points": [[0, 32], [7.5, 2]], "tone": "neutral" },
+          { "label": "MC", "points": [[0, 2], [14, 16]] },
+          {
+            "label": "ATC",
+            "points": [
+              [2, 21], [3, 15.5], [4, 13], [5, 11.7], [6, 11], [7, 10.64], [8, 10.5],
+              [9, 10.5], [10, 10.6], [11, 10.77], [12, 11], [13, 11.27], [14, 11.57]
+            ],
+            "smooth": true
+          }
+        ],
+        "points": [
+          { "x": 6, "y": 20, "guides": true },
+          { "x": 6, "y": 11, "guides": true },
+          { "x": 6, "y": 8, "guides": true }
+        ]
+      },
+      "image_alt": "Graph with Quantity on the horizontal axis (0 to 16) and Price and cost in dollars on the vertical axis (0 to 32). The demand curve D falls in a straight line from $32 at zero quantity, dropping $2 per unit. The MR curve starts at the same point and falls twice as steeply. The upward-sloping MC line crosses MR at a quantity of 6 and a value of $8. At a quantity of 6, the demand curve is at $20 and the U-shaped ATC curve is at $11. MC passes through the minimum point of ATC at a quantity between 8 and 9.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Monopoly",
+      "difficulty": 3,
+      "stem": "The graph shows a single-price monopolist whose marginal cost and average total cost are constant and equal. The shaded areas are labeled W, X, Y, and Z. Based on the graph, if regulators required the firm to charge a price equal to marginal cost, consumer surplus would increase by which areas?",
+      "options": ["Areas X and Y", "Area Y only", "Areas W, X, and Y", "Areas Y and Z"],
+      "correct": "A",
+      "explanation": "Unregulated, the monopolist produces Q1, where MR = MC, and charges P1, so consumer surplus is area W, area X is the firm's profit, and area Y is deadweight loss. At a price equal to MC (P2), output rises to Q2 and consumer surplus becomes W + X + Y. The increase is X (transferred from the firm's profit) plus Y (the former deadweight loss).",
+      "option_explanations": [
+        "Correct. Consumers gain the former profit rectangle X and the former deadweight-loss triangle Y, so consumer surplus rises from W to W + X + Y.",
+        "Area Y is the deadweight loss that is recovered, but consumers also gain area X, the monopoly profit that becomes consumer surplus when the price falls to P2.",
+        "W + X + Y is total consumer surplus after regulation, not the increase; area W was already consumer surplus at the monopoly price.",
+        "Area Z lies below the MC = ATC line, so it is the cost of producing the extra output from Q1 to Q2, not a gain in consumer surplus."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity",
+          "max": 22,
+          "ticks": [
+            { "value": 7, "label": "Q1" },
+            { "value": 14, "label": "Q2" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price and cost ($)",
+          "max": 22,
+          "ticks": [
+            { "value": 6, "label": "P2" },
+            { "value": 13, "label": "P1" }
+          ]
+        },
+        "curves": [
+          { "label": "D", "points": [[0, 20], [19, 1]], "tone": "secondary" },
+          { "label": "MR", "points": [[0, 20], [9.5, 1]], "tone": "neutral" },
+          { "label": "MC = ATC", "points": [[0, 6], [18, 6]] }
+        ],
+        "points": [
+          { "x": 7, "y": 13, "guides": true },
+          { "x": 14, "y": 6, "guides": true }
+        ],
+        "regions": [
+          { "label": "W", "points": [[0, 20], [0, 13], [7, 13]] },
+          { "label": "X", "points": [[0, 13], [7, 13], [7, 6], [0, 6]] },
+          { "label": "Y", "points": [[7, 13], [14, 6], [7, 6]] },
+          { "label": "Z", "points": [[7, 6], [14, 6], [14, 0], [7, 0]] }
+        ]
+      },
+      "image_alt": "Graph with Quantity on the horizontal axis and Price and cost on the vertical axis. A straight demand curve D falls from a price of 20 at zero quantity, dropping 1 per unit. The MR curve starts at the same point and falls twice as steeply. A horizontal line labeled MC = ATC sits at price P2 = 6. MR crosses MC = ATC at quantity Q1 = 7, where the demand curve gives price P1 = 13. The demand curve crosses MC = ATC at quantity Q2 = 14. Area W is the triangle below the demand curve and above P1, from zero to Q1. Area X is the rectangle between P1 and P2 from zero to Q1. Area Y is the triangle between the demand curve and the MC = ATC line from Q1 to Q2. Area Z is the rectangle below the MC = ATC line, down to the horizontal axis, from Q1 to Q2.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Monopoly",
+      "difficulty": 2,
+      "stem": "Brightwater Utilities, an unregulated single-price monopolist with positive marginal cost, is producing an output at which the price elasticity of demand for its service is 0.6 in absolute value. To increase its profit, the firm should",
+      "options": [
+        "lower its price, because marginal revenue is positive at its current output",
+        "lower its price, because total revenue rises when price falls along inelastic demand",
+        "keep its price unchanged, because total revenue is maximized where demand is inelastic",
+        "raise its price, because marginal revenue is negative at its current output"
+      ],
+      "correct": "D",
+      "explanation": "An elasticity of 0.6 means demand is inelastic, and whenever demand is inelastic, marginal revenue is negative. Raising the price and producing less therefore increases total revenue while also lowering total cost, so profit rises. A profit-maximizing monopolist always produces in the elastic range of demand, where MR = MC > 0.",
+      "option_explanations": [
+        "Marginal revenue is positive only where demand is elastic; with an elasticity of 0.6, MR at the current output is negative.",
+        "This reverses the total revenue test: when demand is inelastic, a price cut lowers total revenue because quantity rises by a smaller percentage than price falls.",
+        "Total revenue is maximized where demand is unit elastic (MR = 0), not where it is inelastic, and profit maximization requires MR = MC > 0.",
+        "Correct. With inelastic demand, MR is negative, so cutting output and raising price increases total revenue and lowers total cost, raising profit."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Price discrimination",
+      "difficulty": 1,
+      "stem": "Kestrel Golf Club is a monopolist that can charge each golfer exactly the maximum price that golfer is willing to pay for a round. Compared with charging one profit-maximizing price to everyone, which of the following results from this perfect price discrimination?",
+      "options": [
+        "Consumer surplus falls to zero, and deadweight loss is eliminated.",
+        "Consumer surplus falls to zero, and deadweight loss becomes larger.",
+        "Consumer surplus increases, and deadweight loss is eliminated.",
+        "Consumer surplus increases, and deadweight loss becomes larger."
+      ],
+      "correct": "A",
+      "explanation": "A perfectly price-discriminating monopolist captures each buyer's entire willingness to pay, so consumer surplus becomes zero. Because its marginal revenue equals the price of each additional round, it keeps selling until price equals marginal cost, producing the allocatively efficient quantity, so there is no deadweight loss.",
+      "option_explanations": [
+        "Correct. All surplus goes to the firm, and output expands to where price equals marginal cost, so deadweight loss disappears.",
+        "Consumer surplus does fall to zero, but output rises to the efficient level rather than falling, so deadweight loss is eliminated, not increased.",
+        "Output does reach the efficient level, but each golfer pays their maximum willingness to pay, so consumer surplus falls to zero rather than increasing.",
+        "Both parts are reversed: perfect price discrimination removes consumer surplus and eliminates deadweight loss."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Price discrimination",
+      "difficulty": 3,
+      "stem": "Ashgrove Ferry is the only ferry serving Ashgrove Island. Its daily demand is P = 50 − 2Q, where P is the fare in dollars and Q is the number of passengers, and its marginal cost and average total cost are both constant at $10 per passenger. If the ferry switches from charging a single profit-maximizing fare to perfect price discrimination, by how much does its daily profit increase?",
+      "options": ["$100", "$200", "$400", "$600"],
+      "correct": "B",
+      "explanation": "With a single fare, MR = 50 − 4Q equals MC = 10 at Q = 10, so the fare is $30 and profit is ($30 − $10) × 10 = $200. With perfect price discrimination, the ferry serves passengers until P = MC, at Q = 20, and its profit is the whole area between demand and MC: ½ × 20 × ($50 − $10) = $400. Profit rises by $200, equal to the former consumer surplus ($100) plus the former deadweight loss ($100).",
+      "option_explanations": [
+        "$100 counts only one of the two gains, either the former consumer surplus or the recovered deadweight loss, but the firm captures both.",
+        "Correct. Profit rises from $200 under a single fare to $400 under perfect price discrimination, an increase of $200.",
+        "$400 is the ferry's total profit under perfect price discrimination, not the increase over its $200 single-fare profit.",
+        "$600 is total revenue under perfect price discrimination (the area under demand up to 20 passengers); it ignores the $200 total cost."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Monopolistic competition",
+      "difficulty": 2,
+      "stem": "The graph shows the demand (D), marginal revenue (MR), marginal cost (MC), and average total cost (ATC) curves for Pellucid Candles, a firm in a monopolistically competitive industry. Based on the graph, which of the following is true at the firm's profit-maximizing output?",
+      "options": [
+        "It earns positive economic profit, because price exceeds marginal cost.",
+        "It earns positive economic profit, because price exceeds marginal revenue.",
+        "It earns zero economic profit and produces where ATC is at its minimum.",
+        "It earns zero economic profit and produces less than the ATC-minimizing output."
+      ],
+      "correct": "D",
+      "explanation": "The firm produces 4 units, where MR = MC at $10, and charges $15 from the demand curve. At 4 units the demand curve just touches ATC, so price equals ATC and economic profit is zero, as in long-run equilibrium. Because ATC is still falling at 4 units and reaches its minimum at 6 units, the firm has excess capacity.",
+      "option_explanations": [
+        "Price above marginal cost reflects market power and allocative inefficiency, not profit; profit compares price with ATC, and here P = ATC = $15.",
+        "Price exceeds MR for any firm facing a downward-sloping demand curve, which says nothing about profit; at 4 units P = ATC, so economic profit is zero.",
+        "Producing at minimum ATC describes long-run perfect competition. Here demand touches ATC on its downward-sloping part, at 4 units rather than 6.",
+        "Correct. Demand is tangent to ATC at the profit-maximizing output, so profit is zero, and that output (4) is below the ATC-minimizing output (6), showing excess capacity."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity",
+          "max": 16,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 6, "label": "6" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price and cost ($)",
+          "max": 24,
+          "ticks": [
+            { "value": 10, "label": "10" },
+            { "value": 15, "label": "15" }
+          ]
+        },
+        "curves": [
+          { "label": "D", "points": [[0, 20], [14, 2.5]], "tone": "secondary" },
+          { "label": "MR", "points": [[0, 20], [7.2, 2]], "tone": "neutral" },
+          { "label": "MC", "points": [[0.5, 3], [10, 22]] },
+          {
+            "label": "ATC",
+            "points": [
+              [2.5, 18.9], [3, 17], [3.5, 15.79], [4, 15], [4.5, 14.5], [5, 14.2], [5.5, 14.05],
+              [6, 14], [6.5, 14.04], [7, 14.14], [7.5, 14.3], [8, 14.5], [8.5, 14.74], [9, 15],
+              [9.5, 15.29], [10, 15.6], [10.5, 15.93], [11, 16.27], [11.5, 16.63], [12, 17]
+            ],
+            "smooth": true
+          }
+        ],
+        "points": [
+          { "x": 4, "y": 15, "guides": true },
+          { "x": 4, "y": 10, "guides": true },
+          { "x": 6, "y": 14 }
+        ]
+      },
+      "image_alt": "Graph with Quantity on the horizontal axis (0 to 16) and Price and cost in dollars on the vertical axis (0 to 24). The demand curve D slopes down in a straight line from $20 at zero quantity to $2.50 at 14 units. The MR curve starts at the same point and falls twice as steeply. The upward-sloping MC line crosses MR at a quantity of 4 and $10. At a quantity of 4, the demand curve touches the U-shaped ATC curve at $15 without crossing it; ATC lies above demand at every other quantity. ATC reaches its minimum of $14 at a quantity of 6, where MC crosses it.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Monopolistic competition",
+      "difficulty": 1,
+      "stem": "Restaurants in the town of Fernbrook operate in a monopolistically competitive market and are currently earning positive economic profits. Which of the following is most likely to happen in the long run?",
+      "options": [
+        "New restaurants enter, and demand for each existing restaurant increases.",
+        "Some restaurants exit, and demand for each remaining restaurant increases.",
+        "New restaurants enter, and demand for each existing restaurant decreases.",
+        "No restaurants enter, so each existing restaurant keeps its economic profit."
+      ],
+      "correct": "C",
+      "explanation": "Barriers to entry are low in monopolistic competition, so positive economic profits attract new restaurants. Customers spread across more close substitutes, so each existing restaurant's demand curve shifts left (and becomes more elastic) until price equals average total cost and economic profit is zero.",
+      "option_explanations": [
+        "Entry does occur, but new rivals draw customers away from existing restaurants, so each one's demand decreases rather than increases.",
+        "Exit happens when firms are earning economic losses; positive economic profits attract entry instead.",
+        "Correct. Profits draw in new restaurants, which reduces demand for each existing restaurant until economic profit falls to zero.",
+        "Monopolistically competitive markets have low barriers to entry, so economic profits cannot persist in the long run as they can for a monopoly."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Oligopoly and game theory",
+      "difficulty": 2,
+      "stem": "Harbor Cycles and Ridgeway Bikes each decide whether to advertise, choosing at the same time. If both advertise, Harbor earns $400 and Ridgeway earns $300. If only Harbor advertises, Harbor earns $700 and Ridgeway earns $200. If only Ridgeway advertises, Harbor earns $250 and Ridgeway earns $550. If neither advertises, Harbor earns $600 and Ridgeway earns $450. In the Nash equilibrium, how much does Harbor Cycles earn?",
+      "options": ["$250", "$300", "$400", "$600"],
+      "correct": "C",
+      "explanation": "Advertising is a dominant strategy for Harbor ($400 > $250 if Ridgeway advertises; $700 > $600 if it does not) and for Ridgeway ($300 > $200 if Harbor advertises; $550 > $450 if it does not). The Nash equilibrium is therefore for both firms to advertise, where Harbor earns $400, even though both would be better off if neither advertised.",
+      "option_explanations": [
+        "$250 is Harbor's payoff when only Ridgeway advertises, but Harbor will not choose that outcome because advertising is its dominant strategy.",
+        "$300 is Ridgeway's payoff when both advertise; the question asks for Harbor's payoff in that outcome.",
+        "Correct. Both firms have a dominant strategy to advertise, and in that outcome Harbor earns $400.",
+        "$600 is Harbor's payoff if neither firm advertises, the joint-profit maximum, but each firm gains by switching to advertising, so it is not a Nash equilibrium."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 4,
+      "topic": "Oligopoly and game theory",
+      "difficulty": 3,
+      "stem": "Tamsin Roasters and Velo Coffee each decide whether to open a new downtown café, choosing at the same time with full knowledge of the payoffs. If both open, Tamsin earns $30,000 and Velo earns $10,000. If only Tamsin opens, Tamsin earns $50,000 and Velo earns $25,000. If only Velo opens, Tamsin earns $20,000 and Velo earns $40,000. If neither opens, Tamsin earns $35,000 and Velo earns $30,000. Which outcome is the Nash equilibrium?",
+      "options": [
+        "Both firms open a café.",
+        "Neither firm opens a café.",
+        "Velo opens a café, and Tamsin does not.",
+        "Tamsin opens a café, and Velo does not."
+      ],
+      "correct": "D",
+      "explanation": "Opening is a dominant strategy for Tamsin: it earns more by opening whether Velo opens ($30,000 > $20,000) or not ($50,000 > $35,000). Velo has no dominant strategy, but it can predict that Tamsin will open, and in that case Velo earns more by not opening ($25,000 > $10,000). When Tamsin opens and Velo does not, neither firm can gain by changing its choice alone, so that is the Nash equilibrium.",
+      "option_explanations": [
+        "Velo does not have a dominant strategy to open; if Tamsin opens, Velo would switch to not opening and raise its payoff from $10,000 to $25,000.",
+        "If neither opens, Tamsin could open and raise its payoff from $35,000 to $50,000 (and Velo could open and earn $40,000 instead of $30,000), so this outcome is not stable.",
+        "Opening is Velo's best response only if Tamsin stays out, but Tamsin would deviate and open, earning $30,000 instead of $20,000.",
+        "Correct. Tamsin's dominant strategy is to open, and Velo's best response to that is to stay out; neither firm can gain by changing its choice alone."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

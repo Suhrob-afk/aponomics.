@@ -1,0 +1,291 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-4-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Money: definition, measurement, and functions",
+      "difficulty": 1,
+      "stem": "In the village markets of Country Velor, sellers post the prices of goats, grain, and tools in vels, the national currency. However, most deals are completed by trading goods directly, and little currency changes hands. Which function of money is the vel mainly serving in these markets?",
+      "options": [
+        "A medium of exchange",
+        "A store of value",
+        "A standard of deferred payment",
+        "A unit of account"
+      ],
+      "correct": "D",
+      "explanation": "A unit of account is a common measure used to express and compare the values of different goods. Because sellers state prices in vels even though trades are settled with goods, the vel is serving as a unit of account. It is not acting as a medium of exchange, because vels are not handed over to complete the trades.",
+      "option_explanations": [
+        "A medium of exchange is what a buyer hands over to complete a trade. Here, deals are settled with goods, so vels are not being used as the medium of exchange.",
+        "A store of value lets people hold purchasing power for later use. Nothing in the scenario involves people saving vels; vels are only used to state prices.",
+        "A standard of deferred payment applies to debts that will be repaid in the future. The trades described are completed on the spot, so no future payments are being measured in vels.",
+        "Correct. Posting prices in vels gives everyone a common yardstick for comparing the values of goods, which is the unit-of-account function."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Financial assets",
+      "difficulty": 1,
+      "stem": "Rowan owns a 10-year bond issued by the government of Velor that pays a fixed annual coupon equal to 4 percent of its face value. Interest rates on newly issued bonds of similar risk then rise to 6 percent. What happens to the market price of Rowan's bond, and why?",
+      "options": [
+        "It rises, because the bond's yield increases along with market interest rates",
+        "It stays the same, because the bond's annual coupon payment is fixed",
+        "It rises, because higher interest rates increase the demand for bonds",
+        "It falls, because buyers can earn a higher return on newly issued bonds"
+      ],
+      "correct": "D",
+      "explanation": "Bond prices and market interest rates move in opposite directions. Once new bonds pay 6 percent, no buyer will pay the old price for a bond that pays only 4 percent of face value. The price of Rowan's bond must fall until its effective yield is competitive with the yield on new bonds.",
+      "option_explanations": [
+        "The existing bond's yield does rise, but only because its price falls. With a fixed coupon, the only way for the yield to increase is for the bond's price to decrease.",
+        "The coupon payment is fixed, but the bond's market price is not. The price adjusts so that the bond's yield matches current market interest rates.",
+        "This reverses the inverse relationship between bond prices and interest rates. Higher market rates make existing lower-paying bonds less attractive, so their prices fall.",
+        "Correct. Buyers will purchase the 4 percent bond only at a lower price, which raises its yield toward the 6 percent available on new bonds."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Monetary policy",
+      "difficulty": 1,
+      "stem": "Country Velor is in a recession with high unemployment. Its central bank operates with limited reserves and wants to close the recessionary gap. Which open-market operation should the central bank conduct, and how will it affect interest rates?",
+      "options": [
+        "Buy government bonds, which lowers interest rates",
+        "Buy government bonds, which raises interest rates",
+        "Sell government bonds, which lowers interest rates",
+        "Sell government bonds, which raises interest rates"
+      ],
+      "correct": "A",
+      "explanation": "With limited reserves, buying government bonds adds reserves to the banking system and increases the money supply. The money supply curve shifts right and the nominal interest rate falls. Lower interest rates encourage investment and other interest-sensitive spending, increasing aggregate demand to close the recessionary gap.",
+      "option_explanations": [
+        "Correct. A bond purchase increases bank reserves and the money supply, which lowers interest rates and raises interest-sensitive spending.",
+        "Buying bonds is the right action, but it increases the money supply, which lowers interest rates rather than raising them.",
+        "Selling bonds pulls reserves out of banks and decreases the money supply, so it would raise interest rates, not lower them.",
+        "This is contractionary policy. Higher interest rates would reduce aggregate demand and deepen the recession."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Money: definition, measurement, and functions",
+      "difficulty": 2,
+      "stem": "Ilsa makes two changes to her finances at a bank in Velor. She withdraws 500 vels in cash from her checking account to keep in her wallet, and she moves 2,000 vels from her checking account into a one-year certificate of deposit (a small time deposit). What is the combined effect of these changes on M1 and M2?",
+      "options": [
+        "M1 is unchanged, and M2 rises by 2,000 vels",
+        "M1 falls by 2,000 vels, and M2 rises by 2,000 vels",
+        "M1 falls by 2,000 vels, and M2 is unchanged",
+        "M1 falls by 2,500 vels, and M2 is unchanged"
+      ],
+      "correct": "C",
+      "explanation": "Withdrawing cash from checking only changes the form of M1: checkable deposits fall by 500 vels and currency held by the public rises by 500 vels, so M1 is unchanged. Moving 2,000 vels into a small time deposit removes it from M1, but small time deposits are part of M2. Since checkable deposits were already in M2, M2 is unchanged overall while M1 falls by 2,000 vels.",
+      "option_explanations": [
+        "A certificate of deposit is not part of M1, so moving 2,000 vels out of checking reduces M1. M2 does not rise, because those funds were already counted in M2 as checkable deposits.",
+        "M1 does fall by 2,000 vels, but M2 does not rise. The funds simply move from one component of M2 (checkable deposits) to another (small time deposits).",
+        "Correct. The cash withdrawal leaves M1 unchanged, and the shift into the time deposit lowers M1 by 2,000 vels while leaving M2 unchanged.",
+        "Currency held by the public is part of M1, so withdrawing 500 vels in cash does not reduce M1. Only the 2,000 vels moved into the time deposit leaves M1."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Banking and the expansion of the money supply",
+      "difficulty": 2,
+      "stem": "Dario finds 8,000 vels in cash in his attic and deposits all of it in his checking account at Ridgeway Bank. The required reserve ratio in Velor is 25 percent, and banks hold no excess reserves before the deposit. If banks lend out all excess reserves and the public holds no additional cash, what is the maximum possible increase in the money supply?",
+      "options": [
+        "6,000 vels",
+        "8,000 vels",
+        "24,000 vels",
+        "32,000 vels"
+      ],
+      "correct": "C",
+      "explanation": "Ridgeway Bank must keep 25 percent of the 8,000-vel deposit, or 2,000 vels, as required reserves, leaving 6,000 vels of excess reserves. The money multiplier is 1/0.25 = 4, so new lending can create at most 6,000 × 4 = 24,000 vels of new money. The deposit itself does not add to the money supply, because the cash was already counted in M1 as currency held by the public.",
+      "option_explanations": [
+        "6,000 vels is the amount Ridgeway Bank alone can lend. As those loans are redeposited and lent again across the banking system, the money multiplier expands the total.",
+        "8,000 vels is the deposit itself, which only converts currency into checkable deposits and leaves the money supply unchanged. The increase comes from new lending.",
+        "Correct. Excess reserves of 6,000 vels times the money multiplier of 4 gives a maximum increase in the money supply of 24,000 vels.",
+        "32,000 vels applies the multiplier to the whole deposit. That is the maximum increase in total deposits, but 8,000 vels of it was already in the money supply as currency."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Nominal vs. real interest rates",
+      "difficulty": 2,
+      "stem": "Nadia lends 10,000 vels to Ezra for one year at a nominal interest rate of 7 percent. When they sign the loan, both expect inflation of 3 percent, but actual inflation over the year turns out to be 5 percent. Which of the following is true?",
+      "options": [
+        "The realized real interest rate was 2 percent, and Ezra gained at Nadia's expense",
+        "The realized real interest rate was 2 percent, and Nadia gained at Ezra's expense",
+        "The realized real interest rate was 4 percent, and Ezra gained at Nadia's expense",
+        "The realized real interest rate was 12 percent, and Nadia gained at Ezra's expense"
+      ],
+      "correct": "A",
+      "explanation": "The realized real interest rate equals the nominal rate minus actual inflation: 7% − 5% = 2%. Both parties expected a real rate of 7% − 3% = 4%, so the unexpectedly high inflation means Ezra repays the loan with vels that have less purchasing power than planned. The borrower, Ezra, gains, and the lender, Nadia, loses.",
+      "option_explanations": [
+        "Correct. The real rate was 7% − 5% = 2%, below the 4% both expected, so unanticipated inflation shifted purchasing power from the lender to the borrower.",
+        "The 2 percent real rate is right, but unanticipated inflation hurts lenders, not borrowers. Nadia is repaid in vels that buy less than she expected.",
+        "4 percent is the expected real interest rate, calculated with expected inflation. The realized real rate must use the actual inflation rate of 5 percent.",
+        "Inflation must be subtracted from the nominal rate, not added to it. Adding 7% and 5% misapplies the relationship between nominal and real interest rates."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "The money market",
+      "difficulty": 2,
+      "stem": "Based on the graph, the money market in Velor is initially in equilibrium at point X. The central bank, which operates with limited reserves, then sells government bonds on the open market. Which point shows the new equilibrium, and what happens to the prices of previously issued bonds?",
+      "options": [
+        "Point W, and bond prices rise",
+        "Point Y, and bond prices fall",
+        "Point Y, and bond prices rise",
+        "Point W, and bond prices fall"
+      ],
+      "correct": "D",
+      "explanation": "Selling bonds drains reserves from banks and reduces the money supply, shifting the vertical money supply curve left from MS1 to MS2. The new equilibrium is at point W, where the nominal interest rate rises from 4 percent to 6 percent. Because bond prices move opposite to interest rates, the prices of existing bonds fall.",
+      "option_explanations": [
+        "Point W is correct because the money supply falls, but a higher interest rate lowers the prices of existing bonds rather than raising them.",
+        "Point Y would require the money supply to increase to MS3. Selling bonds removes reserves from the banking system, which decreases the money supply.",
+        "This describes a bond purchase, which increases the money supply to MS3 and lowers the interest rate. The central bank is selling bonds, not buying them.",
+        "Correct. The money supply decreases to MS2, the interest rate rises to 6 percent at point W, and the prices of existing bonds fall."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity of money (billions of vels)",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 6, "label": "6" },
+            { "value": 8, "label": "8" }
+          ]
+        },
+        "yAxis": {
+          "label": "Nominal interest rate (%)",
+          "max": 10,
+          "ticks": [
+            { "value": 2, "label": "2" },
+            { "value": 4, "label": "4" },
+            { "value": 6, "label": "6" }
+          ]
+        },
+        "curves": [
+          { "label": "MD", "points": [[1, 9], [9, 1]], "tone": "secondary" },
+          { "label": "MS2", "points": [[4, 0], [4, 10]], "dashed": true, "tone": "neutral" },
+          { "label": "MS1", "points": [[6, 0], [6, 10]] },
+          { "label": "MS3", "points": [[8, 0], [8, 10]], "dashed": true, "tone": "neutral" }
+        ],
+        "points": [
+          { "x": 4, "y": 6, "label": "W", "guides": true },
+          { "x": 6, "y": 4, "label": "X", "guides": true },
+          { "x": 8, "y": 2, "label": "Y", "guides": true }
+        ]
+      },
+      "image_alt": "Money market graph. The horizontal axis is the quantity of money in billions of vels and the vertical axis is the nominal interest rate in percent. A downward-sloping money demand curve, MD, is crossed by three vertical money supply curves: MS2 at 4 billion vels, MS1 at 6 billion vels, and MS3 at 8 billion vels. Point W is where MS2 meets MD at an interest rate of 6 percent, point X is where MS1 meets MD at 4 percent, and point Y is where MS3 meets MD at 2 percent.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Banking and the expansion of the money supply",
+      "difficulty": 3,
+      "stem": "Harbor Trust Bank in Velor has the following balance sheet. Assets: reserves of 25,000 vels, government bonds of 15,000 vels, and loans of 60,000 vels. Liabilities: demand deposits of 100,000 vels. The required reserve ratio is 20 percent. If the central bank buys 10,000 vels of government bonds from Harbor Trust Bank, what is the maximum amount of new loans Harbor Trust Bank itself can make immediately afterward?",
+      "options": [
+        "10,000 vels",
+        "15,000 vels",
+        "50,000 vels",
+        "75,000 vels"
+      ],
+      "correct": "B",
+      "explanation": "Required reserves are 20 percent of 100,000 vels, or 20,000 vels, so the bank already holds 5,000 vels of excess reserves. Selling 10,000 vels of bonds to the central bank raises its reserves to 35,000 vels without changing its deposits, so excess reserves rise to 15,000 vels. A single bank can safely lend only its excess reserves, so Harbor Trust Bank can make at most 15,000 vels of new loans.",
+      "option_explanations": [
+        "10,000 vels counts only the reserves gained from the bond sale and ignores the 5,000 vels of excess reserves the bank already held (25,000 − 20,000).",
+        "Correct. Reserves of 35,000 vels minus required reserves of 20,000 vels leaves 15,000 vels of excess reserves available to lend.",
+        "50,000 vels applies the money multiplier of 5 to the 10,000-vel purchase. The multiplier describes lending by the whole banking system, not by one bank.",
+        "75,000 vels is the most the entire banking system could create from 15,000 vels of excess reserves. A single bank can lend only its own excess reserves."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "The loanable funds market",
+      "difficulty": 3,
+      "stem": "Based on the graph, Velor's loanable funds market is initially in equilibrium at point J. A new tax-free retirement account leads households to save more at every real interest rate. At the same time, a technological breakthrough leads firms to expect higher returns on new equipment. Which point shows the new equilibrium?",
+      "options": [
+        "Point K, where the real interest rate is higher than at point J",
+        "Point L, where the real interest rate is the same as at point J",
+        "Point M, where the real interest rate is lower than at point J",
+        "Point J, where the quantity of loanable funds is unchanged"
+      ],
+      "correct": "B",
+      "explanation": "The retirement account raises saving, shifting the supply of loanable funds right from S1 to S2. Higher expected returns on capital raise investment demand, shifting the demand for loanable funds right from D1 to D2. The new equilibrium is where S2 and D2 intersect, point L, where the quantity of loanable funds rises from 5 to 7 billion vels and the real interest rate stays at 5 percent.",
+      "option_explanations": [
+        "Point K reflects only the increase in demand for loanable funds. It ignores the increase in supply caused by higher household saving.",
+        "Correct. Both supply and demand shift right, and S2 and D2 intersect at point L, where the quantity rises and the real interest rate stays at 5 percent.",
+        "Point M reflects only the increase in supply from higher saving. It ignores the increase in demand from firms' higher expected returns on investment.",
+        "In this graph the two shifts offset each other's effect on the real interest rate, but both raise the quantity of loanable funds, so the equilibrium cannot remain at point J."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Loanable funds (billions of vels)",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "5" },
+            { "value": 6, "label": "6" },
+            { "value": 7, "label": "7" }
+          ]
+        },
+        "yAxis": {
+          "label": "Real interest rate (%)",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "4" },
+            { "value": 5, "label": "5" },
+            { "value": 6, "label": "6" }
+          ]
+        },
+        "curves": [
+          { "label": "D1", "points": [[1, 9], [9, 1]], "tone": "secondary" },
+          { "label": "D2", "points": [[3, 9], [9.5, 2.5]], "tone": "secondary", "dashed": true },
+          { "label": "S1", "points": [[1, 1], [9, 9]] },
+          { "label": "S2", "points": [[3, 1], [9.5, 7.5]], "dashed": true }
+        ],
+        "points": [
+          { "x": 5, "y": 5, "label": "J", "guides": true },
+          { "x": 6, "y": 6, "label": "K", "guides": true },
+          { "x": 7, "y": 5, "label": "L", "guides": true },
+          { "x": 6, "y": 4, "label": "M", "guides": true }
+        ]
+      },
+      "image_alt": "Loanable funds market graph. The horizontal axis is the quantity of loanable funds in billions of vels and the vertical axis is the real interest rate in percent. There are two upward-sloping supply curves, S1 and S2, with S2 to the right of S1, and two downward-sloping demand curves, D1 and D2, with D2 to the right of D1. Point J, where S1 meets D1, is at 5 billion vels and 5 percent. Point K, where S1 meets D2, is at 6 billion vels and 6 percent. Point L, where S2 meets D2, is at 7 billion vels and 5 percent. Point M, where S2 meets D1, is at 6 billion vels and 4 percent.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 4,
+      "topic": "Monetary policy",
+      "difficulty": 3,
+      "stem": "The central bank of Velor operates in an ample-reserves framework and wants to slow inflation. Consider the following statements.\nI. Raising the interest rate it pays on banks' reserve balances would tend to raise the policy interest rate.\nII. Selling a small quantity of government bonds is its primary tool for raising the policy interest rate.\nIII. A higher policy interest rate would tend to reduce interest-sensitive spending, such as business investment.\nWhich of the statements are correct?",
+      "options": [
+        "I only",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correct": "C",
+      "explanation": "With ample reserves, the central bank moves its policy rate mainly through administered rates such as the interest rate on reserve balances; banks will not lend reserves for less than they can earn by holding them, so raising that rate pulls the policy rate up (I). Because reserves are plentiful, a small bond sale barely changes reserves relative to demand, so open-market operations are not the main rate-setting tool (II is false). A higher policy rate raises borrowing costs and reduces interest-sensitive spending such as investment (III).",
+      "option_explanations": [
+        "Statement I is correct, but statement III is also correct: higher interest rates raise borrowing costs and reduce investment, which is how the policy slows inflation.",
+        "Statement II describes a limited-reserves system. With ample reserves, small bond sales barely change reserves relative to demand, so administered rates are the main tool.",
+        "Correct. Raising the interest rate on reserves lifts the policy rate, and the higher rate reduces interest-sensitive spending; small open-market sales are not the main tool with ample reserves.",
+        "Statement III is correct, but statement II is not, and this choice leaves out statement I, which describes the main way an ample-reserves central bank raises its policy rate."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}
