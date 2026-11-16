@@ -1,0 +1,284 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-1-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Scarcity",
+      "difficulty": 1,
+      "stem": "The city of Port Halden begins offering bus rides at no charge to riders, paying for the service with tax revenue. Which of the following statements about the bus rides is correct?",
+      "options": [
+        "They are no longer scarce, because riders now pay a price of zero.",
+        "They are no longer scarce, because the government rather than private firms provides them.",
+        "They are scarce only when the number of riders exceeds the number of available seats.",
+        "They are still scarce, because the resources used to provide them have alternative uses."
+      ],
+      "correct": "D",
+      "explanation": "Scarcity exists because resources are limited relative to people's wants, not because of what users pay. The drivers, buses, and fuel used for Port Halden's free rides could have produced other goods and services, so the rides still have an opportunity cost. A zero price changes who pays for the rides, not whether society gives something up to provide them.",
+      "option_explanations": [
+        "A zero price changes who pays for the rides, not whether they use limited resources; this confuses \"free to the user\" with \"not scarce.\"",
+        "Who provides a good does not affect scarcity; a government-provided service still uses limited labor, capital, and fuel.",
+        "This confuses scarcity with a shortage. A shortage is a market condition at a particular price, while scarcity exists whenever resources are limited relative to wants.",
+        "Correct. The labor, buses, and fuel used for the rides could be used elsewhere, so the rides have an opportunity cost and remain scarce."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Opportunity cost and the production possibilities curve",
+      "difficulty": 2,
+      "stem": "Based on the graph of Country Velor's production possibilities curve, what is the average opportunity cost of each additional robot when Velor moves from point J to point K?",
+      "options": [
+        "0.8 tons of wheat",
+        "1.25 tons of wheat",
+        "4.5 tons of wheat",
+        "50 tons of wheat"
+      ],
+      "correct": "B",
+      "explanation": "Moving from J to K raises robot output by 40 (from 20 to 60) and lowers wheat output by 50 tons (from 90 to 40). The opportunity cost per robot is the wheat given up divided by the robots gained: 50 ÷ 40 = 1.25 tons of wheat.",
+      "option_explanations": [
+        "This inverts the ratio (40 robots ÷ 50 tons), which measures the cost of wheat in robots rather than the cost of a robot in wheat.",
+        "Correct. Velor gives up 50 tons of wheat to gain 40 robots, so each robot costs 50 ÷ 40 = 1.25 tons of wheat on average.",
+        "This divides the levels at point J (90 tons ÷ 20 robots) instead of the changes between J and K; opportunity cost depends on what is given up, not on the starting quantities.",
+        "50 tons is the total wheat given up for all 40 additional robots, not the cost of each additional robot."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Robots",
+          "max": 80,
+          "ticks": [
+            { "value": 20, "label": "20" },
+            { "value": 60, "label": "60" }
+          ]
+        },
+        "yAxis": {
+          "label": "Wheat (tons)",
+          "max": 110,
+          "ticks": [
+            { "value": 40, "label": "40" },
+            { "value": 90, "label": "90" }
+          ]
+        },
+        "curves": [
+          {
+            "label": "PPC",
+            "points": [[0, 100], [20, 90], [40, 70], [60, 40], [70, 0]],
+            "smooth": true
+          }
+        ],
+        "points": [
+          { "x": 20, "y": 90, "label": "J", "guides": true },
+          { "x": 60, "y": 40, "label": "K", "guides": true }
+        ]
+      },
+      "image_alt": "Production possibilities curve for Country Velor with Robots on the horizontal axis and Wheat (tons) on the vertical axis. The curve is bowed outward from the origin, running from 100 tons of wheat and 0 robots down to 70 robots and 0 tons of wheat. Point J on the curve is at 20 robots and 90 tons of wheat. Point K on the curve is at 60 robots and 40 tons of wheat.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Opportunity cost and the production possibilities curve",
+      "difficulty": 3,
+      "stem": "Country Merrow produces only capital goods and consumer goods, and it is currently operating at a point inside its production possibilities curve. Which of the following would allow Merrow to produce combinations of the two goods that were previously unattainable?\nI. An increase in the size of Merrow's labor force\nII. A decrease in Merrow's unemployment rate\nIII. An improvement in technology used only in producing capital goods",
+      "options": [
+        "I only",
+        "II only",
+        "I and III only",
+        "I, II, and III"
+      ],
+      "correct": "C",
+      "explanation": "Combinations outside the current curve become attainable only if the curve shifts outward, which requires more resources or better technology. A larger labor force shifts the whole curve outward, and better capital-goods technology pushes the curve outward along the capital-goods axis. Lower unemployment moves Merrow from inside the curve toward it, reaching only combinations that were already attainable.",
+      "option_explanations": [
+        "Statement I is correct, but this choice leaves out III; better technology for capital goods pushes the curve outward along the capital-goods axis, so new combinations become attainable.",
+        "Reducing unemployment moves Merrow from a point inside the curve toward the curve; it uses existing resources more fully but does not shift the curve.",
+        "Correct. More labor and better capital-goods technology both shift the curve outward, while lower unemployment only moves Merrow toward its existing curve.",
+        "Statement II is wrong: lower unemployment is a movement toward the existing curve, not an outward shift, so it reaches only combinations that were already attainable."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Comparative advantage and gains from trade",
+      "difficulty": 2,
+      "stem": "The following shows the maximum output one worker can produce in a day in Country Arvenia and Country Belmora.\nArvenia: 12 shirts or 4 radios\nBelmora: 6 shirts or 3 radios\nWhich of the following statements is correct?",
+      "options": [
+        "Belmora has a comparative advantage in producing radios.",
+        "Arvenia has a comparative advantage in producing both goods.",
+        "Arvenia has a comparative advantage in producing radios.",
+        "Neither country gains from trade, since Arvenia is more productive in both goods."
+      ],
+      "correct": "A",
+      "explanation": "In Arvenia, one radio costs 3 shirts (12 ÷ 4); in Belmora, one radio costs 2 shirts (6 ÷ 3). Belmora gives up fewer shirts per radio, so it has the comparative advantage in radios. Arvenia has the comparative advantage in shirts, since a shirt costs it 1/3 of a radio versus 1/2 of a radio in Belmora.",
+      "option_explanations": [
+        "Correct. Belmora's opportunity cost of a radio is 2 shirts, lower than Arvenia's 3 shirts.",
+        "Arvenia has the absolute advantage in both goods, but no country can have the lower opportunity cost in both goods; this confuses absolute with comparative advantage.",
+        "Arvenia gives up 3 shirts per radio versus Belmora's 2, so Arvenia has the higher opportunity cost of radios. This comes from comparing raw output (4 radios versus 3) instead of opportunity costs.",
+        "Gains from trade depend on differences in opportunity costs, not on absolute productivity; because the costs differ, both countries can gain by specializing and trading."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Comparative advantage and gains from trade",
+      "difficulty": 3,
+      "stem": "In Country Dovra, one hour of labor can produce either 10 bushels of corn or 5 bolts of cloth. In Country Esk, one hour of labor can produce either 6 bushels of corn or 2 bolts of cloth. If the two countries specialize according to comparative advantage and trade with each other, which of the following terms of trade would benefit both countries?",
+      "options": [
+        "1 bolt of cloth for 1.5 bushels of corn",
+        "1 bolt of cloth for 2.5 bushels of corn",
+        "1 bolt of cloth for 3 bushels of corn",
+        "1 bolt of cloth for 4 bushels of corn"
+      ],
+      "correct": "B",
+      "explanation": "Dovra gives up 2 bushels of corn to make a bolt of cloth (10 ÷ 5), while Esk gives up 3 bushels (6 ÷ 2), so Dovra specializes in cloth and Esk in corn. Both gain only if a bolt of cloth trades for more than 2 but fewer than 3 bushels of corn. At 2.5 bushels, Dovra receives more corn per bolt than it could make itself, and Esk gets cloth for less corn than producing it would cost.",
+      "option_explanations": [
+        "Dovra, the cloth exporter, would receive only 1.5 bushels for a bolt that costs it 2 bushels of corn to make, so Dovra would be worse off than without trade.",
+        "Correct. 2.5 bushels lies between Dovra's opportunity cost of cloth (2 bushels) and Esk's (3 bushels), so both countries gain.",
+        "At 3 bushels per bolt, Esk pays exactly its own opportunity cost of cloth, so Esk gains nothing; a price at the boundary does not benefit both countries.",
+        "Esk would pay 4 bushels for a bolt it could make itself by giving up only 3 bushels, so Esk would be worse off than without trade."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Demand",
+      "difficulty": 1,
+      "stem": "In Country Tarsa, household incomes fall during an economic slowdown, and at every price consumers now buy more secondhand clothing than before. For Tarsa's consumers, secondhand clothing is",
+      "options": [
+        "an inferior good",
+        "a normal good",
+        "a luxury good",
+        "a complement of new clothing"
+      ],
+      "correct": "A",
+      "explanation": "Demand for an inferior good moves in the opposite direction to income. Incomes fell and consumers bought more secondhand clothing at every price, so demand shifted to the right, which is the behavior of an inferior good.",
+      "option_explanations": [
+        "Correct. Demand rose when income fell, which is the defining feature of an inferior good.",
+        "Demand for a normal good falls when income falls; here demand rose, so the good is not normal.",
+        "A luxury good is a normal good whose demand is especially sensitive to income, so its demand would drop sharply, not rise, when incomes fall.",
+        "Complements are identified by how demand responds to a change in another good's price, not by how it responds to income."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Supply",
+      "difficulty": 2,
+      "stem": "Olive oil producers in Country Velor expect the price of olive oil to rise sharply next month. Assuming the oil can be stored without loss, which of the following is the most likely effect in this month's market for olive oil?",
+      "options": [
+        "Current supply decreases, because producers hold back oil to sell next month at the higher price.",
+        "Current supply increases, because the expected higher price encourages producers to sell more now.",
+        "Current quantity supplied increases, as producers move along the existing supply curve.",
+        "Current demand decreases, because buyers postpone their purchases until next month."
+      ],
+      "correct": "A",
+      "explanation": "Producers' expectations are a determinant of supply. If producers expect a higher price next month and can store the oil, selling later becomes more profitable, so they offer less oil at every current price and this month's supply curve shifts to the left.",
+      "option_explanations": [
+        "Correct. Withholding storable output to sell at the higher expected price reduces the quantity offered at every current price, shifting current supply to the left.",
+        "This reverses the effect of expectations: a higher future price makes selling now relatively less attractive, so current supply falls rather than rises.",
+        "A change in producers' expectations shifts the supply curve; a movement along the curve occurs only when the good's current price changes.",
+        "The stem describes producers' expectations, not buyers'. Buyers who expected higher prices would buy more now, not less, so this gets both the group and the direction wrong."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Market equilibrium and changes in equilibrium",
+      "difficulty": 1,
+      "stem": "The schedule shows the market for notebooks in Country Velor.\nPrice $2: quantity demanded 90, quantity supplied 30\nPrice $3: quantity demanded 75, quantity supplied 45\nPrice $4: quantity demanded 60, quantity supplied 60\nPrice $5: quantity demanded 45, quantity supplied 75\nIf the price of notebooks is $3, which of the following describes the market?",
+      "options": [
+        "A shortage of 15 notebooks, and the price will tend to rise",
+        "A shortage of 30 notebooks, and the price will tend to rise",
+        "A surplus of 30 notebooks, and the price will tend to fall",
+        "A shortage of 30 notebooks, and the price will tend to fall"
+      ],
+      "correct": "B",
+      "explanation": "At $3, quantity demanded is 75 and quantity supplied is 45, so there is a shortage of 75 − 45 = 30 notebooks. Buyers who cannot get notebooks bid the price up toward the $4 equilibrium, where quantity demanded equals quantity supplied.",
+      "option_explanations": [
+        "This compares quantity supplied with the equilibrium quantity (60 − 45); a shortage is the gap between quantity demanded and quantity supplied at the current price.",
+        "Correct. Quantity demanded (75) exceeds quantity supplied (45) by 30, and the shortage pushes the price up toward $4.",
+        "A surplus occurs when quantity supplied exceeds quantity demanded, which happens only at prices above the $4 equilibrium.",
+        "The size of the shortage is right, but a shortage puts upward pressure on price as buyers compete for the limited quantity."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Market equilibrium and changes in equilibrium",
+      "difficulty": 2,
+      "stem": "Based on the graph of the market for umbrellas in the town of Glenmoor, which of the following events most likely caused the equilibrium to change from E1 to E2?",
+      "options": [
+        "A decrease in the cost of the fabric used to make umbrellas",
+        "An increase in the price that local stores charge for umbrellas",
+        "A decrease in the price of raincoats, a substitute for umbrellas",
+        "A weather forecast predicting heavy rain for the coming weeks"
+      ],
+      "correct": "D",
+      "explanation": "The graph shows demand shifting from D1 to D2 while supply stays fixed, so both the equilibrium price and quantity rise. A forecast of heavy rain increases the number of umbrellas buyers want at every price, which shifts demand to the right.",
+      "option_explanations": [
+        "Lower fabric costs increase supply, shifting the supply curve right and lowering the price; the graph shows demand shifting while supply stays fixed.",
+        "A higher price is a result of the shift, not its cause; a change in the good's own price moves along a curve rather than shifting demand.",
+        "A cheaper substitute would decrease demand for umbrellas, shifting demand to the left, but the graph shows demand shifting to the right.",
+        "Correct. Expected heavy rain raises the demand for umbrellas at every price, shifting demand from D1 to D2 and raising both price and quantity."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity of umbrellas",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "Q1" },
+            { "value": 6.5, "label": "Q2" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "P1" },
+            { "value": 6.5, "label": "P2" }
+          ]
+        },
+        "curves": [
+          { "label": "S", "points": [[1, 1], [9, 9]] },
+          { "label": "D1", "points": [[1, 9], [8, 2]], "tone": "secondary" },
+          { "label": "D2", "points": [[4, 9], [9.5, 3.5]], "tone": "secondary", "dashed": true }
+        ],
+        "points": [
+          { "x": 5, "y": 5, "label": "E1", "guides": true },
+          { "x": 6.5, "y": 6.5, "label": "E2", "guides": true }
+        ]
+      },
+      "image_alt": "Supply and demand graph for umbrellas with Quantity of umbrellas on the horizontal axis and Price ($) on the vertical axis. An upward-sloping supply curve S does not move. The demand curve shifts from D1 to a dashed curve D2 that lies to the right of D1. The original equilibrium E1 is at price P1 and quantity Q1. The new equilibrium E2 is at a higher price P2 and a larger quantity Q2.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 1,
+      "topic": "Market equilibrium and changes in equilibrium",
+      "difficulty": 3,
+      "stem": "In Country Velor, the price of tortilla chips, a complement to avocados, falls. At the same time, new irrigation technology lowers the cost of growing avocados. Which of the following describes the effects on the market for avocados?",
+      "options": [
+        "Equilibrium price decreases, and the change in equilibrium quantity is indeterminate.",
+        "Equilibrium price increases, and the change in equilibrium quantity is indeterminate.",
+        "Equilibrium quantity increases, and the change in equilibrium price is indeterminate.",
+        "Equilibrium price decreases, and equilibrium quantity increases."
+      ],
+      "correct": "C",
+      "explanation": "A lower price of a complement increases demand for avocados, and lower production costs increase the supply of avocados. Both shifts raise equilibrium quantity. The demand increase pushes price up while the supply increase pushes it down, so the change in price depends on the relative sizes of the shifts.",
+      "option_explanations": [
+        "This treats the cheaper complement as reducing avocado demand. A lower price of tortilla chips increases demand for avocados, so demand rises rather than falls.",
+        "This treats cheaper irrigation as reducing supply. Lower production costs increase supply, which puts downward, not upward, pressure on price.",
+        "Correct. Demand and supply both increase, so quantity rises, while the two shifts push price in opposite directions and leave its change indeterminate.",
+        "This considers only the supply increase. The demand increase pushes price up, so the price change cannot be determined without knowing the sizes of the shifts."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "questions:check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import-questions.ts --dry-run",
+    "questions:import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file=.env.local scripts/import-questions.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",

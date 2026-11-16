@@ -1,0 +1,245 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-1-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Scarcity",
+      "difficulty": 1,
+      "stem": "Priya has a free Saturday afternoon. She could work a shift at a garden center for $60, babysit for a neighbor for $45, or attend a free outdoor concert. She chooses the concert. If Priya values the other two activities only for the money they pay, what is her opportunity cost of attending the concert?",
+      "options": ["$0", "$45", "$60", "$105"],
+      "correct": "C",
+      "explanation": "Opportunity cost is the value of the single best alternative given up. Of the options Priya passed up, the garden-center shift is worth the most, so attending the concert costs her $60. The concert's zero ticket price does not make the choice free, and she could not have done both of the other activities in the same afternoon.",
+      "option_explanations": [
+        "The concert has no ticket price, but choosing it still means giving up the chance to earn money; a free ticket does not mean a choice has no opportunity cost.",
+        "Babysitting is an alternative she gave up, but it is not her best alternative; opportunity cost is the value of the highest-valued option forgone.",
+        "Correct. The best alternative Priya gives up is the $60 garden-center shift, so that is her opportunity cost.",
+        "This adds both alternatives together, but she could have done only one of them that afternoon; opportunity cost counts only the next-best alternative."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Resource allocation and economic systems",
+      "difficulty": 1,
+      "stem": "In the nation of Varossa, a central planning board sets production quotas for every factory and farm, assigns workers to jobs, and fixes the prices of all goods. Which type of economic system does Varossa have?",
+      "options": ["A traditional economy", "A market economy", "A mixed economy", "A command economy"],
+      "correct": "D",
+      "explanation": "In a command economy, a central authority answers the basic economic questions of what to produce, how to produce it, and for whom. Varossa's planning board decides output, assigns labor, and sets prices, so markets play no role in allocating its resources.",
+      "option_explanations": [
+        "A traditional economy allocates resources according to custom and inherited roles, not according to a planning board's quotas.",
+        "In a market economy, prices and production decisions come from the interaction of buyers and sellers, but Varossa's prices and output are set by the government.",
+        "A mixed economy combines market decisions with some government involvement, while Varossa's board controls production, jobs, and prices entirely.",
+        "Correct. A central authority that sets quotas, assigns workers, and fixes prices is the defining feature of a command economy."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Production possibilities curve",
+      "difficulty": 1,
+      "stem": "The graph shows the production possibilities curve (PPC) for the country of Calder, which produces only bicycles and computers. Based on the graph, which point represents a combination that Calder can produce but that leaves some of its resources unemployed or used inefficiently?",
+      "options": ["Point W", "Point X", "Point Y", "Point Z"],
+      "correct": "A",
+      "explanation": "Points inside the PPC are attainable but productively inefficient: the economy could produce more of at least one good without producing less of the other. Point W lies inside Calder's PPC, so it reflects unemployed or misallocated resources.",
+      "option_explanations": [
+        "Correct. W lies inside the curve, so Calder can produce it, but by fully employing its resources it could produce more of both goods.",
+        "X lies on the PPC, so it is productively efficient; Calder cannot produce more of one good there without producing less of the other.",
+        "Y also lies on the PPC, so it uses all resources efficiently; having fewer computers than at X does not make a point on the curve inefficient.",
+        "Z lies outside the PPC, so it is unattainable with Calder's current resources and technology, not merely inefficient."
+      ],
+      "graph": {
+        "xAxis": { "label": "Bicycles", "max": 90 },
+        "yAxis": { "label": "Computers", "max": 100 },
+        "curves": [
+          { "label": "PPC", "points": [[0, 80], [20, 75], [40, 62], [55, 42], [65, 20], [70, 0]], "smooth": true }
+        ],
+        "points": [
+          { "x": 25, "y": 40, "label": "W" },
+          { "x": 40, "y": 62, "label": "X" },
+          { "x": 55, "y": 42, "label": "Y" },
+          { "x": 60, "y": 60, "label": "Z" }
+        ]
+      },
+      "image_alt": "A bowed-out production possibilities curve labeled PPC, with computers on the vertical axis and bicycles on the horizontal axis. The curve starts at 80 computers on the vertical axis and falls with increasing steepness to 70 bicycles on the horizontal axis. Points X (40 bicycles, 62 computers) and Y (55 bicycles, 42 computers) lie on the curve. Point W (25 bicycles, 40 computers) lies inside the curve, and point Z (60 bicycles, 60 computers) lies outside the curve.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Production possibilities curve",
+      "difficulty": 2,
+      "stem": "The graph shows the production possibilities curve for Teravia, which produces solar panels and wheat. Based on the graph, when Teravia moves from point M to point N, what is the opportunity cost of each additional solar panel?",
+      "options": ["1/3 bushel of wheat", "3 bushels of wheat", "4 bushels of wheat", "30 bushels of wheat"],
+      "correct": "B",
+      "explanation": "Moving from M to N, Teravia gains 10 solar panels (from 20 to 30) and gives up 30 bushels of wheat (from 70 to 40). The opportunity cost per panel is 30 ÷ 10 = 3 bushels of wheat. The cost per panel rises along this bowed-out curve, reflecting increasing opportunity costs.",
+      "option_explanations": [
+        "This inverts the ratio: 1/3 of a solar panel is the opportunity cost of one bushel of wheat, not the cost of one panel.",
+        "Correct. Teravia gives up 30 bushels to gain 10 panels, so each additional panel costs 3 bushels of wheat.",
+        "Four bushels per panel is the cost on the next segment of the curve, from 30 to 40 panels; it does not apply to the move from M to N.",
+        "Thirty bushels is the total wheat given up for all 10 additional panels; the question asks for the cost of each additional panel."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Solar panels",
+          "max": 56,
+          "ticks": [
+            { "value": 10, "label": "10" },
+            { "value": 20, "label": "20" },
+            { "value": 30, "label": "30" },
+            { "value": 40, "label": "40" }
+          ]
+        },
+        "yAxis": {
+          "label": "Wheat (bushels)",
+          "max": 110,
+          "ticks": [
+            { "value": 40, "label": "40" },
+            { "value": 70, "label": "70" },
+            { "value": 90, "label": "90" },
+            { "value": 100, "label": "100" }
+          ]
+        },
+        "curves": [
+          { "label": "PPC", "points": [[0, 100], [10, 90], [20, 70], [30, 40], [40, 0]], "smooth": true }
+        ],
+        "points": [
+          { "x": 20, "y": 70, "label": "M", "guides": true },
+          { "x": 30, "y": 40, "label": "N", "guides": true }
+        ]
+      },
+      "image_alt": "A bowed-out production possibilities curve labeled PPC, with wheat in bushels on the vertical axis and solar panels on the horizontal axis. The curve passes through 100 bushels at 0 panels, 90 bushels at 10 panels, 70 bushels at 20 panels, 40 bushels at 30 panels, and 0 bushels at 40 panels. Point M is on the curve at 20 solar panels and 70 bushels of wheat, and point N is on the curve at 30 solar panels and 40 bushels of wheat, each with dashed guide lines to both axes.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Production possibilities curve",
+      "difficulty": 3,
+      "stem": "The country of Marlowe produces only corn and textiles, and its production possibilities curve is bowed outward from the origin. A new seed variety increases the amount of corn each farm worker can grow but has no effect on textile production. Which of the following is a result of this change?",
+      "options": [
+        "The opportunity cost of producing textiles, measured in corn, increases.",
+        "The opportunity cost of producing corn, measured in textiles, increases.",
+        "The maximum quantity of textiles Marlowe can produce increases.",
+        "The PPC shifts outward by the same amount along both axes."
+      ],
+      "correct": "A",
+      "explanation": "The new seeds raise the maximum quantity of corn Marlowe can produce, so the PPC pivots outward along the corn axis while the textile intercept stays the same. Because each worker moved into textiles now gives up more corn than before, the opportunity cost of textiles in terms of corn rises, and the opportunity cost of corn in terms of textiles falls.",
+      "option_explanations": [
+        "Correct. Each worker shifted to textile production now sacrifices more corn, so every unit of textiles costs more corn than before.",
+        "This reverses the effect: corn is now cheaper in terms of textiles, because the same textiles given up yield more corn than before.",
+        "If all resources produce textiles, output is unchanged, because the new technology affects only corn; the textile intercept does not move.",
+        "An equal outward shift along both axes requires growth that benefits both goods, such as more resources; this technology helps only corn, so the PPC pivots."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Comparative advantage and trade",
+      "difficulty": 2,
+      "stem": "Inez and Marco work at a bakery. In one hour, Inez can make either 12 pies or 8 cakes, and Marco can make either 6 pies or 6 cakes. Which of the following is true?",
+      "options": [
+        "Inez has a comparative advantage in both pies and cakes.",
+        "Inez has a comparative advantage in cakes, and Marco has a comparative advantage in pies.",
+        "Inez has a comparative advantage in pies, and Marco has a comparative advantage in cakes.",
+        "Neither has a comparative advantage, because Inez is more productive in both goods."
+      ],
+      "correct": "C",
+      "explanation": "For Inez, one pie costs 8/12 = 2/3 of a cake, and one cake costs 1.5 pies. For Marco, one pie costs 1 cake, and one cake costs 1 pie. Inez has the lower opportunity cost of pies (2/3 < 1), and Marco has the lower opportunity cost of cakes (1 < 1.5), so each has a comparative advantage in a different good.",
+      "option_explanations": [
+        "Inez has an absolute advantage in both goods, but no one can have a comparative advantage in both, because a lower opportunity cost of one good means a higher opportunity cost of the other.",
+        "This reverses the comparison: Inez gives up 1.5 pies per cake while Marco gives up only 1 pie, so Marco is the lower-cost cake producer.",
+        "Correct. Inez's opportunity cost of a pie (2/3 of a cake) is lower than Marco's (1 cake), and Marco's opportunity cost of a cake (1 pie) is lower than Inez's (1.5 pies).",
+        "Being more productive in both goods gives Inez an absolute advantage, but comparative advantage depends on opportunity costs, which differ between the two workers."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Comparative advantage and trade",
+      "difficulty": 3,
+      "stem": "Each worker in Norvale can produce either 20 tons of steel or 60 bushels of corn per month. Each worker in Pellara can produce either 10 tons of steel or 50 bushels of corn per month. If the two countries specialize according to comparative advantage, which of the following terms of trade would benefit both countries?",
+      "options": [
+        "1.2 bushels of corn for 1 ton of steel",
+        "2 bushels of corn for 1 ton of steel",
+        "4 bushels of corn for 1 ton of steel",
+        "6 bushels of corn for 1 ton of steel"
+      ],
+      "correct": "C",
+      "explanation": "In Norvale, 1 ton of steel costs 60/20 = 3 bushels of corn; in Pellara, it costs 50/10 = 5 bushels. Norvale has the comparative advantage in steel, and Pellara has it in corn. Trade benefits both only if the price of a ton of steel falls between the two opportunity costs, 3 and 5 bushels, so 4 bushels per ton works.",
+      "option_explanations": [
+        "This ratio (60/50) compares the two countries' corn outputs rather than opportunity costs; at 1.2 bushels per ton, Norvale would receive less than the 3 bushels it gives up to make each ton of steel.",
+        "This ratio (20/10) compares steel outputs; at 2 bushels per ton, Norvale would sell steel for less than its 3-bushel opportunity cost, so it would not gain.",
+        "Correct. Four bushels per ton is more than Norvale's cost of 3 bushels per ton of steel and less than Pellara's cost of 5 bushels, so both countries gain.",
+        "At 6 bushels per ton, Pellara would pay more corn than the 5 bushels it gives up to make a ton of steel itself, so Pellara would not gain."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Cost-benefit analysis",
+      "difficulty": 2,
+      "stem": "Tomas has already paid a nonrefundable $40 deposit for a weekend coding workshop. To attend, he must also pay the remaining $150 fee and give up a weekend shift that would pay him $120. He values what he would learn at $280. Counting only the costs and benefits relevant to his decision, what is Tomas's net benefit from attending the workshop?",
+      "options": ["−$30", "$10", "$90", "$130"],
+      "correct": "B",
+      "explanation": "Only costs that depend on the decision matter: the $150 remaining fee (an explicit cost) and the $120 in forgone wages (an implicit cost), for a total of $270. The $40 deposit is a sunk cost because Tomas loses it whether or not he attends. His net benefit is $280 − $270 = $10, so attending is worthwhile.",
+      "option_explanations": [
+        "This also subtracts the $40 deposit, but the deposit is a sunk cost that cannot be recovered either way, so it should not affect the decision.",
+        "Correct. The relevant costs are the $150 fee and the $120 in forgone wages, so the net benefit is $280 − $270 = $10.",
+        "This subtracts the sunk $40 deposit but ignores the $120 implicit cost of the shift Tomas gives up, so it adds an irrelevant cost and omits a relevant one.",
+        "This subtracts only the $150 explicit cost and ignores the $120 in wages Tomas forgoes, which is part of his opportunity cost."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Marginal analysis and consumer choice",
+      "difficulty": 2,
+      "stem": "Lena spends her entire weekly budget on smoothies, which cost $4 each, and muffins, which cost $2 each. For her current purchases, the marginal utility of her last smoothie is 24 utils and the marginal utility of her last muffin is 16 utils. What should Lena do to maximize her total utility?",
+      "options": [
+        "Buy more smoothies and fewer muffins, because her last smoothie gave her more marginal utility.",
+        "Keep her purchases the same, because she is already spending her entire budget.",
+        "Buy more of both goods, because each good still provides positive marginal utility.",
+        "Buy more muffins and fewer smoothies, because muffins give her more marginal utility per dollar."
+      ],
+      "correct": "D",
+      "explanation": "Utility is maximized when the marginal utility per dollar is equal across goods and the budget is fully spent. The last smoothie gives 24/$4 = 6 utils per dollar, while the last muffin gives 16/$2 = 8 utils per dollar. Shifting spending from smoothies to muffins raises total utility until the ratios are equal.",
+      "option_explanations": [
+        "This compares marginal utility without adjusting for price; per dollar, smoothies give only 6 utils compared with 8 for muffins.",
+        "Spending the whole budget is necessary but not sufficient; the marginal utility per dollar must also be equal, and here it is not (6 versus 8).",
+        "Lena's budget is already fully spent, so she cannot buy more of both goods; positive marginal utility does not relax the budget constraint.",
+        "Correct. Muffins provide 8 utils per dollar versus 6 for smoothies, so moving dollars from smoothies to muffins increases total utility."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 1,
+      "topic": "Marginal analysis and consumer choice",
+      "difficulty": 3,
+      "stem": "Jun has $10 to spend on comic books, which cost $2 each, and arcade tokens, which cost $1 each. The marginal utility of his first through fifth comic books is 20, 16, 12, 8, and 4 utils. The marginal utility of his first through sixth tokens is 12, 10, 8, 6, 4, and 2 utils. Which combination maximizes Jun's total utility while spending all $10?",
+      "options": [
+        "2 comic books and 6 tokens",
+        "3 comic books and 4 tokens",
+        "4 comic books and 2 tokens",
+        "5 comic books and 0 tokens"
+      ],
+      "correct": "B",
+      "explanation": "Dividing by price, comic books give 10, 8, 6, 4, and 2 utils per dollar, and tokens give 12, 10, 8, 6, 4, and 2 utils per dollar. With 3 comic books ($6) and 4 tokens ($4), the last dollar spent on each good yields 6 utils and the full $10 is spent. Total utility is 48 + 36 = 84 utils, more than any other combination listed.",
+      "option_explanations": [
+        "This combination gives 36 + 42 = 78 utils; the 6th token returns only 2 utils per dollar while a 3rd comic book would return 6, so spending is misallocated.",
+        "Correct. The marginal utility per dollar is 6 for both the 3rd comic book and the 4th token, the budget is fully spent, and total utility is 84 utils.",
+        "This follows the largest marginal utilities without dividing by price; the 4th comic book returns only 4 utils per dollar, and total utility is just 78 utils.",
+        "Spending everything on comic books ignores tokens that return up to 12 utils per dollar; total utility is only 60 utils."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

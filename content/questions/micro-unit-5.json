@@ -1,0 +1,251 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-5-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Introduction to factor markets",
+      "difficulty": 1,
+      "stem": "When more couples in Lakemont began holding outdoor weddings, local event companies increased their hiring of tent installers. This increase in the demand for tent installers is an example of",
+      "options": [
+        "diminishing marginal returns",
+        "an increase in labor supply",
+        "a movement along the labor demand curve",
+        "derived demand"
+      ],
+      "correct": "D",
+      "explanation": "The demand for a factor of production depends on the demand for the goods and services that factor helps produce. Greater demand for outdoor weddings raises the demand for tents and therefore for the workers who install them, so the demand for tent installers is a derived demand.",
+      "option_explanations": [
+        "Diminishing marginal returns describes falling marginal product as more workers are added to fixed inputs; it does not explain why hiring rises when product demand rises.",
+        "The change came from employers wanting more workers, which is a change in labor demand, not in the number of people willing to work.",
+        "A movement along the labor demand curve is caused by a change in the wage; a rise in demand for the product shifts the entire labor demand curve.",
+        "Correct. Firms demand tent installers because consumers demand the weddings and tents they help provide, so labor demand is derived from product demand."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Profit-maximizing behavior in factor markets",
+      "difficulty": 2,
+      "stem": "Hollin Orchards sells apples in a perfectly competitive market for $5 per bushel and hires pickers in a perfectly competitive labor market at a daily wage of $32. With 1, 2, 3, 4, and 5 pickers, total daily output is 12, 22, 30, 36, and 40 bushels, respectively. How many pickers should Hollin hire to maximize profit?",
+      "options": ["2", "3", "4", "5"],
+      "correct": "B",
+      "explanation": "The marginal products of the five pickers are 12, 10, 8, 6, and 4 bushels, so at $5 per bushel their marginal revenue products are $60, $50, $40, $30, and $20. The orchard should hire each picker whose MRP is at least the $32 wage: the third picker adds $40, but the fourth adds only $30. Profit is maximized with 3 pickers.",
+      "option_explanations": [
+        "The third picker's MRP of $40 exceeds the $32 wage, so stopping at 2 pickers gives up $8 of profit.",
+        "Correct. The third picker's MRP ($40) exceeds the wage, but the fourth picker's ($30) does not, so the orchard hires 3.",
+        "The fourth picker adds only $30 of revenue but costs $32, so hiring that picker lowers profit.",
+        "Five pickers maximize total output, not profit; the fourth and fifth pickers each cost more than the revenue they add."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Changes in factor demand and supply",
+      "difficulty": 1,
+      "stem": "Which of the following would shift a firm's demand curve for workers to the right?",
+      "options": [
+        "An increase in the price of the good the workers produce",
+        "A decrease in the wage the firm must pay its workers",
+        "An increase in the number of people seeking these jobs",
+        "A decrease in the marginal product of each worker"
+      ],
+      "correct": "A",
+      "explanation": "A firm's demand curve for labor is its marginal revenue product curve, and when the firm sells its output in a competitive market, MRP equals marginal product times the product's price. A higher product price raises the MRP of every worker, shifting labor demand to the right.",
+      "option_explanations": [
+        "Correct. A higher output price increases each worker's marginal revenue product, so the firm wants more workers at every wage.",
+        "A lower wage causes a movement along the labor demand curve to a larger quantity of labor demanded, not a shift of the curve.",
+        "More job seekers increase labor supply; they do not change how much each worker is worth to the firm.",
+        "Lower marginal product reduces each worker's MRP, which shifts labor demand to the left, not the right."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Changes in factor demand and supply",
+      "difficulty": 2,
+      "stem": "Bakeries in Port Ellery use commercial ovens together with bakers, so ovens and bakers are complements in production. If the price of commercial ovens falls sharply, what happens to the equilibrium wage and the number of bakers employed in the perfectly competitive market for bakers?",
+      "options": [
+        "The wage falls, and employment rises.",
+        "The wage falls, and employment falls.",
+        "The wage rises, and employment falls.",
+        "The wage rises, and employment rises."
+      ],
+      "correct": "D",
+      "explanation": "Cheaper ovens lead bakeries to use more ovens, and because the two inputs are complements, each baker becomes more productive, which raises bakers' marginal revenue product. The demand for bakers shifts right along an unchanged supply curve, so both the equilibrium wage and employment increase.",
+      "option_explanations": [
+        "A lower wage with higher employment results from an increase in labor supply; the oven price change affects the demand for bakers, not the supply.",
+        "Both would fall if ovens were a substitute for bakers, but complementary inputs are used together, so the demand for bakers rises.",
+        "A higher wage with lower employment results from a decrease in labor supply, which a change in the price of ovens does not cause.",
+        "Correct. The demand for bakers increases, so the market moves up along the supply curve to a higher wage and more employment."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Changes in factor demand and supply",
+      "difficulty": 3,
+      "stem": "In the perfectly competitive labor market for furniture woodworkers, two events occur at the same time: the market price of handmade furniture falls, and a large number of newly trained woodworkers begin looking for work. What happens to the equilibrium wage and the number of woodworkers employed?",
+      "options": [
+        "The wage rises, and the change in employment is ambiguous.",
+        "The wage falls, and the change in employment is ambiguous.",
+        "The change in the wage is ambiguous, and employment falls.",
+        "The change in the wage is ambiguous, and employment rises."
+      ],
+      "correct": "B",
+      "explanation": "A lower furniture price reduces woodworkers' marginal revenue product, so labor demand decreases, which lowers both the wage and employment. The new trainees increase labor supply, which lowers the wage but raises employment. Both shifts push the wage down, while their effects on employment conflict, so employment could rise, fall, or stay the same.",
+      "option_explanations": [
+        "Neither event raises the wage: the decrease in labor demand and the increase in labor supply both push the wage down.",
+        "Correct. The wage falls unambiguously, but the decrease in demand lowers employment while the increase in supply raises it, so the net change is uncertain.",
+        "This treats the wage as the variable pulled in opposite directions; in fact both shifts lower the wage, and it is employment whose change cannot be determined.",
+        "Employment rises only if the supply increase outweighs the demand decrease, which cannot be determined; the wage, by contrast, definitely falls."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Profit-maximizing behavior in factor markets",
+      "difficulty": 2,
+      "stem": "At Tilbury Print Shop, the last worker hired adds 20 pages per hour at a wage of $10 per hour, and the last copier rented adds 60 pages per hour at a rental price of $40 per hour. To produce its current output at the lowest possible cost, the shop should",
+      "options": [
+        "rent more copiers and hire fewer workers, because a copier has the higher marginal product",
+        "keep its current input mix, because each input's marginal product is positive",
+        "hire more workers and rent fewer copiers, because labor adds more output per dollar",
+        "hire more workers and rent more copiers, because output rises when both inputs increase"
+      ],
+      "correct": "C",
+      "explanation": "The least-cost rule requires the marginal product per dollar to be equal across inputs. Labor yields 20 ÷ $10 = 2 pages per dollar, while a copier yields 60 ÷ $40 = 1.5 pages per dollar. The shop can produce the same output more cheaply by shifting spending from copiers to workers until the two ratios are equal.",
+      "option_explanations": [
+        "Comparing marginal products alone ignores input prices; per dollar, a copier adds 1.5 pages while a worker adds 2.",
+        "A positive marginal product is not enough; cost is minimized only when MP per dollar is equal across inputs, and here 2 is not equal to 1.5.",
+        "Correct. Labor yields more pages per dollar (2 versus 1.5), so substituting workers for copiers lowers the cost of producing the same output.",
+        "Using more of both inputs raises output and total cost; it does not minimize the cost of producing the current output."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Profit-maximizing behavior in factor markets",
+      "difficulty": 3,
+      "stem": "Corrin Bottling sells its output in a perfectly competitive market at $3 per unit and hires labor and capital in perfectly competitive input markets. For the last unit of each input employed, the marginal product of labor is 10 units at a wage of $20, and the marginal product of capital is 25 units at a rental price of $50. Which of the following is true?",
+      "options": [
+        "The firm is using the least-cost input mix but should hire more labor and more capital to maximize profit.",
+        "The firm is using the least-cost input mix and is therefore already maximizing its profit.",
+        "The firm should hire more labor and less capital, because the wage is lower than the rental price.",
+        "The firm should hire more capital and less labor, because capital has the higher marginal product."
+      ],
+      "correct": "A",
+      "explanation": "Labor and capital each yield 0.5 units of output per dollar (10 ÷ $20 = 25 ÷ $50), so the firm is producing its current output at least cost. Profit maximization also requires each input's MRP to equal its price. Labor's MRP is 10 × $3 = $30, above the $20 wage, and capital's MRP is 25 × $3 = $75, above the $50 rental price, so the firm should expand its use of both inputs.",
+      "option_explanations": [
+        "Correct. MP per dollar is equal for both inputs (least cost), but each input's MRP exceeds its price, so hiring more of both raises profit.",
+        "Cost minimization is necessary but not sufficient for profit maximization; profit is maximized only when each input's MRP equals its price, and here MRP is higher.",
+        "A lower price per unit of labor does not make labor the better buy; per dollar, labor and capital each add 0.5 units of output.",
+        "Capital's higher marginal product is offset by its higher price; per dollar, capital adds the same 0.5 units of output as labor."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Monopsony",
+      "difficulty": 2,
+      "stem": "The graph shows the labor market for Brenmoor Mill, the only employer in an isolated town. S is the labor supply curve, MFC is the marginal factor cost curve, and MRP = D is the mill's marginal revenue product curve. Based on the graph, how many workers does the profit-maximizing mill hire, and what wage does it pay?",
+      "options": [
+        "8 workers at a wage of $12",
+        "8 workers at a wage of $20",
+        "12 workers at a wage of $16",
+        "16 workers at a wage of $12"
+      ],
+      "correct": "A",
+      "explanation": "A monopsonist hires workers until MRP equals MFC, which occurs at 8 workers. It then pays the lowest wage that attracts those 8 workers, read from the supply curve at 8 workers: $12. The result is lower employment and a lower wage than the competitive outcome of 12 workers at $16.",
+      "option_explanations": [
+        "Correct. MRP = MFC at 8 workers, and the supply curve shows that 8 workers can be hired for a wage of $12.",
+        "$20 is the marginal factor cost (and MRP) at 8 workers; the monopsonist pays only the wage on the supply curve, $12.",
+        "12 workers at $16 is where supply meets MRP, the outcome of a competitive labor market, not of a monopsonist that sets MRP equal to MFC.",
+        "16 workers is where MRP equals $12, but at a $12 wage only 8 workers are willing to work, and the mill's hiring rule is MRP = MFC."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Number of workers",
+          "max": 22,
+          "ticks": [
+            { "value": 8, "label": "8" },
+            { "value": 12, "label": "12" }
+          ]
+        },
+        "yAxis": {
+          "label": "Wage ($)",
+          "max": 32,
+          "ticks": [
+            { "value": 12, "label": "12" },
+            { "value": 16, "label": "16" },
+            { "value": 20, "label": "20" }
+          ]
+        },
+        "curves": [
+          { "label": "S", "points": [[0, 4], [20, 24]] },
+          { "label": "MFC", "points": [[0, 4], [13, 30]], "tone": "neutral" },
+          { "label": "MRP = D", "points": [[0, 28], [20, 8]], "tone": "secondary" }
+        ],
+        "points": [
+          { "x": 8, "y": 20, "guides": true },
+          { "x": 8, "y": 12, "guides": true },
+          { "x": 12, "y": 16, "guides": true }
+        ]
+      },
+      "image_alt": "Labor market graph with Number of workers on the horizontal axis (0 to 22) and Wage in dollars on the vertical axis (0 to 32). The labor supply curve S is an upward-sloping line that starts at $4 and rises $1 per worker. The MFC curve starts at the same point and rises $2 per worker. The downward-sloping MRP = D curve starts at $28 and falls $1 per worker. MFC and MRP intersect at 8 workers and $20. At 8 workers, the supply curve is at $12. Supply and MRP intersect at 12 workers and $16.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Monopsony",
+      "difficulty": 3,
+      "stem": "Halvard Lumber is the only employer of mill workers in a remote town. To hire 1, 2, 3, 4, or 5 workers, it must pay every worker a wage of $8, $10, $12, $14, or $16, respectively. The marginal revenue products of the 1st through 5th workers are $30, $26, $22, $18, and $14. If the government sets a minimum wage of $14, the number of workers Halvard hires will",
+      "options": [
+        "decrease from 3 to 2",
+        "stay the same at 3",
+        "increase from 3 to 4",
+        "increase from 3 to 5"
+      ],
+      "correct": "C",
+      "explanation": "Without a minimum wage, total labor cost is $8, $20, $36, $56, and $80, so MFC is $8, $12, $16, $20, and $24; Halvard hires 3 workers, because the 4th worker's MRP ($18) is below that worker's MFC ($20). With a $14 minimum wage, up to 4 workers can be hired at $14 each, so MFC is $14 for each of them, and the 4th worker's MRP of $18 exceeds $14. A 5th worker would require raising everyone's wage to $16 (an MFC of $24, above the $14 MRP), so employment rises to 4.",
+      "option_explanations": [
+        "This applies the competitive-market result that a minimum wage reduces employment; for a monopsonist, a minimum wage above the monopsony wage lowers MFC and can raise employment.",
+        "The minimum wage changes Halvard's marginal factor cost: the 4th worker now adds only $14 to labor cost, less than the $18 MRP, so hiring rises.",
+        "Correct. The $14 minimum wage makes MFC equal $14 for the first 4 workers, and the 4th worker's MRP of $18 exceeds that, so Halvard hires 4.",
+        "The 5th worker's MRP equals $14, but only 4 workers are willing to work for $14; hiring a 5th means paying all five $16, an MFC of $24."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 5,
+      "topic": "Introduction to factor markets",
+      "difficulty": 1,
+      "stem": "A small firm hires cashiers in a perfectly competitive labor market. Which of the following describes the labor supply curve that this firm faces?",
+      "options": [
+        "Upward-sloping, with marginal factor cost above the wage",
+        "Downward-sloping, matching the firm's marginal revenue product",
+        "Vertical, at the number of workers the firm already employs",
+        "Horizontal, with marginal factor cost equal to the market wage"
+      ],
+      "correct": "D",
+      "explanation": "A firm in a perfectly competitive labor market is a wage taker: it can hire as many workers as it wants at the market wage set by market supply and demand. Its labor supply curve is therefore horizontal at that wage, and each additional worker adds exactly the wage to total cost, so MFC equals the wage.",
+      "option_explanations": [
+        "An upward-sloping supply curve with MFC above the wage describes a monopsonist, which must raise the wage to hire more workers.",
+        "The downward-sloping MRP curve is the firm's demand for labor, not the supply of labor it faces.",
+        "A vertical curve would mean no additional workers are available at any wage; a wage-taking firm can hire more workers at the going wage.",
+        "Correct. The firm is a wage taker, so it faces a horizontal (perfectly elastic) labor supply curve, and its MFC equals the market wage."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

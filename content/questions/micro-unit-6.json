@@ -1,0 +1,275 @@
+{
+  "$schema": "./schema.json",
+  "batch": "micro-unit-6-seed",
+  "questions": [
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Socially efficient and inefficient outcomes",
+      "difficulty": 1,
+      "stem": "Whether or not a market has externalities, the socially efficient quantity of a good is the quantity at which",
+      "options": [
+        "marginal social benefit equals marginal social cost",
+        "marginal private benefit equals marginal private cost",
+        "total social benefit equals total social cost",
+        "marginal social benefit is as large as possible"
+      ],
+      "correct": "A",
+      "explanation": "Society's total surplus is maximized when every unit whose marginal social benefit is at least its marginal social cost is produced, and no others. That occurs where MSB = MSC. Private benefits and costs give the same answer only when there are no externalities.",
+      "option_explanations": [
+        "Correct. Producing where MSB = MSC maximizes total surplus for society, including the effects on third parties.",
+        "MPB = MPC is the unregulated market outcome; it is efficient only when there are no externalities, so it fails when external costs or benefits exist.",
+        "Efficiency depends on marginal, not total, values; where total benefit equals total cost, the net benefit to society is zero rather than maximized.",
+        "MSB is usually highest for the first unit produced; efficiency requires weighing each unit's benefit against its cost, not maximizing benefit alone."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Externalities",
+      "difficulty": 3,
+      "stem": "The graph shows a perfectly competitive market for a fertilizer whose production pollutes a river used by nearby towns. Based on the graph, what per-unit tax would move the market to the socially efficient quantity, and what price would buyers pay after the tax?",
+      "options": [
+        "A tax of $3 per unit; buyers pay $14",
+        "A tax of $6 per unit; buyers pay $14",
+        "A tax of $6 per unit; buyers pay $17",
+        "A tax of $8 per unit; buyers pay $14"
+      ],
+      "correct": "B",
+      "explanation": "The marginal external cost is the vertical distance between MSC and S = MPC, which is $6 at every quantity (for example, $14 − $8 at a quantity of 6). A $6 per-unit tax shifts the supply curve up to MSC, so the new equilibrium is at the efficient quantity of 6, where buyers pay $14 and sellers keep $14 − $6 = $8.",
+      "option_explanations": [
+        "$3 is how much the price buyers pay rises (from $11 to $14), not the size of the tax; the tax must equal the $6 marginal external cost.",
+        "Correct. A tax equal to the $6 marginal external cost shifts supply up to MSC, cutting output to 6 units at a buyer price of $14.",
+        "$17 is MSC at the original quantity of 9. Buyers do not bear the whole tax: quantity falls to 6, where buyers pay $14 and sellers keep $8.",
+        "$8 is the price sellers keep after the tax (MPC at 6 units), not the tax itself; the tax is $14 − $8 = $6."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity",
+          "max": 20,
+          "ticks": [
+            { "value": 6, "label": "6" },
+            { "value": 9, "label": "9" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 24,
+          "ticks": [
+            { "value": 8, "label": "8" },
+            { "value": 11, "label": "11" },
+            { "value": 14, "label": "14" }
+          ]
+        },
+        "curves": [
+          { "label": "D = MSB", "points": [[0, 20], [18, 2]], "tone": "secondary" },
+          { "label": "S = MPC", "points": [[0, 2], [18, 20]] },
+          { "label": "MSC", "points": [[0, 8], [14, 22]], "dashed": true }
+        ],
+        "points": [
+          { "x": 9, "y": 11, "guides": true },
+          { "x": 6, "y": 14, "guides": true },
+          { "x": 6, "y": 8, "guides": true }
+        ]
+      },
+      "image_alt": "Graph with Quantity on the horizontal axis (0 to 20) and Price in dollars on the vertical axis (0 to 24). The demand curve D = MSB slopes down from $20 at zero quantity, falling $1 per unit. The supply curve S = MPC slopes up from $2 at zero quantity, rising $1 per unit. A dashed MSC line is parallel to S = MPC, starting at $8 and rising $1 per unit. D = MSB intersects S = MPC at a quantity of 9 and a price of $11. D = MSB intersects MSC at a quantity of 6 and a price of $14. At a quantity of 6, S = MPC is at $8.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Externalities",
+      "difficulty": 2,
+      "stem": "Residential rain gardens reduce flooding on neighboring properties. The graph shows the competitive market for rain-garden installation, with shaded areas labeled W, X, Y, and Z. Based on the graph, which area represents the deadweight loss in the unregulated market?",
+      "options": ["Area W", "Area X", "Area Y", "Area Z"],
+      "correct": "D",
+      "explanation": "Without intervention, buyers consider only their private benefit, so the market installs 7 rain gardens, where D = MPB meets supply. The efficient quantity is 10, where MSB equals MSC. Each unit from 7 to 10 has a marginal social benefit above its marginal social cost, and the surplus lost by not producing those units is the triangle between MSB and S = MSC from 7 to 10, area Z.",
+      "option_explanations": [
+        "Area W is the external benefit that neighbors already receive from the 7 rain gardens that are installed; it is a gain, not a loss.",
+        "Area X lies between the supply curve and the private demand curve from 7 to 10; it ignores the external benefit. Deadweight loss is measured between MSB and MSC, which lie above this area.",
+        "Area Y would be deadweight loss from overproducing beyond 10 units, where MSC exceeds MSB; this market underproduces instead.",
+        "Correct. Area Z is the net social benefit of the units from 7 to 10 that the market fails to produce, measured between MSB and MSC."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Quantity of installations",
+          "max": 20,
+          "ticks": [
+            { "value": 7, "label": "7" },
+            { "value": 10, "label": "10" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price ($)",
+          "max": 24,
+          "ticks": [
+            { "value": 9, "label": "9" },
+            { "value": 12, "label": "12" }
+          ]
+        },
+        "curves": [
+          { "label": "S = MSC", "points": [[0, 2], [16, 18]] },
+          { "label": "D = MPB", "points": [[0, 16], [14, 2]], "tone": "secondary" },
+          { "label": "MSB", "points": [[0, 22], [18, 4]], "tone": "secondary", "dashed": true }
+        ],
+        "points": [
+          { "x": 7, "y": 9, "guides": true },
+          { "x": 10, "y": 12 }
+        ],
+        "regions": [
+          { "label": "W", "points": [[0, 16], [0, 22], [7, 15], [7, 9]] },
+          { "label": "X", "points": [[7, 9], [10, 12], [10, 6]] },
+          { "label": "Y", "points": [[10, 12], [13, 15], [13, 9]] },
+          { "label": "Z", "points": [[7, 15], [10, 12], [7, 9]] }
+        ]
+      },
+      "image_alt": "Graph with Quantity of installations on the horizontal axis (0 to 20) and Price in dollars on the vertical axis (0 to 24). The supply curve S = MSC rises from $2 at zero quantity by $1 per unit. The private demand curve D = MPB falls from $16 at zero quantity by $1 per unit. A dashed MSB line lies $6 above D = MPB, falling from $22 by $1 per unit. D = MPB intersects S = MSC at a quantity of 7 and a price of $9. MSB intersects S = MSC at a quantity of 10 and a price of $12. Area W is the band between MSB and D = MPB from 0 to 7. Area Z is the triangle between MSB and S = MSC from 7 to 10, with corners at 7 and $15, 7 and $9, and 10 and $12. Area X is the triangle between S = MSC and D = MPB from 7 to 10, with corners at 7 and $9, 10 and $12, and 10 and $6. Area Y is the triangle between S = MSC and MSB from 10 to 13, to the right of their intersection.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Public and private goods",
+      "difficulty": 1,
+      "stem": "Which of the following is the best example of a public good?",
+      "options": [
+        "A tornado siren that every resident of a town can hear",
+        "A toll bridge that charges a fee to each driver",
+        "A meal served in a city-run school cafeteria",
+        "A swimming pool open only to paying members"
+      ],
+      "correct": "A",
+      "explanation": "A public good is nonexcludable (people cannot be prevented from benefiting) and nonrival (one person's use does not reduce what is available to others). Everyone in town hears the siren whether or not they helped pay for it, and one resident hearing it does not make it any quieter for anyone else.",
+      "option_explanations": [
+        "Correct. The siren's warning is nonexcludable and nonrival, the two defining features of a public good.",
+        "The toll makes the bridge excludable, because drivers who do not pay can be kept off it.",
+        "Being provided by the government does not make a good public; a meal is rival and excludable, because once one student eats it no one else can.",
+        "Charging for membership makes the pool excludable, and crowding makes it partly rival, so it is not a public good."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Socially efficient and inefficient outcomes",
+      "difficulty": 2,
+      "stem": "Which of the following market outcomes is allocatively efficient?",
+      "options": [
+        "A monopolist produces the quantity at which marginal revenue equals marginal cost.",
+        "A competitive market with a binding price ceiling trades the quantity supplied at the ceiling.",
+        "A competitive market with a negative externality produces where demand equals supply.",
+        "A competitive market with no externalities produces where demand equals supply."
+      ],
+      "correct": "D",
+      "explanation": "Allocative efficiency requires producing where marginal social benefit equals marginal social cost. In a competitive market with no externalities, demand reflects MSB and supply reflects MSC, so the equilibrium quantity is efficient. Each of the other outcomes leaves a gap between MSB and MSC at the quantity produced, creating deadweight loss.",
+      "option_explanations": [
+        "Where MR = MC, a monopolist charges a price above marginal cost, so it produces less than the efficient quantity and creates deadweight loss.",
+        "A binding price ceiling reduces the quantity traded below the equilibrium quantity, so some units whose benefit exceeds their cost are not produced.",
+        "With a negative externality, supply reflects only private cost, which is below social cost, so the market equilibrium overproduces relative to the efficient quantity.",
+        "Correct. With no externalities, demand equals MSB and supply equals MSC, so the competitive equilibrium is where MSB = MSC."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Public and private goods",
+      "difficulty": 3,
+      "stem": "Ana, Ben, and Cyd are the only residents of a private lane and are deciding how many streetlights to install; all three benefit from every light whether or not they help pay for it. The marginal benefit of the 1st, 2nd, 3rd, and 4th light is $18, $14, $9, and $4 to Ana; $12, $9, $6, and $3 to Ben; and $9, $7, $5, and $2 to Cyd. If each light has a marginal cost of $16, what is the socially optimal number of streetlights?",
+      "options": ["1", "2", "3", "4"],
+      "correct": "C",
+      "explanation": "Because the lights are nonrival, each light's marginal social benefit is the sum of the three residents' marginal benefits: $39, $30, $20, and $9 for the 1st through 4th lights. It is efficient to install every light whose combined marginal benefit is at least the $16 marginal cost, so the 3rd light ($20) is worth installing but the 4th ($9) is not. The optimal number is 3.",
+      "option_explanations": [
+        "One light is what Ana would buy on her own ($18 > $16), but that ignores the benefits Ben and Cyd also receive from each light.",
+        "The 3rd light gives the three residents a combined benefit of $20, which exceeds its $16 cost, so stopping at 2 lights gives up net benefit.",
+        "Correct. Adding the residents' marginal benefits gives $39, $30, $20, and $9; only the first 3 lights have combined benefits of at least $16.",
+        "The 4th light's combined marginal benefit is only $9, less than its $16 marginal cost, so installing it reduces total surplus."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Government intervention in different market structures",
+      "difficulty": 2,
+      "stem": "Glenhollow Power is a natural monopoly whose average total cost falls over the entire range of market demand. Regulators require it to charge the price at which its demand curve intersects its average total cost curve. Which of the following describes the result of this fair-return pricing?",
+      "options": [
+        "The firm earns positive economic profit, and output is below the allocatively efficient level.",
+        "The firm incurs an economic loss, and output equals the allocatively efficient level.",
+        "The firm earns zero economic profit, and output equals the allocatively efficient level.",
+        "The firm earns zero economic profit, and output is below the allocatively efficient level."
+      ],
+      "correct": "D",
+      "explanation": "Setting price equal to average total cost means total revenue just covers total cost, so economic profit is zero. Because ATC is falling, marginal cost lies below ATC, so at the fair-return price P = ATC > MC. Since price still exceeds marginal cost, output is less than the allocatively efficient quantity, where P = MC.",
+      "option_explanations": [
+        "Positive profit describes the unregulated monopoly; when price is set equal to ATC, revenue just covers cost, so economic profit is zero.",
+        "A loss with efficient output results from the socially optimal price, P = MC, which lies below ATC for a natural monopoly.",
+        "Profit is zero, but output is not efficient: at the fair-return price, P = ATC exceeds MC, so some units whose benefit exceeds their cost are not produced.",
+        "Correct. With P = ATC, profit is zero, and because MC is below ATC, price exceeds MC and output remains below the efficient level."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Government intervention in different market structures",
+      "difficulty": 3,
+      "stem": "Stonereach Cable is an unregulated monopolist facing the demand curve P = 60 − 2Q, where P is the monthly price in dollars and Q is thousands of subscribers, and its marginal cost is MC = 2Q. If the government imposes a maximum price of $34 per month, how many thousand subscribers will Stonereach serve?",
+      "options": ["10", "13", "15", "17"],
+      "correct": "B",
+      "explanation": "Without regulation, MR = 60 − 4Q equals MC = 2Q at Q = 10, so the price is $40 and a $34 ceiling is binding. Under the ceiling, the firm receives $34 for each of the first 13 thousand subscribers (demand at $34 is Q = 13), so its MR is $34 over that range, while its MC at 13 is only $26. To serve more than 13 thousand it would have to cut its price below $34, and MR would fall below MC, so it serves 13 thousand subscribers, more than the unregulated 10 thousand.",
+      "option_explanations": [
+        "10 thousand is the unregulated output where MR = MC; the ceiling makes MR equal $34 for the first 13 thousand subscribers, so the firm expands.",
+        "Correct. At the $34 ceiling, consumers demand 13 thousand subscriptions, and MC (2 × 13 = $26) is below $34, so the firm serves all 13 thousand.",
+        "15 thousand is the allocatively efficient quantity, where demand meets MC at $30; reaching it would require a ceiling of $30, not $34.",
+        "MC equals $34 at 17 thousand, but at a price of $34 consumers want only 13 thousand subscriptions, so the firm cannot sell 17 thousand."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Inequality",
+      "difficulty": 1,
+      "stem": "Over a decade, the Lorenz curve for the country of Marovia moves farther away from the line of perfect equality. Which of the following describes this change?",
+      "options": [
+        "The Gini coefficient rises, and income becomes less equally distributed.",
+        "The Gini coefficient falls, and income becomes less equally distributed.",
+        "The Gini coefficient rises, and income becomes more equally distributed.",
+        "The Gini coefficient falls, and income becomes more equally distributed."
+      ],
+      "correct": "A",
+      "explanation": "The Gini coefficient measures the area between the line of perfect equality and the Lorenz curve, relative to the total area under the line of equality. When the Lorenz curve bows farther from the line of equality, that area grows, so the Gini coefficient rises and income is distributed less equally.",
+      "option_explanations": [
+        "Correct. A larger gap between the Lorenz curve and the line of equality means a higher Gini coefficient and greater income inequality.",
+        "Income does become less equal, but a larger gap from the line of equality raises the Gini coefficient rather than lowering it.",
+        "The Gini coefficient does rise, but a higher Gini coefficient signals more inequality, not a more equal distribution.",
+        "This describes a Lorenz curve moving toward the line of equality, the opposite of the change in Marovia."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "micro",
+      "unit": 6,
+      "topic": "Inequality",
+      "difficulty": 2,
+      "stem": "Under a proposed tax in the city of Wexmoor, a household earning $20,000 per year would pay $2,000, a household earning $50,000 would pay $4,000, and a household earning $100,000 would pay $6,000. Which of the following correctly classifies this tax?",
+      "options": [
+        "Progressive, because higher-income households pay more dollars of tax",
+        "Proportional, because the tax rises by $2,000 at each income level",
+        "Regressive, because the share of income paid in tax falls as income rises",
+        "Progressive, because low-income households pay a smaller share of income"
+      ],
+      "correct": "C",
+      "explanation": "Taxes are classified by how the average tax rate (tax ÷ income) changes as income rises. Here the rates are $2,000 ÷ $20,000 = 10%, $4,000 ÷ $50,000 = 8%, and $6,000 ÷ $100,000 = 6%. Because the share of income paid falls as income rises, the tax is regressive, even though higher-income households pay more dollars.",
+      "option_explanations": [
+        "Paying more dollars of tax does not make a tax progressive; what matters is the percentage of income paid, which falls from 10% to 6%.",
+        "A proportional tax takes the same percentage of every income; here the rate falls from 10% to 8% to 6%, so the tax is not proportional.",
+        "Correct. The average tax rate falls from 10% to 8% to 6% as income rises, which is the definition of a regressive tax.",
+        "Low-income households actually pay the largest share of income (10%, versus 6% for the highest earners), so the tax is not progressive."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}

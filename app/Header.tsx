@@ -55,6 +55,9 @@ export function Header() {
     };
   }, [menuOpen]);
 
+  // The practice exam view is full-screen with its own minimal chrome.
+  if (/^\/practice\/(micro|macro)\/session\//.test(pathname ?? "")) return null;
+
   return (
     <header className="bg-[#F4F1EA] relative z-30">
       <div className="relative flex items-center justify-between px-6 md:px-8 py-4 md:py-6">
@@ -325,6 +328,10 @@ export function Header() {
   className="block hover:opacity-70"
 >
   Research
+</Link>
+
+<Link href="/practice" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">
+  Practice
 </Link>
 
 <Link href="/articles" onClick={() => setMenuOpen(false)} className="block hover:opacity-70">

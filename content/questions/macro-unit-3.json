@@ -1,0 +1,307 @@
+{
+  "$schema": "./schema.json",
+  "batch": "macro-unit-3-seed",
+  "questions": [
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Aggregate demand",
+      "difficulty": 1,
+      "stem": "Which of the following would shift the aggregate demand curve for Country Velor to the right?",
+      "options": [
+        "A decrease in Velor's price level",
+        "An increase in household wealth as home values rise",
+        "A decrease in the nominal wages paid by Velor's firms",
+        "An increase in the productivity of Velor's workers"
+      ],
+      "correct": "B",
+      "explanation": "Aggregate demand shifts when planned spending changes at every price level. Higher home values raise household wealth, which increases consumption at each price level and shifts AD to the right.",
+      "option_explanations": [
+        "A change in the price level causes a movement along the AD curve, not a shift of the curve.",
+        "Correct. Greater household wealth raises consumption at every price level, shifting AD to the right.",
+        "Lower nominal wages reduce firms' production costs, which shifts SRAS to the right; this confuses an SRAS determinant with an AD determinant.",
+        "Higher worker productivity lowers per-unit costs and raises potential output, shifting SRAS and LRAS rather than AD."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Multipliers",
+      "difficulty": 1,
+      "stem": "In Country Velor, the marginal propensity to consume is 0.8. If the government increases its purchases of goods and services by $20 billion, what is the maximum possible increase in real GDP?",
+      "options": [
+        "$16 billion",
+        "$25 billion",
+        "$80 billion",
+        "$100 billion"
+      ],
+      "correct": "D",
+      "explanation": "The spending multiplier is 1 ÷ MPS = 1 ÷ (1 − 0.8) = 5. A $20 billion increase in government purchases can therefore increase real GDP by at most 5 × $20 billion = $100 billion.",
+      "option_explanations": [
+        "This multiplies the change in spending by the MPC instead of by the spending multiplier.",
+        "This divides by the MPC rather than by the MPS; the multiplier is 1 ÷ 0.2 = 5, not 1 ÷ 0.8 = 1.25.",
+        "This uses the tax multiplier (MPC ÷ MPS = 4), which applies to tax changes; government purchases use the larger spending multiplier of 5.",
+        "Correct. With a spending multiplier of 5, a $20 billion increase in purchases can raise real GDP by up to $100 billion."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Multipliers",
+      "difficulty": 2,
+      "stem": "Country Arlo's marginal propensity to save is 0.25. Its legislature cuts personal income taxes by $40 billion. By at most how much can this tax cut raise Arlo's real GDP?",
+      "options": [
+        "$10 billion",
+        "$30 billion",
+        "$120 billion",
+        "$160 billion"
+      ],
+      "correct": "C",
+      "explanation": "With an MPS of 0.25, the MPC is 0.75 and the tax multiplier is MPC ÷ MPS = 0.75 ÷ 0.25 = 3. Households save part of the tax cut before any new spending occurs, so a $40 billion cut can raise real GDP by at most 3 × $40 billion = $120 billion.",
+      "option_explanations": [
+        "This multiplies the tax cut by the MPS; the MPS belongs in the denominator of the multiplier, not in place of it.",
+        "This counts only the first round of extra consumption (0.75 × $40 billion) and ignores the later rounds of spending.",
+        "Correct. The tax multiplier is 0.75 ÷ 0.25 = 3, so the maximum increase is $120 billion.",
+        "This uses the spending multiplier (1 ÷ 0.25 = 4); the tax multiplier is smaller because households save part of the tax cut before spending it."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Short-run aggregate supply",
+      "difficulty": 2,
+      "stem": "Based on the graph, the shift from SRAS1 to SRAS2 in Country Velor was most likely caused by which of the following?",
+      "options": [
+        "An increase in government purchases of goods and services",
+        "A decrease in household wealth caused by falling stock prices",
+        "An increase in the prices of energy inputs used by most firms",
+        "A decrease in the nominal wages paid to workers across the economy"
+      ],
+      "correct": "C",
+      "explanation": "The graph shows SRAS shifting to the left while AD and LRAS stay fixed, moving the economy from E1 to E2 with a higher price level and lower real GDP. A rise in the price of an input used by most firms, such as energy, raises per-unit production costs and decreases SRAS.",
+      "option_explanations": [
+        "Higher government purchases increase aggregate demand and shift AD to the right; the graph shows SRAS shifting while AD is unchanged.",
+        "Lower household wealth decreases aggregate demand; this confuses an AD determinant with an SRAS determinant.",
+        "Correct. Higher energy prices raise production costs for most firms, decreasing SRAS and producing a higher price level with lower real GDP.",
+        "Lower nominal wages reduce production costs and shift SRAS to the right, the opposite of the leftward shift shown."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Real GDP",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "Y2" },
+            { "value": 5, "label": "Y1" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price level",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "PL1" },
+            { "value": 6, "label": "PL2" }
+          ]
+        },
+        "curves": [
+          { "label": "LRAS", "points": [[5, 0], [5, 10]], "tone": "neutral" },
+          { "label": "AD", "points": [[1, 9], [9, 1]], "tone": "secondary" },
+          { "label": "SRAS1", "points": [[1, 1], [9, 9]] },
+          { "label": "SRAS2", "points": [[0.5, 2.5], [7.5, 9.5]], "dashed": true }
+        ],
+        "points": [
+          { "x": 5, "y": 5, "label": "E1", "guides": true },
+          { "x": 4, "y": 6, "label": "E2", "guides": true }
+        ]
+      },
+      "image_alt": "AD-AS graph with Real GDP on the horizontal axis and Price level on the vertical axis. A vertical LRAS curve is at real GDP Y1. A downward-sloping AD curve crosses the original upward-sloping SRAS1 curve at point E1, which is on the LRAS curve at real GDP Y1 and price level PL1. A dashed curve SRAS2 lies to the left of SRAS1 and crosses AD at point E2, at a lower real GDP Y2 and a higher price level PL2. AD and LRAS do not move.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Long-run aggregate supply",
+      "difficulty": 2,
+      "stem": "Country Velor is in long-run equilibrium. Which of the following would increase Velor's potential output and shift its long-run aggregate supply curve to the right?",
+      "options": [
+        "An increase in consumer spending caused by greater optimism",
+        "A decrease in nominal wages caused by high unemployment",
+        "An increase in the price level caused by higher government spending",
+        "An increase in the stock of capital equipment available to workers"
+      ],
+      "correct": "D",
+      "explanation": "The LRAS curve is vertical at potential output, which depends on the quantity and quality of an economy's resources and on its technology. More capital equipment per worker raises the economy's productive capacity, shifting LRAS to the right.",
+      "option_explanations": [
+        "Greater optimism raises consumption and shifts AD, which changes output only in the short run; it does not change potential output.",
+        "Lower nominal wages shift SRAS to the right but do not change the economy's resources or technology, so LRAS does not move.",
+        "A higher price level does not change potential output; LRAS is vertical because long-run output does not depend on the price level.",
+        "Correct. A larger capital stock increases the economy's productive capacity, which raises potential output and shifts LRAS to the right."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Equilibrium in the AD-AS model",
+      "difficulty": 1,
+      "stem": "Based on the graph, which of the following correctly describes Country Velor's economy at point E?",
+      "options": [
+        "There is a recessionary gap, and unemployment is above the natural rate.",
+        "There is a recessionary gap, and unemployment is below the natural rate.",
+        "There is an inflationary gap, and unemployment is above the natural rate.",
+        "The economy is in long-run equilibrium, and unemployment equals the natural rate."
+      ],
+      "correct": "A",
+      "explanation": "The short-run equilibrium at E is at Y1, which is less than the full-employment output Yf shown by the LRAS curve. Output below potential is a recessionary gap, and because firms need fewer workers to produce less output, unemployment is above the natural rate.",
+      "option_explanations": [
+        "Correct. Real GDP at E is below full-employment output, so there is a recessionary gap with unemployment above the natural rate.",
+        "When output is below potential, firms employ fewer workers than at full employment, so unemployment is above, not below, the natural rate.",
+        "An inflationary gap occurs when output exceeds potential; here Y1 is less than Yf.",
+        "Long-run equilibrium requires AD and SRAS to intersect on the LRAS curve; point E is at a lower output than LRAS, so the economy is not at full employment."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Real GDP",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "Y1" },
+            { "value": 6, "label": "Yf" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price level",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "PL1" }
+          ]
+        },
+        "curves": [
+          { "label": "LRAS", "points": [[6, 0], [6, 10]], "tone": "neutral" },
+          { "label": "AD", "points": [[1, 7], [7, 1]], "tone": "secondary" },
+          { "label": "SRAS", "points": [[1, 1], [9, 9]] }
+        ],
+        "points": [
+          { "x": 4, "y": 4, "label": "E", "guides": true }
+        ]
+      },
+      "image_alt": "AD-AS graph with Real GDP on the horizontal axis and Price level on the vertical axis. A downward-sloping AD curve and an upward-sloping SRAS curve intersect at point E, at real GDP Y1 and price level PL1. A vertical LRAS curve is at real GDP Yf, which is greater than Y1, so point E is at a lower level of real GDP than the LRAS curve.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Short-run changes in the AD-AS model",
+      "difficulty": 3,
+      "stem": "Households in Country Velor become more pessimistic about their future job security. At the same time, the world price of oil, an input used by most of Velor's firms, falls sharply. In the short run, which of the following is the most likely result?",
+      "options": [
+        "The price level falls, and the change in real GDP is indeterminate.",
+        "The price level rises, and the change in real GDP is indeterminate.",
+        "Real GDP falls, and the change in the price level is indeterminate.",
+        "Real GDP rises, and the change in the price level is indeterminate."
+      ],
+      "correct": "A",
+      "explanation": "Pessimism reduces consumption, shifting AD to the left, which lowers both the price level and real GDP. Cheaper oil lowers production costs, shifting SRAS to the right, which lowers the price level but raises real GDP. Both shifts push the price level down, but their effects on real GDP conflict, so the change in real GDP depends on the sizes of the shifts.",
+      "option_explanations": [
+        "Correct. A leftward AD shift and a rightward SRAS shift both lower the price level, but they push real GDP in opposite directions.",
+        "This reverses both shifts. Pessimism decreases AD and cheaper oil increases SRAS, so neither shift raises the price level.",
+        "This treats cheaper oil as decreasing SRAS. Lower input costs increase SRAS, which raises real GDP and offsets the effect of lower AD.",
+        "This treats pessimism as increasing AD. Pessimistic households cut consumption, which decreases AD and pulls real GDP down."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Long-run self-adjustment",
+      "difficulty": 3,
+      "stem": "Based on the graph, if Country Velor's government and central bank take no policy action, which of the following will occur as the economy adjusts in the long run?",
+      "options": [
+        "Nominal wages fall, SRAS shifts to the right, and the price level falls below PL1.",
+        "Nominal wages rise, SRAS shifts to the left, and the price level rises above PL1.",
+        "Nominal wages rise, AD shifts to the left, and the price level falls below PL1.",
+        "Nominal wages rise, LRAS shifts to the right, and the price level stays at PL1."
+      ],
+      "correct": "B",
+      "explanation": "Point E is at Y1, which is greater than full-employment output Yf, so there is an inflationary gap and unemployment is below the natural rate. Tight labor markets push nominal wages up, which raises costs and shifts SRAS to the left until it meets AD on the LRAS curve. Real GDP returns to Yf at a price level above PL1.",
+      "option_explanations": [
+        "Falling wages and a rightward SRAS shift are the self-correction for a recessionary gap; here output is above potential, so wages rise instead.",
+        "Correct. Rising nominal wages shift SRAS to the left, raising the price level above PL1 until real GDP returns to Yf.",
+        "Rising wages change firms' costs, which shifts SRAS, not AD; long-run self-adjustment works through the supply side.",
+        "Rising nominal wages add no resources or technology, so they cannot shift LRAS; potential output stays at Yf."
+      ],
+      "graph": {
+        "xAxis": {
+          "label": "Real GDP",
+          "max": 10,
+          "ticks": [
+            { "value": 4, "label": "Yf" },
+            { "value": 6, "label": "Y1" }
+          ]
+        },
+        "yAxis": {
+          "label": "Price level",
+          "max": 10,
+          "ticks": [
+            { "value": 5, "label": "PL1" }
+          ]
+        },
+        "curves": [
+          { "label": "LRAS", "points": [[4, 0], [4, 10]], "tone": "neutral" },
+          { "label": "AD", "points": [[2, 9], [9, 2]], "tone": "secondary" },
+          { "label": "SRAS", "points": [[2, 1], [9, 8]] }
+        ],
+        "points": [
+          { "x": 6, "y": 5, "label": "E", "guides": true }
+        ]
+      },
+      "image_alt": "AD-AS graph with Real GDP on the horizontal axis and Price level on the vertical axis. A downward-sloping AD curve and an upward-sloping SRAS curve intersect at point E, at real GDP Y1 and price level PL1. A vertical LRAS curve is at real GDP Yf, which is less than Y1, so point E is at a higher level of real GDP than the LRAS curve.",
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Fiscal policy",
+      "difficulty": 3,
+      "stem": "Country Velor's real GDP is $760 billion, and its full-employment real GDP is $800 billion. The marginal propensity to consume is 0.8. Assuming the price level does not change, which of the following fiscal policies would move real GDP exactly to its full-employment level?",
+      "options": [
+        "Increase government purchases by $8 billion",
+        "Increase government purchases by $40 billion",
+        "Decrease taxes by $8 billion",
+        "Increase taxes by $10 billion"
+      ],
+      "correct": "A",
+      "explanation": "The recessionary gap is $800 billion − $760 billion = $40 billion. With an MPC of 0.8, the spending multiplier is 1 ÷ 0.2 = 5, so an $8 billion increase in government purchases raises real GDP by 5 × $8 billion = $40 billion. A tax cut would have to be $10 billion, because the tax multiplier is only 0.8 ÷ 0.2 = 4.",
+      "option_explanations": [
+        "Correct. An $8 billion increase in purchases times the spending multiplier of 5 raises real GDP by exactly $40 billion.",
+        "This ignores the multiplier: $40 billion of new purchases would raise real GDP by up to $200 billion and overshoot full employment.",
+        "This applies the spending multiplier to a tax change. The tax multiplier is 4, so an $8 billion tax cut raises real GDP by only $32 billion.",
+        "Raising taxes reduces consumption and lowers real GDP, which would widen the recessionary gap rather than close it."
+      ],
+      "source_note": "original seed"
+    },
+    {
+      "course": "macro",
+      "unit": 3,
+      "topic": "Automatic stabilizers",
+      "difficulty": 2,
+      "stem": "Country Velor has a progressive income tax. Which of the following describes how this tax acts as an automatic stabilizer when Velor's economy is expanding rapidly?",
+      "options": [
+        "Legislators vote to raise income tax rates, which slows the growth of spending.",
+        "Tax revenues fall as incomes rise, which increases households' disposable income.",
+        "Tax revenues rise as incomes rise, which slows the growth of disposable income.",
+        "Tax revenues rise as incomes rise, which speeds up the growth of aggregate demand."
+      ],
+      "correct": "C",
+      "explanation": "Automatic stabilizers change taxes or transfers without any new legislation. During a rapid expansion, rising incomes move households into higher tax brackets, so tax revenues rise and disposable income grows more slowly than total income. This slows the growth of consumption and aggregate demand, moderating the expansion.",
+      "option_explanations": [
+        "A vote to raise tax rates is discretionary fiscal policy because it requires new legislative action; automatic stabilizers work without it.",
+        "Under an income tax, revenues rise, not fall, when incomes rise.",
+        "Correct. Rising tax collections take a growing share of income, slowing the growth of disposable income and consumption without new legislation.",
+        "Higher tax collections take income out of households' hands, which slows rather than speeds up the growth of aggregate demand."
+      ],
+      "source_note": "original seed"
+    }
+  ]
+}
