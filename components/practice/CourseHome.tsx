@@ -179,6 +179,12 @@ export function CourseHome({ course }: { course: CourseId }) {
         </p>
       )}
 
+      {!loading && !error && bank.length === 0 && (
+        <p role="status" className="mt-6 rounded-xl border border-[#D6D0C4] bg-[#FFFDF8] px-4 py-3 text-[15px] text-[#3A372E]">
+          Questions for this course are being written and reviewed. Check back soon, or try the other course.
+        </p>
+      )}
+
       {inProgress.length > 0 && (
         <section aria-labelledby="resume-heading" className="mt-8 rounded-2xl border border-[#0F5C4A]/30 bg-[#EEF5F1] p-5">
           <h2 id="resume-heading" className="text-[13px] font-semibold uppercase tracking-[0.16em] text-[#0F5C4A]">

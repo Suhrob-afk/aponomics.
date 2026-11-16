@@ -175,7 +175,7 @@ export default function SubmitPage() {
             <div className="text-[#2F5E4E] text-2xl mb-3">✓</div>
             <h1 className="font-serif text-2xl text-[#1A1A1A] mb-3">Submission received</h1>
             <p className="text-[#6B6B6B] text-sm leading-relaxed">
-              Thank you, <strong>{form.author_name}</strong>. Your paper <em>"{form.title}"</em> has been submitted for review. Our editors will evaluate it and you'll hear back within a few weeks.
+              Thank you, <strong>{form.author_name}</strong>. Your paper <em>&quot;{form.title}&quot;</em> has been submitted for review. Our editors will evaluate it and you&apos;ll hear back within a few weeks.
             </p>
             <Link
               href="/research"
